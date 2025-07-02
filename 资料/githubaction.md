@@ -1,8 +1,12 @@
+
+> stocktokenhub@0.0.0 build
+> docusaurus build
+
 [INFO] [en] Creating an optimized production build...
 [info] [webpackbar] Compiling Client
 [info] [webpackbar] Compiling Server
-[success] [webpackbar] Server: Compiled with some errors in 28.12s
-[success] [webpackbar] Client: Compiled with some errors in 37.47s
+[success] [webpackbar] Server: Compiled with some errors in 27.91s
+[success] [webpackbar] Client: Compiled with some errors in 36.88s
 Error:  Client bundle compiled with errors therefore further build is impossible.
 Error: MDX compilation failed for file "/home/runner/work/stocktokenhub/stocktokenhub/docs/products/xstocks/aaplx.md"
 Cause: Image static/img/tokens/aaplx.svg used in docs/products/xstocks/aaplx.md not found.

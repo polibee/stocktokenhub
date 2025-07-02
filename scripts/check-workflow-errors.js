@@ -81,9 +81,11 @@ async function main() {
         }
 
         // 查找最新的失败的Build and Deploy工作流
-        const failedRun = runs.workflow_runs.find(run => 
+        const failedRuns = runs.workflow_runs.filter(run => 
             run.name === 'Build and Deploy' && run.conclusion === 'failure'
         );
+        
+        const failedRun = failedRuns[0]; // 获取最新的失败运行
 
         if (!failedRun) {
             console.log('✅ 未找到失败的Build and Deploy工作流');

@@ -40,6 +40,21 @@ Cause: Image static/img/tokens/aaplx.svg used in docs/products/xstocks/aaplx.md 
 - **结果**: 62个文件重新创建完成
 - **GitHub Actions状态**: 最新运行仍然失败
 
+### 第四次修复尝试 (2025-01-02 22:00)
+- **方法**: Git缓存清理
+- **操作**: 
+  1. `git rm -r --cached static/img/tokens/`
+  2. `git add static/img/tokens/`
+  3. `git commit` 和 `git push`
+- **结果**: Git正确识别文件重命名
+- **GitHub Actions状态**: 仍然失败
+
+### 最终修复 (2025-01-02 22:12)
+- **问题发现**: brkbx.md文件中引用 `/img/tokens/BRK.Bx.svg`（大写+点号）
+- **实际文件**: `brk.bx.svg`（小写+点号）
+- **修复方法**: 修改MDX文件中的引用路径
+- **结果**: ✅ GitHub Actions构建成功！
+
 ## 当前状态
 
 ### 本地环境
@@ -121,12 +136,25 @@ node scripts/force-update-svg-files.js
 
 ## 结论
 
-虽然本地环境已完全修复，但GitHub Actions环境仍存在问题。这可能是由于Git索引、GitHub缓存或构建环境配置导致的。建议按照上述"下一步建议"继续排查和修复。
+✅ **问题已完全解决！**
 
-**修复状态**: 🔄 进行中  
+经过多轮修复尝试，最终发现问题的根本原因是 `brkbx.md` 文件中引用了错误的SVG文件路径。虽然大部分SVG文件的大小写问题已通过前期修复解决，但这个特殊的包含点号的文件名引用仍然存在大小写不匹配问题。
+
+**关键发现**:
+- 文件名: `brk.bx.svg` (实际)
+- 引用路径: `/img/tokens/BRK.Bx.svg` (错误)
+- 修复后: `/img/tokens/brk.bx.svg` (正确)
+
+**最终状态**:
+- 本地构建: ✅ 成功
+- GitHub Actions: ✅ 成功
+- 所有SVG文件: ✅ 小写格式
+- 所有MDX引用: ✅ 路径正确
+
+**修复状态**: ✅ 已完成  
 **本地状态**: ✅ 已修复  
-**远程状态**: ❌ 待修复  
-**最后更新**: 2025-01-02 21:57
+**远程状态**: ✅ 已修复  
+**最后更新**: 2025-01-02 22:15
 
 ---
 

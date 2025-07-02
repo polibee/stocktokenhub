@@ -226,7 +226,7 @@ const staticTutorialsData = [
     readTime: 5,
     date: new Date('2024-01-15'),
     thumbnail: '/img/tutorials/intro.svg',
-    url: '/blog/tutorial/tutorial-intro',
+    url: '/blog/tutorial-intro',
     tags: ['basics', 'getting-started']
   },
   {
@@ -238,7 +238,7 @@ const staticTutorialsData = [
     readTime: 8,
     date: new Date('2024-01-10'),
     thumbnail: '/img/tutorials/basics.svg',
-    url: '/blog/basics/tutorial-basics',
+    url: '/blog/tutorial-basics',
     tags: ['basics', 'tokenization']
   },
   {
@@ -250,7 +250,7 @@ const staticTutorialsData = [
     readTime: 12,
     date: new Date('2024-01-08'),
     thumbnail: '/img/tutorials/dex.svg',
-    url: '/blog/trading/tutorial-dex',
+    url: '/blog/tutorial-dex',
     tags: ['trading', 'dex']
   },
   {
@@ -262,7 +262,7 @@ const staticTutorialsData = [
     readTime: 10,
     date: new Date('2024-01-05'),
     thumbnail: '/img/tutorials/cex.svg',
-    url: '/blog/trading/tutorial-cex',
+    url: '/blog/tutorial-cex',
     tags: ['trading', 'comparison']
   },
   {
@@ -274,7 +274,7 @@ const staticTutorialsData = [
     readTime: 15,
     date: new Date('2024-01-03'),
     thumbnail: '/img/tutorials/advanced.svg',
-    url: '/blog/advanced/tutorial-advanced',
+    url: '/blog/tutorial-advanced',
     tags: ['advanced', 'strategies']
   }
 ];

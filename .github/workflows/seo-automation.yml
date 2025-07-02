@@ -1,0 +1,75 @@
+name: SEO Automation
+
+on:
+  push:
+    branches: [ main, master ]
+    paths:
+      - 'docs/**'
+      - 'blog/**'
+      - 'src/**'
+      - 'static/**'
+  pull_request:
+    branches: [ main, master ]
+  schedule:
+    # Run weekly on Sundays at 2 AM UTC
+    - cron: '0 2 * * 0'
+  workflow_dispatch:
+
+jobs:
+  seo-tasks:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+        
+    - name: Install dependencies
+      run: npm ci
+      
+    - name: Build website
+      run: npm run build
+      
+    - name: Generate SEO files
+      run: |
+        # Create robots.txt
+        echo "User-agent: *" > build/robots.txt
+        echo "Allow: /" >> build/robots.txt
+        echo "" >> build/robots.txt
+        echo "Sitemap: https://stocktokenhub.github.io/sitemap.xml" >> build/robots.txt
+        echo "" >> build/robots.txt
+        echo "# Disallow crawling of search results" >> build/robots.txt
+        echo "Disallow: /search" >> build/robots.txt
+        echo "" >> build/robots.txt
+        echo "# Disallow crawling of tag pages" >> build/robots.txt
+        echo "Disallow: /tags/" >> build/robots.txt
+        echo "" >> build/robots.txt
+        echo "# Allow crawling of blog and docs" >> build/robots.txt
+        echo "Allow: /blog/" >> build/robots.txt
+        echo "Allow: /docs/" >> build/robots.txt
+        echo "Allow: /tutorials/" >> build/robots.txt
+        
+    - name: Submit to search engines
+      run: node scripts/submit-to-search-engines.js
+      continue-on-error: true
+      
+    - name: Deploy to GitHub Pages
+      if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./build
+        cname: stocktokenhub.github.io
+        
+    - name: Notify deployment
+      if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
+      run: |
+        echo "🚀 Website deployed successfully!"
+        echo "📍 URL: https://stocktokenhub.github.io"
+        echo "🗺️  Sitemap: https://stocktokenhub.github.io/sitemap.xml"
+        echo "🤖 Robots.txt: https://stocktokenhub.github.io/robots.txt"

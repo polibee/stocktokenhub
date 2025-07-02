@@ -100,25 +100,25 @@ const tutorials = [
     title: 'How to Buy Token Stocks on Kraken',
     description: 'Complete Kraken trading guide',
     icon: '🏦',
-    url: '/docs/tutorials/kraken-guide'
+    url: '/blog/tutorial-cex'
   },
   {
     title: 'Using Jupiter for Token Swaps',
     description: 'Trade tokenized stocks on Solana',
     icon: '🪐',
-    url: '/docs/tutorials/jupiter-guide'
+    url: '/blog/tutorial-dex'
   },
   {
     title: 'Bridging Assets to Solana',
     description: 'Bridge from Ethereum to Solana network',
     icon: '🌉',
-    url: '/docs/tutorials/bridge-guide'
+    url: '/blog/tutorial-advanced'
   },
   {
     title: 'Wallet Setup Guide',
     description: 'Set up and connect cryptocurrency wallets',
     icon: '👛',
-    url: '/docs/tutorials/wallet-setup'
+    url: '/blog/tutorial-basics'
   }
 ];
 
@@ -153,7 +153,7 @@ function HeroSection() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/tutorials/intro">
+            to="/blog/tutorial-intro">
             Start Learning 📚
           </Link>
           <Link
@@ -366,7 +366,7 @@ function TutorialsSection() {
         <div className="text--center margin-top--lg">
           <Link
             className="button button--outline button--primary button--lg"
-            to="/docs/tutorials/intro">
+            to="/tutorials">
             View All Tutorials →
           </Link>
         </div>

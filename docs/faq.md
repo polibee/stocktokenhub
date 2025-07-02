@@ -317,7 +317,7 @@ However, please note that laws and regulations may differ in different regions. 
 
 **Learning Resources**:
 
-- 📚 [Complete Tutorials](/docs/tutorials/intro)
+- 📚 [Complete Tutorials](/tutorials)
 - 🔍 [Platform Comparison](/platforms-compare)
 - 📖 [Compliance Information](/docs/compliance)
 

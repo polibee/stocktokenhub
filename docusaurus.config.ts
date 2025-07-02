@@ -15,7 +15,7 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://stocktokenhub.github.io',
+  url: 'https://stocktokenhub.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -27,6 +27,24 @@ const config: Config = {
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
+
+  // Custom fields for SEO metadata
+  customFields: {
+    seoMetadata: [
+      {name: 'keywords', content: 'tokenized stocks, blockchain trading, DeFi, cryptocurrency, stock tokens, digital assets'},
+      {name: 'description', content: 'Comprehensive guide to tokenized stock trading on blockchain. Learn about DEX, CEX, and DeFi platforms for trading digital stock tokens.'},
+      {name: 'author', content: 'Tokenized Stocks Hub'},
+      {property: 'og:type', content: 'website'},
+      {property: 'og:site_name', content: 'Tokenized Stocks Hub'},
+      {name: 'twitter:card', content: 'summary_large_image'},
+      {name: 'twitter:site', content: '@tokenizedstocks'},
+    ],
+    // Google AdSense Auto Ads Configuration
+    googleAdsense: {
+      dataAdClient: 'ca-pub-8597282005680903', // Replace with your AdSense publisher ID
+      enabled: true,
+    },
+  },
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -70,9 +88,51 @@ const config: Config = {
     ],
   ],
 
+  plugins: [
+    // Google Analytics
+    [
+      '@docusaurus/plugin-google-gtag',
+      {
+        trackingID: 'G-6H2GG7ZT3C', // Replace with your Google Analytics tracking ID
+        anonymizeIP: true,
+      },
+    ],
+  ],
+
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
+    // SEO configuration
+    metadata: [
+      {name: 'robots', content: 'index,follow'},
+      {name: 'googlebot', content: 'index,follow,max-video-preview:-1,max-image-preview:large,max-snippet:-1'},
+      {property: 'og:image', content: '/img/docusaurus-social-card.jpg'},
+      {property: 'og:image:width', content: '1200'},
+      {property: 'og:image:height', content: '630'},
+      {name: 'twitter:image', content: '/img/docusaurus-social-card.jpg'},
+      {name: 'twitter:card', content: 'summary_large_image'},
+      {name: 'twitter:site', content: '@tokenizedstocks'},
+    ],
+    // Add Google AdSense script to head
+    headTags: [
+      {
+        tagName: 'script',
+        attributes: {
+          async: true,
+          src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8597282005680903',
+          crossorigin: 'anonymous',
+        },
+      },
+    ],
+    // Algolia search (optional)
+    algolia: {
+      appId: 'YOUR_APP_ID',
+      apiKey: 'YOUR_SEARCH_API_KEY',
+      indexName: 'stocktokenhub',
+      contextualSearch: true,
+      searchParameters: {},
+      searchPagePath: 'search',
+    },
     navbar: {
       title: 'Tokenized Stocks Hub',
       logo: {
@@ -117,11 +177,7 @@ const config: Config = {
           'aria-label': 'Compliance'
         },
 
-        {
-          href: 'https://github.com/stocktokenhub/stocktokenhub',
-          label: 'GitHub',
-          position: 'right',
-        },
+
       ],
     },
     footer: {
@@ -157,23 +213,7 @@ const config: Config = {
             },
           ],
         },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Telegram',
-              href: 'https://t.me/tokenizedstocks',
-            },
-            {
-              label: 'X (Twitter)',
-              href: 'https://x.com/tokenizedstocks',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/stocktokenhub/stocktokenhub',
-            },
-          ],
-        },
+
         {
           title: 'Legal',
           items: [

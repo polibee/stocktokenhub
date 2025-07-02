@@ -12,11 +12,17 @@
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
-    "typecheck": "tsc"
+    "typecheck": "tsc",
+    "seo:submit": "node scripts/submit-to-search-engines.js",
+    "seo:robots": "node scripts/generate-robots.js",
+    "build:seo": "npm run build && npm run seo:robots && npm run seo:submit",
+    "analyze": "npm run build && npx webpack-bundle-analyzer build/static/js/*.js"
   },
   "dependencies": {
     "@docusaurus/core": "3.8.1",
     "@docusaurus/preset-classic": "3.8.1",
+    "@docusaurus/plugin-google-gtag": "3.8.1",
+    "@docusaurus/plugin-sitemap": "3.8.1",
     "@mdx-js/react": "^3.0.0",
     "axios": "^1.10.0",
     "cheerio": "^1.1.0",

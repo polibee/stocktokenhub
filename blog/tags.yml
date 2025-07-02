@@ -40,7 +40,7 @@ Kraken:
 
 教程:
   label: 教程
-  permalink: /tutorial
+  permalink: /tutorial-zh
   description: Tutorial
 
 DEX:
@@ -120,7 +120,7 @@ DeFi:
 
 交易:
   label: 交易
-  permalink: /trading
+  permalink: /trading-zh
   description: Trading
 
 # English Tags
@@ -151,7 +151,7 @@ Leverage:
 
 Tutorial:
   label: Tutorial
-  permalink: /tutorial-en
+  permalink: /tutorial-guide
   description: Tutorial Guide
 
 Basics:
@@ -176,7 +176,7 @@ Getting Started:
 
 Trading:
   label: Trading
-  permalink: /trading-en
+  permalink: /trading-strategies
   description: Trading Strategies
 
 basics:
@@ -206,5 +206,20 @@ beginner guide:
 
 beginner:
   label: Beginner
-  permalink: /beginner-tag
-  description: Content for beginners
+  permalink: /beginner
+  description: Content suitable for beginners
+
+tutorial:
+  label: Tutorial
+  permalink: /tutorial
+  description: Step-by-step tutorials and guides
+
+trading:
+  label: Trading
+  permalink: /trading
+  description: Trading strategies and techniques
+
+advanced:
+  label: 'Advanced'
+  permalink: '/advanced'
+  description: 'Advanced topics and techniques'

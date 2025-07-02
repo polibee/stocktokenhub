@@ -8,6 +8,16 @@ admin:
     x: stocktokenhub
     github: stocktokenhub
 
+stocktokenhub:
+  name: StockTokenHub
+  title: 代币化股票专家
+  url: https://stocktokenhub.com
+  image_url: /img/logo.svg
+  page: true
+  socials:
+    x: stocktokenhub
+    github: stocktokenhub
+
 yangshun:
   name: Yangshun Tay
   title: Ex-Meta Staff Engineer, Co-founder GreatFrontEnd

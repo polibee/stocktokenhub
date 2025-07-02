@@ -16,7 +16,9 @@
     "seo:submit": "node scripts/submit-to-search-engines.js",
     "seo:robots": "node scripts/generate-robots.js",
     "build:seo": "npm run build && npm run seo:robots && npm run seo:submit",
-    "analyze": "npm run build && npx webpack-bundle-analyzer build/static/js/*.js"
+    "analyze": "npm run build && npx webpack-bundle-analyzer build/static/js/*.js",
+    "check:deployment": "node scripts/check-deployment.js",
+    "deploy:check": "npm run build && npm run serve & sleep 5 && npm run check:deployment"
   },
   "dependencies": {
     "@docusaurus/core": "3.8.1",

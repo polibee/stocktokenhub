@@ -4,7 +4,7 @@ const https = require('https');
 const GITHUB_API = 'api.github.com';
 const REPO_OWNER = 'polibee';
 const REPO_NAME = 'stocktokenhub';
-const JOB_ID = '45217418360'; // Build作业的ID (最新)
+const JOB_ID = '45218089021'; // Build作业的ID (最新)
 
 // 获取作业日志
 function getJobLogs(jobId) {

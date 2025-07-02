@@ -4,7 +4,7 @@ sidebar_position: 11
 
 # BRK.Bx - BRK.B
 
-![BRK.Bx Logo](/img/tokens/BRK.Bx.svg)
+![BRK.Bx Logo](/img/tokens/brk.bx.svg)
 
 ## Product Overview
 

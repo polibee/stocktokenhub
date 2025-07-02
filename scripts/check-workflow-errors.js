@@ -68,6 +68,8 @@ function getWorkflowJobs(runId) {
     });
 }
 
+const JOB_ID = '45218063239'; // 替换为实际的作业ID
+
 // 主函数
 async function main() {
     try {

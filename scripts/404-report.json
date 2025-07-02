@@ -1,0 +1,284 @@
+{
+  "timestamp": "2025-07-01T09:02:34.915Z",
+  "baseUrl": "http://localhost:3000",
+  "totalPages": 20,
+  "errorPages": 19,
+  "successPages": 1,
+  "results": [
+    {
+      "url": "http://localhost:3000/",
+      "status": 200,
+      "statusText": "OK",
+      "isError": false,
+      "title": "Tokenized Stocks Hub"
+    },
+    {
+      "url": "http://localhost:3000/docs/products/overview",
+      "status": 404,
+      "statusText": "Not Found",
+      "isError": true,
+      "title": "Error"
+    },
+    {
+      "url": "http://localhost:3000/docs/products/baapl",
+      "status": 404,
+      "statusText": "Not Found",
+      "isError": true,
+      "title": "Error"
+    },
+    {
+      "url": "http://localhost:3000/docs/products/btsla",
+      "status": 404,
+      "statusText": "Not Found",
+      "isError": true,
+      "title": "Error"
+    },
+    {
+      "url": "http://localhost:3000/docs/products/bmsft",
+      "status": 404,
+      "statusText": "Not Found",
+      "isError": true,
+      "title": "Error"
+    },
+    {
+      "url": "http://localhost:3000/docs/products/bgoogl",
+      "status": 404,
+      "statusText": "Not Found",
+      "isError": true,
+      "title": "Error"
+    },
+    {
+      "url": "http://localhost:3000/docs/products/bnvda",
+      "status": 404,
+      "statusText": "Not Found",
+      "isError": true,
+      "title": "Error"
+    },
+    {
+      "url": "http://localhost:3000/docs/products/bgme",
+      "status": 404,
+      "statusText": "Not Found",
+      "isError": true,
+      "title": "Error"
+    },
+    {
+      "url": "http://localhost:3000/docs/products/bmstr",
+      "status": 404,
+      "statusText": "Not Found",
+      "isError": true,
+      "title": "Error"
+    },
+    {
+      "url": "http://localhost:3000/docs/products/bcoin",
+      "status": 404,
+      "statusText": "Not Found",
+      "isError": true,
+      "title": "Error"
+    },
+    {
+      "url": "http://localhost:3000/docs/products/bcspx",
+      "status": 404,
+      "statusText": "Not Found",
+      "isError": true,
+      "title": "Error"
+    },
+    {
+      "url": "http://localhost:3000/docs/products/bib01",
+      "status": 404,
+      "statusText": "Not Found",
+      "isError": true,
+      "title": "Error"
+    },
+    {
+      "url": "http://localhost:3000/docs/platforms/compare",
+      "status": 404,
+      "statusText": "Not Found",
+      "isError": true,
+      "title": "Error"
+    },
+    {
+      "url": "http://localhost:3000/docs/tutorials/intro",
+      "status": 404,
+      "statusText": "Not Found",
+      "isError": true,
+      "title": "Error"
+    },
+    {
+      "url": "http://localhost:3000/docs/tutorials/basics",
+      "status": 404,
+      "statusText": "Not Found",
+      "isError": true,
+      "title": "Error"
+    },
+    {
+      "url": "http://localhost:3000/docs/tutorials/cex",
+      "status": 404,
+      "statusText": "Not Found",
+      "isError": true,
+      "title": "Error"
+    },
+    {
+      "url": "http://localhost:3000/docs/tutorials/dex",
+      "status": 404,
+      "statusText": "Not Found",
+      "isError": true,
+      "title": "Error"
+    },
+    {
+      "url": "http://localhost:3000/docs/tutorials/advanced",
+      "status": 404,
+      "statusText": "Not Found",
+      "isError": true,
+      "title": "Error"
+    },
+    {
+      "url": "http://localhost:3000/docs/faq",
+      "status": 404,
+      "statusText": "Not Found",
+      "isError": true,
+      "title": "Error"
+    },
+    {
+      "url": "http://localhost:3000/docs/compliance",
+      "status": 404,
+      "statusText": "Not Found",
+      "isError": true,
+      "title": "Error"
+    }
+  ],
+  "errors": [
+    {
+      "url": "http://localhost:3000/docs/products/overview",
+      "status": 404,
+      "statusText": "Not Found",
+      "isError": true,
+      "title": "Error"
+    },
+    {
+      "url": "http://localhost:3000/docs/products/baapl",
+      "status": 404,
+      "statusText": "Not Found",
+      "isError": true,
+      "title": "Error"
+    },
+    {
+      "url": "http://localhost:3000/docs/products/btsla",
+      "status": 404,
+      "statusText": "Not Found",
+      "isError": true,
+      "title": "Error"
+    },
+    {
+      "url": "http://localhost:3000/docs/products/bmsft",
+      "status": 404,
+      "statusText": "Not Found",
+      "isError": true,
+      "title": "Error"
+    },
+    {
+      "url": "http://localhost:3000/docs/products/bgoogl",
+      "status": 404,
+      "statusText": "Not Found",
+      "isError": true,
+      "title": "Error"
+    },
+    {
+      "url": "http://localhost:3000/docs/products/bnvda",
+      "status": 404,
+      "statusText": "Not Found",
+      "isError": true,
+      "title": "Error"
+    },
+    {
+      "url": "http://localhost:3000/docs/products/bgme",
+      "status": 404,
+      "statusText": "Not Found",
+      "isError": true,
+      "title": "Error"
+    },
+    {
+      "url": "http://localhost:3000/docs/products/bmstr",
+      "status": 404,
+      "statusText": "Not Found",
+      "isError": true,
+      "title": "Error"
+    },
+    {
+      "url": "http://localhost:3000/docs/products/bcoin",
+      "status": 404,
+      "statusText": "Not Found",
+      "isError": true,
+      "title": "Error"
+    },
+    {
+      "url": "http://localhost:3000/docs/products/bcspx",
+      "status": 404,
+      "statusText": "Not Found",
+      "isError": true,
+      "title": "Error"
+    },
+    {
+      "url": "http://localhost:3000/docs/products/bib01",
+      "status": 404,
+      "statusText": "Not Found",
+      "isError": true,
+      "title": "Error"
+    },
+    {
+      "url": "http://localhost:3000/docs/platforms/compare",
+      "status": 404,
+      "statusText": "Not Found",
+      "isError": true,
+      "title": "Error"
+    },
+    {
+      "url": "http://localhost:3000/docs/tutorials/intro",
+      "status": 404,
+      "statusText": "Not Found",
+      "isError": true,
+      "title": "Error"
+    },
+    {
+      "url": "http://localhost:3000/docs/tutorials/basics",
+      "status": 404,
+      "statusText": "Not Found",
+      "isError": true,
+      "title": "Error"
+    },
+    {
+      "url": "http://localhost:3000/docs/tutorials/cex",
+      "status": 404,
+      "statusText": "Not Found",
+      "isError": true,
+      "title": "Error"
+    },
+    {
+      "url": "http://localhost:3000/docs/tutorials/dex",
+      "status": 404,
+      "statusText": "Not Found",
+      "isError": true,
+      "title": "Error"
+    },
+    {
+      "url": "http://localhost:3000/docs/tutorials/advanced",
+      "status": 404,
+      "statusText": "Not Found",
+      "isError": true,
+      "title": "Error"
+    },
+    {
+      "url": "http://localhost:3000/docs/faq",
+      "status": 404,
+      "statusText": "Not Found",
+      "isError": true,
+      "title": "Error"
+    },
+    {
+      "url": "http://localhost:3000/docs/compliance",
+      "status": 404,
+      "statusText": "Not Found",
+      "isError": true,
+      "title": "Error"
+    }
+  ]
+}

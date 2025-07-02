@@ -1,0 +1,348 @@
+---
+slug: tutorial-dex
+title: Decentralized Exchange Tutorial
+authors: [stocktokenhub]
+tags: [tutorial, DEX, DeFi, trading, advanced]
+description: Complete guide to trading tokenized stocks on decentralized exchanges, covering Uniswap, Jupiter and other major DEX platforms
+---
+
+# Decentralized Exchange Tutorial
+
+Decentralized exchanges (DEX) represent the future of finance - no intermediaries, global access, complete transparency. This tutorial will teach you how to safely trade tokenized stocks on DEX.
+
+![Decentralized Exchange](/img/tutorials/dex.svg)
+
+{/* truncate */}
+
+## 🎯 Why Choose Decentralized Exchanges?
+
+**Core Advantages**:
+- 🔓 **Permissionless**: No KYC required, anyone can use
+- 🔐 **Self-Custody**: Private keys in your hands, complete fund control
+- 🌍 **Global Access**: No geographical restrictions
+- 🔍 **Complete Transparency**: All transactions public on blockchain
+- 🚫 **Censorship Resistant**: Cannot be shut down by single entity
+- 💰 **More Opportunities**: Participate in liquidity mining, staking and other DeFi activities
+
+**Suitable For**:
+- 🔰 Users wanting to experience DeFi
+- 🌍 Users restricted from using CEX due to geography
+- 🔒 Users valuing privacy and fund autonomy
+- 💡 Users wanting to participate in more DeFi protocols
+
+**Considerations**:
+- Requires some technical knowledge
+- Self-responsibility for security
+- Gas fees to consider
+- Liquidity may be lower than CEX
+
+## 🏗️ DEX Infrastructure
+
+### Automated Market Makers (AMM)
+
+**Traditional Order Book vs AMM**:
+
+| Feature | Order Book | AMM |
+|---------|------------|-----|
+| **Price Discovery** | Buyer/seller quotes | Algorithmic formula |
+| **Liquidity** | Market makers provide | Liquidity pools |
+| **Slippage** | Order book depth determines | Trade volume and pool size determine |
+| **24/7 Trading** | Requires market makers online | Runs automatically |
+
+**How AMM Works**:
+1. Users deposit token pairs into liquidity pools (e.g., ETH/USDC)
+2. Smart contracts use mathematical formulas for pricing
+3. Traders trade with pools, not other users
+4. Liquidity providers earn trading fee shares
+
+### Common AMM Formulas
+
+#### Constant Product (Uniswap V2)
+```
+x * y = k
+```
+- x, y: Quantities of two tokens in pool
+- k: Constant value
+- Features: Simple and reliable, but high slippage for large trades
+
+#### Stablecoin AMM (Curve)
+```
+A * n^n * Σxi + D = A * D * n^n + D^(n+1) / (n^n * Πxi)
+```
+- Suitable for similar value assets (like stablecoins)
+- Lower slippage
+
+#### Concentrated Liquidity (Uniswap V3)
+- Liquidity providers can choose price ranges
+- Higher capital efficiency
+- More complex management
+
+## 🌐 Major DEX Platform Comparison
+
+### Ethereum Ecosystem
+
+#### Uniswap ⭐⭐⭐⭐⭐
+
+**Basic Information**:
+- Launch: 2018
+- Total Value Locked: $3B+
+- Daily Volume: $1B+
+- Supported Networks: Ethereum, Polygon, Arbitrum, Optimism
+
+**Features**:
+- Largest DEX with best liquidity
+- Supports most tokenized stocks
+- User-friendly interface
+- Active community, continuous development
+
+**Fees**:
+- Trading fee: 0.3% (V2) / 0.05%-1% (V3)
+- Gas fee: $15-50 (Ethereum mainnet)
+
+**Tokenized Stocks**:
+- Supports Backed Finance tokens (bAAPL, bTSLA, etc.)
+- Supports Synthetix synthetic stocks
+- Good liquidity
+
+#### SushiSwap ⭐⭐⭐⭐
+
+**Basic Information**:
+- Launch: 2020
+- Features: Uniswap fork with token incentives
+- Multi-chain deployment: 20+ chains
+
+**Advantages**:
+- Liquidity mining rewards
+- Multi-chain support
+- Additional features (lending, options, etc.)
+
+**Disadvantages**:
+- Lower liquidity than Uniswap
+- High token price volatility
+
+### Solana Ecosystem
+
+#### Jupiter ⭐⭐⭐⭐⭐
+
+**Basic Information**:
+- Type: DEX aggregator
+- Features: Aggregates all DEXs on Solana
+- Advantage: Best price routing
+
+**Core Functions**:
+- Smart routing: Automatically finds best trading paths
+- Price comparison: Compares all DEX prices
+- MEV protection: Prevents front-running
+- Limit orders: Supports advanced order types
+
+**Fees**:
+- Platform fee: 0.25%
+- Gas fee: ~$0.001
+- Total cost: Much lower than Ethereum
+
+#### Raydium ⭐⭐⭐⭐
+
+**Basic Information**:
+- Type: AMM + order book hybrid
+- Features: Integrated with Serum order book
+- Advantage: Better price discovery
+
+**Special Features**:
+- Liquidity mining
+- IDO platform
+- Futures trading
+
+### Other Important DEXs
+
+#### PancakeSwap (BSC) ⭐⭐⭐
+- Largest DEX on Binance Smart Chain
+- Extremely low fees (~$0.1)
+- Limited tokenized stock support
+
+#### TraderJoe (Avalanche) ⭐⭐⭐
+- Main DEX in Avalanche ecosystem
+- Innovative Liquidity Book
+- Low fees, fast speed
+
+## 🔧 Wallet Setup and Preparation
+
+### Choose the Right Wallet
+
+#### MetaMask (Ethereum Ecosystem)
+
+**Installation Steps**:
+1. Visit [metamask.io](https://metamask.io)
+2. Download browser extension or mobile app
+3. Create new wallet or import existing wallet
+4. Safely backup seed phrase
+
+**Network Configuration**:
+
+**Ethereum Mainnet**:
+- Network Name: Ethereum Mainnet
+- RPC URL: https://mainnet.infura.io/v3/YOUR_KEY
+- Chain ID: 1
+- Symbol: ETH
+
+**Polygon**:
+- Network Name: Polygon Mainnet
+- RPC URL: https://polygon-rpc.com
+- Chain ID: 137
+- Symbol: MATIC
+
+#### Phantom (Solana Ecosystem)
+
+**Installation Steps**:
+1. Visit [phantom.app](https://phantom.app)
+2. Download browser extension
+3. Create new wallet
+4. Backup seed phrase
+
+**Features**:
+- Designed specifically for Solana
+- Excellent user experience
+- Supports NFT and DeFi
+
+## 📱 Uniswap Trading Tutorial
+
+### Step 1: Connect Wallet
+
+1. Visit [app.uniswap.org](https://app.uniswap.org)
+2. Click "Connect Wallet"
+3. Select MetaMask
+4. Authorize connection
+5. Confirm network (Ethereum/Polygon, etc.)
+
+### Step 2: Prepare Funds
+
+**Need to Prepare**:
+- Trading tokens (like USDC)
+- Gas fee tokens (ETH/MATIC, etc.)
+
+**Ways to Get Tokens**:
+- Withdraw from CEX to wallet
+- Use fiat on-ramp services
+- Transfer from other wallets
+
+### Step 3: Execute Trade
+
+1. **Select Token Pair**:
+   - From: Choose payment token (like USDC)
+   - To: Choose target token (like bAAPL)
+
+2. **Enter Amount**:
+   - Input amount to swap
+   - View estimated tokens to receive
+   - Note slippage settings
+
+3. **Check Trade Details**:
+   - Exchange rate
+   - Slippage tolerance
+   - Gas fee estimate
+   - Minimum received amount
+
+4. **Confirm Trade**:
+   - Click "Swap"
+   - Confirm in MetaMask
+   - Wait for transaction confirmation
+
+### Step 4: Trade Management
+
+**View Transactions**:
+- Check token balance in wallet
+- View transaction details on blockchain explorer
+- Save transaction records for tax purposes
+
+## 🚀 Jupiter Trading Tutorial
+
+### Step 1: Connect Phantom Wallet
+
+1. Visit [jup.ag](https://jup.ag)
+2. Click "Connect Wallet"
+3. Select Phantom
+4. Authorize connection
+
+### Step 2: Smart Routing Trade
+
+1. **Select Tokens**:
+   - Input token: USDC
+   - Output token: Search for tokenized stocks
+
+2. **Compare Routes**:
+   - Jupiter automatically shows best route
+   - Compare prices across different DEXs
+   - View price impact
+
+3. **Execute Trade**:
+   - Set slippage tolerance
+   - Click "Swap"
+   - Confirm in Phantom
+
+### Advanced Features
+
+**Limit Orders**:
+- Set target price
+- Automatic trade execution
+- No need for continuous monitoring
+
+**DCA (Dollar Cost Averaging)**:
+- Set up regular purchases
+- Spread timing risk
+- Automated investing
+
+## 💡 DEX Trading Tips
+
+### Reduce Costs
+
+1. **Choose Right Timing**:
+   - Avoid network congestion periods
+   - Monitor gas fee trackers
+   - Use Layer 2 solutions
+
+2. **Optimize Slippage Settings**:
+   - High liquidity tokens: 0.1%-0.5%
+   - Low liquidity tokens: 1%-3%
+   - Avoid setting too low causing trade failures
+
+3. **Batch Operations**:
+   - Complete multiple operations at once
+   - Reduce gas fee expenses
+   - Use aggregator services
+
+### Security Protection
+
+1. **Verify Token Contracts**:
+   - Check token contract addresses
+   - Use official token lists
+   - Beware of fake tokens
+
+2. **Authorization Management**:
+   - Regularly check token approvals
+   - Revoke unnecessary approvals
+   - Use limited approvals
+
+3. **Transaction Confirmation**:
+   - Carefully check transaction details
+   - Confirm receiving addresses
+   - Pay attention to slippage and fees
+
+## ⚠️ Risk Warnings
+
+### Technical Risks
+- **Smart Contract Risk**: Code vulnerabilities may cause fund loss
+- **Impermanent Loss**: Price risk when providing liquidity
+- **Front-running**: MEV bots may affect trade prices
+
+### Operational Risks
+- **Private Key Security**: Lost private keys mean unrecoverable funds
+- **Phishing Sites**: Ensure visiting official websites
+- **Authorization Risk**: Malicious contracts may steal funds
+
+### Market Risks
+- **Liquidity Risk**: Small tokens may be difficult to trade
+- **Price Slippage**: Large trades may impact prices
+- **Regulatory Risk**: Policy changes may affect DEX usage
+
+---
+
+**Summary**: DEX provides unprecedented financial freedom for users, but also requires taking on more responsibility. It's recommended to start with small amounts, gradually familiarize yourself with the operation process, and always put security first. As technology develops, DEX user experience will continue to improve and costs will further decrease.

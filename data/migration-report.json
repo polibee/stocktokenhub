@@ -1,0 +1,389 @@
+{
+  "timestamp": "2025-07-02T00:44:17.503Z",
+  "totalProducts": 63,
+  "validProducts": 61,
+  "generatedFiles": 61,
+  "inconsistencies": 63,
+  "missingIcons": 0,
+  "details": {
+    "inconsistencies": [
+      {
+        "product": "ABTx\r\nAbbott xStock",
+        "solanaAddress": "XsHtf5RpxsQ7jeJ9ivNewouZKJHbPxhPoEy6yYvULr7",
+        "issue": "信息内容中未找到对应的Solana地址"
+      },
+      {
+        "product": "ABBVx\r\nAbbVie xStock",
+        "solanaAddress": "XswbinNKyPmzTa5CskMbCPvMW6G5CMnZXZEeQSSQoie",
+        "issue": "信息内容中未找到对应的Solana地址"
+      },
+      {
+        "product": "ACNx\r\nAccenture xStock",
+        "solanaAddress": "Xs5UJzmCRQ8DWZjskExdSQDnbE6iLkRu2jjrRAB1JSU",
+        "issue": "信息内容中未找到对应的Solana地址"
+      },
+      {
+        "product": "GOOGLx\r\nAlphabet xStock",
+        "solanaAddress": "XsCPL9dNWBMvFtTmwcCA5v3xWPSMEBCszbQdiLLq6aN",
+        "issue": "信息内容中未找到对应的Solana地址"
+      },
+      {
+        "product": "AMZNx\r\nAmazon xStock",
+        "solanaAddress": "Xs3eBt7uRfJX8QUs4suhyU8p2M6DoUDrJyWBa8LLZsg",
+        "issue": "信息内容中未找到对应的Solana地址"
+      },
+      {
+        "product": "AMBRx\r\nAmber xStock",
+        "solanaAddress": "XsaQTCgebC2KPbf27KUhdv5JFvHhQ4GDAPURwrEhAzb",
+        "issue": "信息内容中未找到对应的Solana地址"
+      },
+      {
+        "product": "AAPLx\r\nApple xStock",
+        "solanaAddress": "XsbEhLAtcf6HdfpFZ5xEMdqW8nfAvcsP5bdudRLJzJp",
+        "issue": "信息内容中未找到对应的Solana地址"
+      },
+      {
+        "product": "APPx\r\nAppLovin xStock",
+        "solanaAddress": "XsPdAVBi8Zc1xvv53k4JcMrQaEDTgkGqKYeh7AYgPHV",
+        "issue": "信息内容中未找到对应的Solana地址"
+      },
+      {
+        "product": "AZNx\r\nAstraZeneca xStock",
+        "solanaAddress": "Xs3ZFkPYT2BN7qBMqf1j1bfTeTm1rFzEFSsQ1z3wAKU",
+        "issue": "信息内容中未找到对应的Solana地址"
+      },
+      {
+        "product": "BACx\r\nBank of America xStock",
+        "solanaAddress": "XswsQk4duEQmCbGzfqUUWYmi7pV7xpJ9eEmLHXCaEQP",
+        "issue": "信息内容中未找到对应的Solana地址"
+      },
+      {
+        "product": "BRK.Bx\r\nBerkshire Hathaway xStock",
+        "solanaAddress": "Xs6B6zawENwAbWVi7w92rjazLuAr5Az59qgWKcNb45x",
+        "issue": "信息内容中未找到对应的Solana地址"
+      },
+      {
+        "product": "AVGOx\r\nBroadcom xStock",
+        "solanaAddress": "XsgSaSvNSqLTtFuyWPBhK9196Xb9Bbdyjj4fH3cPJGo",
+        "issue": "信息内容中未找到对应的Solana地址"
+      },
+      {
+        "product": "CVXx\r\nChevron xStock",
+        "solanaAddress": "XsNNMt7WTNA2sV3jrb1NNfNgapxRF5i4i6GcnTRRHts",
+        "issue": "信息内容中未找到对应的Solana地址"
+      },
+      {
+        "product": "CRCLx\r\nCircle xStock",
+        "solanaAddress": "XsueG8BtpquVJX9LVLLEGuViXUungE6WmK5YZ3p3bd1",
+        "issue": "信息内容中未找到对应的Solana地址"
+      },
+      {
+        "product": "CSCOx\r\nCisco xStock",
+        "solanaAddress": "Xsr3pdLQyXvDJBFgpR5nexCEZwXvigb8wbPYp4YoNFf",
+        "issue": "信息内容中未找到对应的Solana地址"
+      },
+      {
+        "product": "KOx\r\nCoca-Cola xStock",
+        "solanaAddress": "XsaBXg8dU5cPM6ehmVctMkVqoiRG2ZjMo1cyBJ3AykQ",
+        "issue": "信息内容中未找到对应的Solana地址"
+      },
+      {
+        "product": "COINx\r\nCoinbase xStock",
+        "solanaAddress": "Xs7ZdzSHLU9ftNJsii5fCeJhoRWSC32SQGzGQtePxNu",
+        "issue": "信息内容中未找到对应的Solana地址"
+      },
+      {
+        "product": "CMCSAx\r\nComcast xStock",
+        "solanaAddress": "XsvKCaNsxg2GN8jjUmq71qukMJr7Q1c5R2Mk9P8kcS8",
+        "issue": "信息内容中未找到对应的Solana地址"
+      },
+      {
+        "product": "CRWDx\r\nCrowdStrike xStock",
+        "solanaAddress": "Xs7xXqkcK7K8urEqGg52SECi79dRp2cEKKuYjUePYDw",
+        "issue": "信息内容中未找到对应的Solana地址"
+      },
+      {
+        "product": "DHRx\r\nDanaher xStock",
+        "solanaAddress": "Xseo8tgCZfkHxWS9xbFYeKFyMSbWEvZGFV1Gh53GtCV",
+        "issue": "信息内容中未找到对应的Solana地址"
+      },
+      {
+        "product": "DFDVx\r\nDFDV xStock",
+        "solanaAddress": "Xs2yquAgsHByNzx68WJC55WHjHBvG9JsMB7CWjTLyPy",
+        "issue": "信息内容中未找到对应的Solana地址"
+      },
+      {
+        "product": "LLYx\r\nEli Lilly xStock",
+        "solanaAddress": "Xsnuv4omNoHozR6EEW5mXkw8Nrny5rB3jVfLqi6gKMH",
+        "issue": "信息内容中未找到对应的Solana地址"
+      },
+      {
+        "product": "XOMx\r\nExxon Mobil xStock",
+        "solanaAddress": "XsaHND8sHyfMfsWPj6kSdd5VwvCayZvjYgKmmcNL5qh",
+        "issue": "信息内容中未找到对应的Solana地址"
+      },
+      {
+        "product": "GMEx",
+        "solanaAddress": "Xsf9mBktVB9BSU5kf4nHxPq5hCBJ2j2ui3ecFGxPRGc",
+        "issue": "信息内容中未找到对应的Solana地址"
+      },
+      {
+        "product": "GLDx\r\nGold xStock",
+        "solanaAddress": "Xsv9hRk1z5ystj9MhnA7Lq4vjSsLwzL2nxrwmwtD3re",
+        "issue": "信息内容中未找到对应的Solana地址"
+      },
+      {
+        "product": "GSx\r\nGoldman Sachs xStock",
+        "solanaAddress": "XsgaUyp4jd1fNBCxgtTKkW64xnnhQcvgaxzsbAq5ZD1",
+        "issue": "信息内容中未找到对应的Solana地址"
+      },
+      {
+        "product": "HDx\r\nHome Depot xStock",
+        "solanaAddress": "XszjVtyhowGjSC5odCqBpW1CtXXwXjYokymrk7fGKD3",
+        "issue": "信息内容中未找到对应的Solana地址"
+      },
+      {
+        "product": "HONx\r\nHoneywell xStock",
+        "solanaAddress": "XsRbLZthfABAPAfumWNEJhPyiKDW6TvDVeAeW7oKqA2",
+        "issue": "信息内容中未找到对应的Solana地址"
+      },
+      {
+        "product": "INTCx\r\nIntel xStock",
+        "solanaAddress": "XshPgPdXFRWB8tP1j82rebb2Q9rPgGX37RuqzohmArM",
+        "issue": "信息内容中未找到对应的Solana地址"
+      },
+      {
+        "product": "IBMx\r\nInternational Business Machines x",
+        "solanaAddress": "XspwhyYPdWVM8XBHZnpS9hgyag9MKjLRyE3tVfmCbSr",
+        "issue": "信息内容中未找到对应的Solana地址"
+      },
+      {
+        "product": "JNJx\r\nJohnson & Johnson xStock",
+        "solanaAddress": "XsGVi5eo1Dh2zUpic4qACcjuWGjNv8GCt3dm5XcX6Dn",
+        "issue": "信息内容中未找到对应的Solana地址"
+      },
+      {
+        "product": "JPMx\r\nJPMorgan Chase xStock",
+        "solanaAddress": "XsMAqkcKsUewDrzVkait4e5u4y8REgtyS7jWgCpLV2C",
+        "issue": "信息内容中未找到对应的Solana地址"
+      },
+      {
+        "product": "LINx\r\nLinde xStock",
+        "solanaAddress": "XsSr8anD1hkvNMu8XQiVcmiaTP7XGvYu7Q58LdmtE8Z",
+        "issue": "信息内容中未找到对应的Solana地址"
+      },
+      {
+        "product": "MRVLx\r\nMarvell xStock",
+        "solanaAddress": "XsuxRGDzbLjnJ72v74b7p9VY6N66uYgTCyfwwRjVCJA",
+        "issue": "信息内容中未找到对应的Solana地址"
+      },
+      {
+        "product": "MAx\r\nMastercard xStock",
+        "solanaAddress": "XsApJFV9MAktqnAc6jqzsHVujxkGm9xcSUffaBoYLKC",
+        "issue": "信息内容中未找到对应的Solana地址"
+      },
+      {
+        "product": "MCDx\r\nMcDonald's xStock",
+        "solanaAddress": "XsqE9cRRpzxcGKDXj1BJ7Xmg4GRhZoyY1KpmGSxAWT2",
+        "issue": "信息内容中未找到对应的Solana地址"
+      },
+      {
+        "product": "MDTx\r\nMedtronic xStock",
+        "solanaAddress": "XsDgw22qRLTv5Uwuzn6T63cW69exG41T6gwQhEK22u2",
+        "issue": "信息内容中未找到对应的Solana地址"
+      },
+      {
+        "product": "MRKx\r\nMerck xStock",
+        "solanaAddress": "XsnQnU7AdbRZYe2akqqpibDdXjkieGFfSkbkjX1Sd1X",
+        "issue": "信息内容中未找到对应的Solana地址"
+      },
+      {
+        "product": "METAx\r\nMeta xStock",
+        "solanaAddress": "Xsa62P5mvPszXL1krVUnU5ar38bBSVcWAB6fmPCo5Zu",
+        "issue": "信息内容中未找到对应的Solana地址"
+      },
+      {
+        "product": "MSFTx\r\nMicrosoft xStock",
+        "solanaAddress": "XspzcW1PRtgf6Wj92HCiZdjzKCyFekVD8P5Ueh3dRMX",
+        "issue": "信息内容中未找到对应的Solana地址"
+      },
+      {
+        "product": "MSTRx\r\nMicroStrategy xStock",
+        "solanaAddress": "XsP7xzNPvEHS1m6qfanPUGjNmdnmsLKEoNAnHjdxxyZ",
+        "issue": "信息内容中未找到对应的Solana地址"
+      },
+      {
+        "product": "QQQx\r\nNasdaq xStock",
+        "solanaAddress": "Xs8S1uUs1zvS2p7iwtsG3b6fkhpvmwz4GYU3gWAmWHZ",
+        "issue": "信息内容中未找到对应的Solana地址"
+      },
+      {
+        "product": "NFLXx\r\nNetflix xStock",
+        "solanaAddress": "XsEH7wWfJJu2ZT3UCFeVfALnVA6CP5ur7Ee11KmzVpL",
+        "issue": "信息内容中未找到对应的Solana地址"
+      },
+      {
+        "product": "NVOx\r\nNovo Nordisk xStock",
+        "solanaAddress": "XsfAzPzYrYjd4Dpa9BU3cusBsvWfVB9gBcyGC87S57n",
+        "issue": "信息内容中未找到对应的Solana地址"
+      },
+      {
+        "product": "NVDAx\r\nNVIDIA xStock",
+        "solanaAddress": "Xsc9qvGR1efVDFGLrVsmkzv3qi45LTBjeUKSPmx9qEh",
+        "issue": "信息内容中未找到对应的Solana地址"
+      },
+      {
+        "product": "ORCLx\r\nOracle xStock",
+        "solanaAddress": "XsjFwUPiLofddX5cWFHW35GCbXcSu1BCUGfxoQAQjeL",
+        "issue": "信息内容中未找到对应的Solana地址"
+      },
+      {
+        "product": "PLTRx\r\nPalantir xStock",
+        "solanaAddress": "XsoBhf2ufR8fTyNSjqfU71DYGaE6Z3SUGAidpzriAA4",
+        "issue": "信息内容中未找到对应的Solana地址"
+      },
+      {
+        "product": "PEPx\r\nPepsiCo xStock",
+        "solanaAddress": "Xsv99frTRUeornyvCfvhnDesQDWuvns1M852Pez91vF",
+        "issue": "信息内容中未找到对应的Solana地址"
+      },
+      {
+        "product": "PFEx\r\nPfizer xStock",
+        "solanaAddress": "XsAtbqkAP1HJxy7hFDeq7ok6yM43DQ9mQ1Rh861X8rw",
+        "issue": "信息内容中未找到对应的Solana地址"
+      },
+      {
+        "product": "PMx\r\nPhilip Morris xStock",
+        "solanaAddress": "Xsba6tUnSjDae2VcopDB6FGGDaxRrewFCDa5hKn5vT3",
+        "issue": "信息内容中未找到对应的Solana地址"
+      },
+      {
+        "product": "PGx\r\nProcter & Gamble xStock",
+        "solanaAddress": "XsYdjDjNUygZ7yGKfQaB6TxLh2gC6RRjzLtLAGJrhzV",
+        "issue": "信息内容中未找到对应的Solana地址"
+      },
+      {
+        "product": "HOODx\r\nRobinhood xStock",
+        "solanaAddress": "XsvNBAYkrDRNhA7wPHQfX3ZUXZyZLdnCQDfHZ56bzpg",
+        "issue": "信息内容中未找到对应的Solana地址"
+      },
+      {
+        "product": "CRMx\r\nSalesforce xStock",
+        "solanaAddress": "XsczbcQ3zfcgAEt9qHQES8pxKAVG5rujPSHQEXi4kaN",
+        "issue": "信息内容中未找到对应的Solana地址"
+      },
+      {
+        "product": "SPYx\r\nSP500 xStock",
+        "solanaAddress": "XsoCS1TfEyfFhfvj8EtZ528L3CaKBDBRqRapnBbDF2W",
+        "issue": "信息内容中未找到对应的Solana地址"
+      },
+      {
+        "product": "TSLAx\r\nTesla xStock",
+        "solanaAddress": "XsDoVfqeBukxuZHWhdvWHBhgEHjGNst4MLodqsJHzoB",
+        "issue": "信息内容中未找到对应的Solana地址"
+      },
+      {
+        "product": "TMOx\r\nThermo Fisher xStock",
+        "solanaAddress": "Xs8drBWy3Sd5QY3aifG9kt9KFs2K3PGZmx7jWrsrk57",
+        "issue": "信息内容中未找到对应的Solana地址"
+      },
+      {
+        "product": "TQQQx\r\nTQQQ xStock",
+        "solanaAddress": "XsjQP3iMAaQ3kQScQKthQpx9ALRbjKAjQtHg6TFomoc",
+        "issue": "信息内容中未找到对应的Solana地址"
+      },
+      {
+        "product": "UNHx\r\nUnitedHealth xStock",
+        "solanaAddress": "XszvaiXGPwvk2nwb3o9C1CX4K6zH8sez11E6uyup6fe",
+        "issue": "信息内容中未找到对应的Solana地址"
+      },
+      {
+        "product": "VTIx\r\nVanguard xStock",
+        "solanaAddress": "XsssYEQjzxBCFgvYFFNuhJFBeHNdLWYeUSP8F45cDr9",
+        "issue": "信息内容中未找到对应的Solana地址"
+      },
+      {
+        "product": "Vx\r\nVisa xStock",
+        "solanaAddress": "XsqgsbXwWogGJsNcVZ3TyVouy2MbTkfCFhCGGGcQZ2p",
+        "issue": "信息内容中未找到对应的Solana地址"
+      },
+      {
+        "product": "WMTx\r\nWalmart xStock",
+        "solanaAddress": "Xs151QeqTCiuKtinzfRATnUESM2xTU6V9Wy8Vy538ci",
+        "issue": "信息内容中未找到对应的Solana地址"
+      },
+      {
+        "product": "产品62",
+        "issue": "缺少Solana地址"
+      },
+      {
+        "product": "产品63",
+        "issue": "缺少Solana地址"
+      }
+    ],
+    "missingIcons": [],
+    "generatedFiles": [
+      "abtx.md",
+      "abbvx.md",
+      "acnx.md",
+      "googlx.md",
+      "amznx.md",
+      "ambrx.md",
+      "aaplx.md",
+      "appx.md",
+      "aznx.md",
+      "bacx.md",
+      "brkbx.md",
+      "avgox.md",
+      "cvxx.md",
+      "crclx.md",
+      "cscox.md",
+      "kox.md",
+      "coinx.md",
+      "cmcsax.md",
+      "crwdx.md",
+      "dhrx.md",
+      "dfdvx.md",
+      "llyx.md",
+      "xomx.md",
+      "gmex.md",
+      "gldx.md",
+      "gsx.md",
+      "hdx.md",
+      "honx.md",
+      "intcx.md",
+      "ibmx.md",
+      "jnjx.md",
+      "jpmx.md",
+      "linx.md",
+      "mrvlx.md",
+      "max.md",
+      "mcdx.md",
+      "mdtx.md",
+      "mrkx.md",
+      "metax.md",
+      "msftx.md",
+      "mstrx.md",
+      "qqqx.md",
+      "nflxx.md",
+      "nvox.md",
+      "nvdax.md",
+      "orclx.md",
+      "pltrx.md",
+      "pepx.md",
+      "pfex.md",
+      "pmx.md",
+      "pgx.md",
+      "hoodx.md",
+      "crmx.md",
+      "spyx.md",
+      "tslax.md",
+      "tmox.md",
+      "tqqqx.md",
+      "unhx.md",
+      "vtix.md",
+      "vx.md",
+      "wmtx.md"
+    ]
+  }
+}

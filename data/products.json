@@ -1,0 +1,2259 @@
+[
+  {
+    "id": "abtx",
+    "name": "ABTx",
+    "fullName": "Abbott xStock",
+    "symbol": "ABT",
+    "description": "Abbott xStock (ABTx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. ABTx tracks the price of Abbott Laboratories (the underlying).",
+    "logo": "/img/tokens/abtx.svg",
+    "category": "tokenized-stocks",
+    "chain": "solana",
+    "contractAddress": "XsHtf5RpxsQ7jeJ9ivNewouZKJHbPxhPoEy6yYvULr7",
+    "isin": "CH1436219518",
+    "issuer": "Backed Assets (JE) Limited",
+    "factsheetUrl": "https://backed.fi/",
+    "informationUrl": "https://backed.fi/",
+    "tradeUrl": "https://backed.fi/",
+    "underlyingAsset": {
+      "name": "Abbott Laboratories",
+      "symbol": "ABT",
+      "isin": "US0028241000",
+      "issuer": "The issuer of the Underlying is Abbott Laboratories, 100 Abbott Park Road, Abbott Park, IL 60064, USA. LEI: HQD377W2YR662HK5JX27."
+    },
+    "tradingPlatforms": [
+      "Backed Finance"
+    ],
+    "investmentObjective": "Abbott xStock (ABTx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. ABTx tracks the price of Abbott Laboratories (the underlying).",
+    "keyBenefits": "Abbott is a global healthcare company focused on developing and delivering life-changing technologies in areas like diagnostics, medical devices, nutritional products, and branded generic pharmaceuticals.",
+    "fees": {
+      "managementFee": "The tracker charges no management fee at present. A fee of up to 0.25% per year may be introduced in the future",
+      "issuanceRedemptionFee": "Up to 0.50% of your investment's value when entering and exiting the investment"
+    },
+    "serviceProviders": {
+      "tokenizer": "Backed Finance AG",
+      "broker": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "custodian": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "securityAgent": "Security Agent Services AG"
+    }
+  },
+  {
+    "id": "abbvx",
+    "name": "ABBVx",
+    "fullName": "AbbVie xStock",
+    "symbol": "ABBV",
+    "description": "AbbVie xStock (ABBVx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. ABBVx tracks the price of AbbVie Inc. (the underlying).",
+    "logo": "/img/tokens/abbvx.svg",
+    "category": "tokenized-stocks",
+    "chain": "solana",
+    "contractAddress": "XswbinNKyPmzTa5CskMbCPvMW6G5CMnZXZEeQSSQoie",
+    "isin": "CH1436219393",
+    "issuer": "Backed Assets (JE) Limited",
+    "factsheetUrl": "https://backed.fi/",
+    "informationUrl": "https://backed.fi/",
+    "tradeUrl": "https://backed.fi/",
+    "underlyingAsset": {
+      "name": "AbbVie Inc.",
+      "symbol": "ABBV",
+      "isin": "US00287Y1091",
+      "issuer": "The issuer of the Underlying is AbbVie Inc., 1 North Waukegan Road, North Chicago, IL 60064, USA. LEI: FR5LCKFTG8054YNNRU85."
+    },
+    "tradingPlatforms": [
+      "Backed Finance"
+    ],
+    "investmentObjective": "AbbVie xStock (ABBVx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. ABBVx tracks the price of AbbVie Inc. (the underlying).",
+    "keyBenefits": "AbbVie Inc. (ABBV) is a global biopharmaceutical company focused on developing and delivering innovative therapies in areas such as immunology, oncology, neuroscience, and eye care. It generates substantial revenue from both established products like Humira and newer treatments across its diversified pipeline.",
+    "fees": {
+      "managementFee": "The tracker charges no management fee at present. A fee of up to 0.25% per year may be introduced in the future",
+      "issuanceRedemptionFee": "Up to 0.50% of your investment's value when entering and exiting the investment"
+    },
+    "serviceProviders": {
+      "tokenizer": "Backed Finance AG",
+      "broker": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "custodian": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "securityAgent": "Security Agent Services AG"
+    }
+  },
+  {
+    "id": "acnx",
+    "name": "ACNx",
+    "fullName": "Accenture xStock",
+    "symbol": "ACN",
+    "description": "Accenture xStock (ACNx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. ACNx tracks the price of Accenture plc Class A (the underlying).",
+    "logo": "/img/tokens/acnx.svg",
+    "category": "tokenized-stocks",
+    "chain": "solana",
+    "contractAddress": "Xs5UJzmCRQ8DWZjskExdSQDnbE6iLkRu2jjrRAB1JSU",
+    "isin": "CH1436219617",
+    "issuer": "Backed Assets (JE) Limited",
+    "factsheetUrl": "https://backed.fi/",
+    "informationUrl": "https://backed.fi/",
+    "tradeUrl": "https://backed.fi/",
+    "underlyingAsset": {
+      "name": "Accenture plc Class A",
+      "symbol": "ACN",
+      "isin": "IE00B4BNMY34",
+      "issuer": "The issuer of the Underlying is Accenture plc Class A, 1 Grand Canal Square, Grand Canal Harbour, Dublin 2, D02 P820, Ireland. LEI: 549300L3KWKK8XWF9421."
+    },
+    "tradingPlatforms": [
+      "Backed Finance"
+    ],
+    "investmentObjective": "Accenture xStock (ACNx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. ACNx tracks the price of Accenture plc Class A (the underlying).",
+    "keyBenefits": "Accenture is a global professional services company that helps businesses, governments, and other organizations build their digital core, optimize their operations, and accelerate revenue growth. They offer services and solutions in strategy & consulting, technology, operations, and industry-specific areas.",
+    "fees": {
+      "managementFee": "The tracker charges no management fee at present. A fee of up to 0.25% per year may be introduced in the future",
+      "issuanceRedemptionFee": "Up to 0.50% of your investment's value when entering and exiting the investment"
+    },
+    "serviceProviders": {
+      "tokenizer": "Backed Finance AG",
+      "broker": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "custodian": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "securityAgent": "Security Agent Services AG"
+    }
+  },
+  {
+    "id": "googlx",
+    "name": "GOOGLx",
+    "fullName": "Alphabet xStock",
+    "symbol": "GOOGL",
+    "description": "Alphabet xStock (GOOGLx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. GOOGLx tracks the price of Alphabet Inc. Class A (the underlying).",
+    "logo": "/img/tokens/googlx.svg",
+    "category": "tokenized-stocks",
+    "chain": "solana",
+    "contractAddress": "XsCPL9dNWBMvFtTmwcCA5v3xWPSMEBCszbQdiLLq6aN",
+    "isin": "CH1436219237",
+    "issuer": "Backed Assets (JE) Limited",
+    "factsheetUrl": "https://backed.fi/",
+    "informationUrl": "https://backed.fi/",
+    "tradeUrl": "https://backed.fi/",
+    "underlyingAsset": {
+      "name": "Alphabet Inc. Class A",
+      "symbol": "GOOGL",
+      "isin": "US02079K3059",
+      "issuer": "The issuer of the Underlying is Alphabet Inc. Class A, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA. LEI: 5493006MHB84DD0ZWV18."
+    },
+    "tradingPlatforms": [
+      "Backed Finance"
+    ],
+    "investmentObjective": "Alphabet xStock (GOOGLx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. GOOGLx tracks the price of Alphabet Inc. Class A (the underlying).",
+    "keyBenefits": "Alphabet Inc. is a multinational conglomerate holding company It functions as the parent company for various subsidiaries, including Google, YouTube, and Android, as well as other ventures like life sciences, autonomous vehicles, and more",
+    "fees": {
+      "managementFee": "The tracker charges no management fee at present. A fee of up to 0.25% per year may be introduced in the future",
+      "issuanceRedemptionFee": "Up to 0.50% of your investment's value when entering and exiting the investment"
+    },
+    "serviceProviders": {
+      "tokenizer": "Backed Finance AG",
+      "broker": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "custodian": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "securityAgent": "Security Agent Services AG"
+    }
+  },
+  {
+    "id": "amznx",
+    "name": "AMZNx",
+    "fullName": "Amazon xStock",
+    "symbol": "AMZN",
+    "description": "Amazon xStocks (AMZNx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. AMZNx tracks the price of Amazon.com, Inc. (the underlying)",
+    "logo": "/img/tokens/amznx.svg",
+    "category": "tokenized-stocks",
+    "chain": "solana",
+    "contractAddress": "Xs3eBt7uRfJX8QUs4suhyU8p2M6DoUDrJyWBa8LLZsg",
+    "isin": "CH1436219211",
+    "issuer": "Backed Assets (JE) Limited",
+    "factsheetUrl": "https://backed.fi/",
+    "informationUrl": "https://backed.fi/",
+    "tradeUrl": "https://backed.fi/",
+    "underlyingAsset": {
+      "name": "Amazon.com, Inc.",
+      "symbol": "AMZN",
+      "isin": "US0231351067",
+      "issuer": "The issuer of the Underlying is Amazon.com, Inc., 410 Terry Avenue North, Seattle, WA 98109, USA. LEI: ZXTILKJKG63JELOEG630."
+    },
+    "tradingPlatforms": [
+      "Backed Finance"
+    ],
+    "investmentObjective": "Amazon xStocks (AMZNx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. AMZNx tracks the price of Amazon.com, Inc. (the underlying)",
+    "keyBenefits": "Amazon.com, Inc. is a global technology company known for its extensive e-commerce operations, cloud computing services, digital streaming platforms, and a wide array of other related services and products.",
+    "fees": {
+      "managementFee": "The tracker charges no management fee at present. A fee of up to 0.25% per year may be introduced in the future",
+      "issuanceRedemptionFee": "Up to 0.50% of your investment's value when entering and exiting the investment"
+    },
+    "serviceProviders": {
+      "tokenizer": "Backed Finance AG",
+      "broker": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "custodian": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "securityAgent": "Security Agent Services AG"
+    }
+  },
+  {
+    "id": "ambrx",
+    "name": "AMBRx",
+    "fullName": "Amber xStock",
+    "symbol": "AMBR",
+    "description": "Amber xStock (AMBRx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. AMBRx tracks the price of Amber International Holding Limited (the underlying).",
+    "logo": "/img/tokens/ambrx.svg",
+    "category": "tokenized-stocks",
+    "chain": "solana",
+    "contractAddress": "XsaQTCgebC2KPbf27KUhdv5JFvHhQ4GDAPURwrEhAzb",
+    "isin": "CH1436219765",
+    "issuer": "Backed Assets (JE) Limited",
+    "factsheetUrl": "https://backed.fi/",
+    "informationUrl": "https://backed.fi/",
+    "tradeUrl": "https://backed.fi/",
+    "underlyingAsset": {
+      "name": "Amber International Holding Limited",
+      "symbol": "AMBR",
+      "isin": "US45113Y2037",
+      "issuer": "The issuer of the Underlying is Amber International Holding Limited, 663 King’s Road, 15th Floor, Prosperity Millennia Plaza, Hong Kong."
+    },
+    "tradingPlatforms": [
+      "Backed Finance"
+    ],
+    "investmentObjective": "Amber xStock (AMBRx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. AMBRx tracks the price of Amber International Holding Limited (the underlying).",
+    "keyBenefits": "Amber International Holding Limited (AMBR) is a digital asset platform offering a range of services, including trading, asset management, and liquidity provision for cryptocurrencies. It caters to institutional and high-net-worth clients, focusing on strategies across decentralized and centralized finance.",
+    "fees": {
+      "managementFee": "The tracker charges no management fee at present. A fee of up to 0.25% per year may be introduced in the future",
+      "issuanceRedemptionFee": "Up to 0.50% of your investment's value when entering and exiting the investment"
+    },
+    "serviceProviders": {
+      "tokenizer": "Backed Finance AG",
+      "broker": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "custodian": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "securityAgent": "Security Agent Services AG"
+    }
+  },
+  {
+    "id": "aaplx",
+    "name": "AAPLx",
+    "fullName": "Apple xStock",
+    "symbol": "AAPL",
+    "description": "Apple xStock (AAPLx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. AAPLx tracks the price of Apple Inc. (the underlying).",
+    "logo": "/img/tokens/aaplx.svg",
+    "category": "tokenized-stocks",
+    "chain": "solana",
+    "contractAddress": "XsbEhLAtcf6HdfpFZ5xEMdqW8nfAvcsP5bdudRLJzJp",
+    "isin": "CH1436219187",
+    "issuer": "Backed Assets (JE) Limited",
+    "factsheetUrl": "https://backed.fi/",
+    "informationUrl": "https://backed.fi/",
+    "tradeUrl": "https://backed.fi/",
+    "underlyingAsset": {
+      "name": "Apple Inc.",
+      "symbol": "AAPL",
+      "isin": "US0378331005",
+      "issuer": "The issuer of the Underlying is Apple Inc., One Apple Park Way, Cupertino, CA 95014, USA. LEI: HWUPKR0MPOU8FGXBT394."
+    },
+    "tradingPlatforms": [
+      "Backed Finance"
+    ],
+    "investmentObjective": "Apple xStock (AAPLx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. AAPLx tracks the price of Apple Inc. (the underlying).",
+    "keyBenefits": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide. The company also sells related services.",
+    "fees": {
+      "managementFee": "The tracker charges no management fee at present. A fee of up to 0.25% per year may be introduced in the future",
+      "issuanceRedemptionFee": "Up to 0.50% of your investment's value when entering and exiting the investment"
+    },
+    "serviceProviders": {
+      "tokenizer": "Backed Finance AG",
+      "broker": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "custodian": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "securityAgent": "Security Agent Services AG"
+    }
+  },
+  {
+    "id": "appx",
+    "name": "APPx",
+    "fullName": "AppLovin xStock",
+    "symbol": "APP",
+    "description": "AppLovin xStock (APPx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. APPx tracks the price of AppLovin Corporation (the underlying).",
+    "logo": "/img/tokens/appx.svg",
+    "category": "tokenized-stocks",
+    "chain": "solana",
+    "contractAddress": "XsPdAVBi8Zc1xvv53k4JcMrQaEDTgkGqKYeh7AYgPHV",
+    "isin": "CH1436219641",
+    "issuer": "Backed Assets (JE) Limited",
+    "factsheetUrl": "https://backed.fi/",
+    "informationUrl": "https://backed.fi/",
+    "tradeUrl": "https://backed.fi/",
+    "underlyingAsset": {
+      "name": "AppLovin Corporation",
+      "symbol": "APP",
+      "isin": "US03831W1080",
+      "issuer": "The issuer of the Underlying is AppLovin Corporation, 33 Thomas Street, Palo Alto, CA 94301, USA. LEI: 549300LLVXMUAOL3SQ07."
+    },
+    "tradingPlatforms": [
+      "Backed Finance"
+    ],
+    "investmentObjective": "AppLovin xStock (APPx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. APPx tracks the price of AppLovin Corporation (the underlying).",
+    "keyBenefits": "AppLovin is a global mobile technology company that provides businesses with solutions to connect with their target audience, market, monetize, and grow their apps and content. They offer a range of tools, including in-app connections, mobile devices, Connected TV, and multi-channel solutions.",
+    "fees": {
+      "managementFee": "The tracker charges no management fee at present. A fee of up to 0.25% per year may be introduced in the future",
+      "issuanceRedemptionFee": "Up to 0.50% of your investment's value when entering and exiting the investment"
+    },
+    "serviceProviders": {
+      "tokenizer": "Backed Finance AG",
+      "broker": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "custodian": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "securityAgent": "Security Agent Services AG"
+    }
+  },
+  {
+    "id": "aznx",
+    "name": "AZNx",
+    "fullName": "AstraZeneca xStock",
+    "symbol": "AZN",
+    "description": "AstraZeneca xStock (AZNx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. AZNx tracks the price of AstraZeneca PLC (the underlying).",
+    "logo": "/img/tokens/aznx.svg",
+    "category": "tokenized-stocks",
+    "chain": "solana",
+    "contractAddress": "Xs3ZFkPYT2BN7qBMqf1j1bfTeTm1rFzEFSsQ1z3wAKU",
+    "isin": "CH1436219484",
+    "issuer": "Backed Assets (JE) Limited",
+    "factsheetUrl": "https://backed.fi/",
+    "informationUrl": "https://backed.fi/",
+    "tradeUrl": "https://backed.fi/",
+    "underlyingAsset": {
+      "name": "AstraZeneca PLC",
+      "symbol": "AZN",
+      "isin": "US0463531089",
+      "issuer": "The issuer of the Underlying is AstraZeneca PLC, 1 Francis Crick Avenue, Cambridge Biomedical Campus, Cambridge, CB2 0AA, United Kingdom. LEI: PY6ZZQWO2IZFZC3IOL08."
+    },
+    "tradingPlatforms": [
+      "Backed Finance"
+    ],
+    "investmentObjective": "AstraZeneca xStock (AZNx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. AZNx tracks the price of AstraZeneca PLC (the underlying).",
+    "keyBenefits": "AstraZeneca is a British-Swedish biopharmaceutical company that focuses on research, development, and commercialization of prescription medicines. The company is known for its work in oncology, cardiovascular, renal and metabolism, respiratory and immunology, vaccines and immune therapies, and rare diseases.",
+    "fees": {
+      "managementFee": "The tracker charges no management fee at present. A fee of up to 0.25% per year may be introduced in the future",
+      "issuanceRedemptionFee": "Up to 0.50% of your investment's value when entering and exiting the investment"
+    },
+    "serviceProviders": {
+      "tokenizer": "Backed Finance AG",
+      "broker": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "custodian": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "securityAgent": "Security Agent Services AG"
+    }
+  },
+  {
+    "id": "bacx",
+    "name": "BACx",
+    "fullName": "Bank of America xStock",
+    "symbol": "BAC",
+    "description": "Bank of America xStock (BACx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. BACx tracks the price of Bank of America Corporation (the underlying).",
+    "logo": "/img/tokens/bacx.svg",
+    "category": "tokenized-stocks",
+    "chain": "solana",
+    "contractAddress": "XswsQk4duEQmCbGzfqUUWYmi7pV7xpJ9eEmLHXCaEQP",
+    "isin": "CH1436219500",
+    "issuer": "Backed Assets (JE) Limited",
+    "factsheetUrl": "https://backed.fi/",
+    "informationUrl": "https://backed.fi/",
+    "tradeUrl": "https://backed.fi/",
+    "underlyingAsset": {
+      "name": "Bank of America Corporation",
+      "symbol": "BAC",
+      "isin": "US0605051046",
+      "issuer": "The issuer of the Underlying is Bank of America Corporation, 100 North Tryon Street, Charlotte, NC 28255, USA. LEI: 9DJT3UXIJIZJI4WXO774."
+    },
+    "tradingPlatforms": [
+      "Backed Finance"
+    ],
+    "investmentObjective": "Bank of America xStock (BACx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. BACx tracks the price of Bank of America Corporation (the underlying).",
+    "keyBenefits": "Bank of America is a leading global financial institution that offers a wide range of banking, investing, asset management, and financial risk management products and services. It serves individuals, small to large businesses, corporations, governments, and institutional investors, both domestically and internationally.",
+    "fees": {
+      "managementFee": "The tracker charges no management fee at present. A fee of up to 0.25% per year may be introduced in the future",
+      "issuanceRedemptionFee": "Up to 0.50% of your investment's value when entering and exiting the investment"
+    },
+    "serviceProviders": {
+      "tokenizer": "Backed Finance AG",
+      "broker": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "custodian": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "securityAgent": "Security Agent Services AG"
+    }
+  },
+  {
+    "id": "brkbx",
+    "name": "BRK.Bx",
+    "fullName": "Berkshire Hathaway xStock",
+    "symbol": "BRK.B",
+    "description": "Berkshire Hathaway xStock (BRK.Bx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. BRK.Bx tracks the price of Berkshire Hathaway Inc. Class B (the underlying).",
+    "logo": "/img/tokens/BRK.Bx.svg",
+    "category": "tokenized-stocks",
+    "chain": "solana",
+    "contractAddress": "Xs6B6zawENwAbWVi7w92rjazLuAr5Az59qgWKcNb45x",
+    "isin": "CH1436219260",
+    "issuer": "Backed Assets (JE) Limited",
+    "factsheetUrl": "https://backed.fi/",
+    "informationUrl": "https://backed.fi/",
+    "tradeUrl": "https://backed.fi/",
+    "underlyingAsset": {
+      "name": "Berkshire Hathaway Inc. Class B",
+      "symbol": "BRK.B",
+      "isin": "US0846707026",
+      "issuer": "The issuer of the Underlying is Berkshire Hathaway Inc. Class B, 3555 Farnam Street, Omaha, NE 68131, USA. LEI: 5493000C01ZX7D35SD85."
+    },
+    "tradingPlatforms": [
+      "Backed Finance"
+    ],
+    "investmentObjective": "Berkshire Hathaway xStock (BRK.Bx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. BRK.Bx tracks the price of Berkshire Hathaway Inc. Class B (the underlying).",
+    "keyBenefits": "Berkshire Hathaway is a diversified holding company, known for its extensive and varied portfolio of businesses. The company operates through numerous subsidiaries and focuses on insurance, freight rail transportation, and utilities, while also engaging in manufacturing, retailing, and finance.",
+    "fees": {
+      "managementFee": "The tracker charges no management fee at present. A fee of up to 0.25% per year may be introduced in the future",
+      "issuanceRedemptionFee": "Up to 0.50% of your investment's value when entering and exiting the investment"
+    },
+    "serviceProviders": {
+      "tokenizer": "Backed Finance AG",
+      "broker": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "custodian": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "securityAgent": "Security Agent Services AG"
+    }
+  },
+  {
+    "id": "avgox",
+    "name": "AVGOx",
+    "fullName": "Broadcom xStock",
+    "symbol": "AVGO",
+    "description": "Broadcom xStock (AVGOx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. AVGOx tracks the price of Broadcom Inc. (the underlying).",
+    "logo": "/img/tokens/avgox.svg",
+    "category": "tokenized-stocks",
+    "chain": "solana",
+    "contractAddress": "XsgSaSvNSqLTtFuyWPBhK9196Xb9Bbdyjj4fH3cPJGo",
+    "isin": "CH1436219245",
+    "issuer": "Backed Assets (JE) Limited",
+    "factsheetUrl": "https://backed.fi/",
+    "informationUrl": "https://backed.fi/",
+    "tradeUrl": "https://backed.fi/",
+    "underlyingAsset": {
+      "name": "Broadcom Inc.",
+      "symbol": "AVGO",
+      "isin": "US11135F1012",
+      "issuer": "The issuer of the Underlying is Broadcom Inc., 1320 Ridder Park Drive, San Jose, CA 95131, USA. LEI: 549300WV6GIDOZJTV909."
+    },
+    "tradingPlatforms": [
+      "Backed Finance"
+    ],
+    "investmentObjective": "Broadcom xStock (AVGOx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. AVGOx tracks the price of Broadcom Inc. (the underlying).",
+    "keyBenefits": "Broadcom Inc. is a global technology company that designs, develops, and supplies semiconductors and infrastructure software solutions, operating through two segments: Semiconductor Solutions and Infrastructure Software.",
+    "fees": {
+      "managementFee": "The tracker charges no management fee at present. A fee of up to 0.25% per year may be introduced in the future",
+      "issuanceRedemptionFee": "Up to 0.50% of your investment's value when entering and exiting the investment"
+    },
+    "serviceProviders": {
+      "tokenizer": "Backed Finance AG",
+      "broker": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "custodian": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "securityAgent": "Security Agent Services AG"
+    }
+  },
+  {
+    "id": "cvxx",
+    "name": "CVXx",
+    "fullName": "Chevron xStock",
+    "symbol": "CVX",
+    "description": "Chevron xStock (CVXx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. CVXx tracks the price of Chevron Corporation (the underlying).",
+    "logo": "/img/tokens/cvxx.svg",
+    "category": "tokenized-stocks",
+    "chain": "solana",
+    "contractAddress": "XsNNMt7WTNA2sV3jrb1NNfNgapxRF5i4i6GcnTRRHts",
+    "isin": "CH1436219369",
+    "issuer": "Backed Assets (JE) Limited",
+    "factsheetUrl": "https://backed.fi/",
+    "informationUrl": "https://backed.fi/",
+    "tradeUrl": "https://backed.fi/",
+    "underlyingAsset": {
+      "name": "Chevron Corporation",
+      "symbol": "CVX",
+      "isin": "US1667641005",
+      "issuer": "The issuer of the Underlying is Chevron Corporation, 1400 Smith Street, Houston, TX 77002, USA. LEI: 549300LCLFBFN1GUY529."
+    },
+    "tradingPlatforms": [
+      "Backed Finance"
+    ],
+    "investmentObjective": "Chevron xStock (CVXx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. CVXx tracks the price of Chevron Corporation (the underlying).",
+    "keyBenefits": "Chevron Corporation is a major American multinational energy corporation, a leading global oil and gas company known for its vertically integrated operations, spanning exploration, production, refining, marketing, and transportation.",
+    "fees": {
+      "managementFee": "The tracker charges no management fee at present. A fee of up to 0.25% per year may be introduced in the future",
+      "issuanceRedemptionFee": "Up to 0.50% of your investment's value when entering and exiting the investment"
+    },
+    "serviceProviders": {
+      "tokenizer": "Backed Finance AG",
+      "broker": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "custodian": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "securityAgent": "Security Agent Services AG"
+    }
+  },
+  {
+    "id": "crclx",
+    "name": "CRCLx",
+    "fullName": "Circle xStock",
+    "symbol": "CRCL",
+    "description": "Circle xStock (CRCLx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. CRCLx tracks the price of Circle Internet Group (the underlying).",
+    "logo": "/img/tokens/crclx.svg",
+    "category": "tokenized-stocks",
+    "chain": "solana",
+    "contractAddress": "XsueG8BtpquVJX9LVLLEGuViXUungE6WmK5YZ3p3bd1",
+    "isin": "CH1436219773",
+    "issuer": "Backed Assets (JE) Limited",
+    "factsheetUrl": "https://backed.fi/",
+    "informationUrl": "https://backed.fi/",
+    "tradeUrl": "https://backed.fi/",
+    "underlyingAsset": {
+      "name": "Circle Internet Group",
+      "symbol": "CRCL",
+      "isin": "US1725731079",
+      "issuer": "The issuer of the Underlying is Circle Internet Group, Inc., One World Trade Center, New York, NY 10007, USA."
+    },
+    "tradingPlatforms": [
+      "Backed Finance"
+    ],
+    "investmentObjective": "Circle xStock (CRCLx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. CRCLx tracks the price of Circle Internet Group (the underlying).",
+    "keyBenefits": "Circle Internet Group (CRCL) is a digital financial technology firm best known as the issuer of USD Coin (USDC), a regulated, fully backed stablecoin pegged to the U.S. dollar. It provides infrastructure for payments, treasury, and Web3 development across the crypto ecosystem.",
+    "fees": {
+      "managementFee": "The tracker charges no management fee at present. A fee of up to 0.25% per year may be introduced in the future",
+      "issuanceRedemptionFee": "Up to 0.50% of your investment's value when entering and exiting the investment"
+    },
+    "serviceProviders": {
+      "tokenizer": "Backed Finance AG",
+      "broker": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "custodian": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "securityAgent": "Security Agent Services AG"
+    }
+  },
+  {
+    "id": "cscox",
+    "name": "CSCOx",
+    "fullName": "Cisco xStock",
+    "symbol": "CSCO",
+    "description": "Cisco xStock (CSCOx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. CSCOx tracks the price of Cisco Systems, Inc. (the underlying).",
+    "logo": "/img/tokens/cscox.svg",
+    "category": "tokenized-stocks",
+    "chain": "solana",
+    "contractAddress": "Xsr3pdLQyXvDJBFgpR5nexCEZwXvigb8wbPYp4YoNFf",
+    "isin": "CH1436219435",
+    "issuer": "Backed Assets (JE) Limited",
+    "factsheetUrl": "https://backed.fi/",
+    "informationUrl": "https://backed.fi/",
+    "tradeUrl": "https://backed.fi/",
+    "underlyingAsset": {
+      "name": "Cisco Systems, Inc.",
+      "symbol": "CSCO",
+      "isin": "US17275R1023",
+      "issuer": "The issuer of the Underlying is Cisco Systems, Inc., 170 West Tasman Drive, San Jose, CA 95134, USA. LEI: 549300LKFJ962MZ46593."
+    },
+    "tradingPlatforms": [
+      "Backed Finance"
+    ],
+    "investmentObjective": "Cisco xStock (CSCOx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. CSCOx tracks the price of Cisco Systems, Inc. (the underlying).",
+    "keyBenefits": "Cisco is a leading global technology company that focuses on networking, security, collaboration, and cloud solutions. They provide a wide range of products and services, including networking hardware (routers, switches, wireless access points), software, and cloud services, helping businesses connect and protect their networks in the AI era.",
+    "fees": {
+      "managementFee": "The tracker charges no management fee at present. A fee of up to 0.25% per year may be introduced in the future",
+      "issuanceRedemptionFee": "Up to 0.50% of your investment's value when entering and exiting the investment"
+    },
+    "serviceProviders": {
+      "tokenizer": "Backed Finance AG",
+      "broker": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "custodian": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "securityAgent": "Security Agent Services AG"
+    }
+  },
+  {
+    "id": "kox",
+    "name": "KOx",
+    "fullName": "Coca-Cola xStock",
+    "symbol": "KO",
+    "description": "Coca-Cola xStock (KOx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. KOx tracks the price of The Coca-Cola Company (the underlying).",
+    "logo": "/img/tokens/kox.svg",
+    "category": "tokenized-stocks",
+    "chain": "solana",
+    "contractAddress": "XsaBXg8dU5cPM6ehmVctMkVqoiRG2ZjMo1cyBJ3AykQ",
+    "isin": "CH1436219419",
+    "issuer": "Backed Assets (JE) Limited",
+    "factsheetUrl": "https://backed.fi/",
+    "informationUrl": "https://backed.fi/",
+    "tradeUrl": "https://backed.fi/",
+    "underlyingAsset": {
+      "name": "The Coca-Cola Company",
+      "symbol": "KO",
+      "isin": "US1912161007",
+      "issuer": "The issuer of the Underlying is The Coca-Cola Company, One Coca-Cola Plaza, Atlanta, GA 30313, USA. LEI: UWJKFUJFZ02DKWI3RY53."
+    },
+    "tradingPlatforms": [
+      "Backed Finance"
+    ],
+    "investmentObjective": "Coca-Cola xStock (KOx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. KOx tracks the price of The Coca-Cola Company (the underlying).",
+    "keyBenefits": "The Coca-Cola Company is a multinational corporation that primarily manufactures, sells, and markets non-alcoholic beverages. It is known for its iconic Coca-Cola brand, but its portfolio extends to numerous other beverages like Sprite and Fanta.",
+    "fees": {
+      "managementFee": "The tracker charges no management fee at present. A fee of up to 0.25% per year may be introduced in the future",
+      "issuanceRedemptionFee": "Up to 0.50% of your investment's value when entering and exiting the investment"
+    },
+    "serviceProviders": {
+      "tokenizer": "Backed Finance AG",
+      "broker": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "custodian": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "securityAgent": "Security Agent Services AG"
+    }
+  },
+  {
+    "id": "coinx",
+    "name": "COINx",
+    "fullName": "Coinbase xStock",
+    "symbol": "COIN",
+    "description": "Coinbase xStock (COINx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. COINx tracks the price of Coinbase Global, Inc. (the underlying).",
+    "logo": "/img/tokens/coinx.svg",
+    "category": "tokenized-stocks",
+    "chain": "solana",
+    "contractAddress": "Xs7ZdzSHLU9ftNJsii5fCeJhoRWSC32SQGzGQtePxNu",
+    "isin": "CH1436219708",
+    "issuer": "Backed Assets (JE) Limited",
+    "factsheetUrl": "https://backed.fi/",
+    "informationUrl": "https://backed.fi/",
+    "tradeUrl": "https://backed.fi/",
+    "underlyingAsset": {
+      "name": "Coinbase global",
+      "symbol": "COIN",
+      "isin": "US19260Q1076",
+      "issuer": "The issuer of the Underlying is Coinbase Global, Inc., 100 Pine Street, San Francisco, CA 94111, USA. LEI: 5493004G3J2SC154DU06."
+    },
+    "tradingPlatforms": [
+      "Backed Finance"
+    ],
+    "investmentObjective": "Coinbase xStock (COINx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. COINx tracks the price of Coinbase Global, Inc. (the underlying).",
+    "keyBenefits": "Coinbase Global, Inc. is a cryptocurrency exchange platform that offers services for buying, selling, storing, and managing cryptocurrencies. It operates as a decentralized, remote-first company with no physical headquarters, serving both individual and institutional clients.",
+    "fees": {
+      "managementFee": "The tracker charges no management fee at present. A fee of up to 0.25% per year may be introduced in the future",
+      "issuanceRedemptionFee": "Up to 0.50% of your investment's value when entering and exiting the investment"
+    },
+    "serviceProviders": {
+      "tokenizer": "Backed Finance AG",
+      "broker": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "custodian": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "securityAgent": "Security Agent Services AG"
+    }
+  },
+  {
+    "id": "cmcsax",
+    "name": "CMCSAx",
+    "fullName": "Comcast xStock",
+    "symbol": "CMCSA",
+    "description": "Comcast xStock (CMCSAx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. CMCSAx tracks the price of International Comcast Corporation Class A (the underlying).",
+    "logo": "/img/tokens/cmcsax.svg",
+    "category": "tokenized-stocks",
+    "chain": "solana",
+    "contractAddress": "XsvKCaNsxg2GN8jjUmq71qukMJr7Q1c5R2Mk9P8kcS8",
+    "isin": "CH1436219567",
+    "issuer": "Backed Assets (JE) Limited",
+    "factsheetUrl": "https://backed.fi/",
+    "informationUrl": "https://backed.fi/",
+    "tradeUrl": "https://backed.fi/",
+    "underlyingAsset": {
+      "name": "Comcast Corporation Class A",
+      "symbol": "CMCSA",
+      "isin": "US20030N1019",
+      "issuer": "The issuer of the Underlying is Comcast Corporation Class A, Comcast Center, 1701 JFK Boulevard, Philadelphia, PA 19103, USA. LEI: 549300GH79BNJQ047817."
+    },
+    "tradingPlatforms": [
+      "Backed Finance"
+    ],
+    "investmentObjective": "Comcast xStock (CMCSAx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. CMCSAx tracks the price of International Comcast Corporation Class A (the underlying).",
+    "keyBenefits": "Comcast Corporation is a global media and tech company that provides connectivity, content, and entertainment to millions of customers worldwide. It operates through various segments, including Xfinity for residential services, Comcast Business for commercial services, and NBCUniversal for media and entertainment.",
+    "fees": {
+      "managementFee": "The tracker charges no management fee at present. A fee of up to 0.25% per year may be introduced in the future",
+      "issuanceRedemptionFee": "Up to 0.50% of your investment's value when entering and exiting the investment"
+    },
+    "serviceProviders": {
+      "tokenizer": "Backed Finance AG",
+      "broker": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "custodian": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "securityAgent": "Security Agent Services AG"
+    }
+  },
+  {
+    "id": "crwdx",
+    "name": "CRWDx",
+    "fullName": "CrowdStrike xStock",
+    "symbol": "CRWD",
+    "description": "CrowdStrike xStock (CRWDx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. CRWDx tracks the price of CrowdStrike Holdings, Inc. (the underlying).",
+    "logo": "/img/tokens/crwdx.svg",
+    "category": "tokenized-stocks",
+    "chain": "solana",
+    "contractAddress": "Xs7xXqkcK7K8urEqGg52SECi79dRp2cEKKuYjUePYDw",
+    "isin": "CH1436219674",
+    "issuer": "Backed Assets (JE) Limited",
+    "factsheetUrl": "https://backed.fi/",
+    "informationUrl": "https://backed.fi/",
+    "tradeUrl": "https://backed.fi/",
+    "underlyingAsset": {
+      "name": "CrowdStrike Holdings, Inc.",
+      "symbol": "CRWD",
+      "isin": "US22788C1053",
+      "issuer": "The issuer of the Underlying is CrowdStrike Holdings, Inc., 2341 Washington Avenue, San Francisco, CA 94109, USA. LEI: 549300YBY08K9KM4HX32."
+    },
+    "tradingPlatforms": [
+      "Backed Finance"
+    ],
+    "investmentObjective": "CrowdStrike xStock (CRWDx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. CRWDx tracks the price of CrowdStrike Holdings, Inc. (the underlying).",
+    "keyBenefits": "CrowdStrike is a cybersecurity company specializing in cloud-delivered security solutions, particularly for endpoint and cloud workload protection. It offers a unified platform, the CrowdStrike Falcon, that leverages AI and threat intelligence to detect and stop breaches.",
+    "fees": {
+      "managementFee": "The tracker charges no management fee at present. A fee of up to 0.25% per year may be introduced in the future",
+      "issuanceRedemptionFee": "Up to 0.50% of your investment's value when entering and exiting the investment"
+    },
+    "serviceProviders": {
+      "tokenizer": "Backed Finance AG",
+      "broker": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "custodian": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "securityAgent": "Security Agent Services AG"
+    }
+  },
+  {
+    "id": "dhrx",
+    "name": "DHRx",
+    "fullName": "Danaher xStock",
+    "symbol": "DHR",
+    "description": "Danaher xStock (DHRx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. DHRx tracks the price of Danaher Corporation (the underlying).",
+    "logo": "/img/tokens/dhrx.svg",
+    "category": "tokenized-stocks",
+    "chain": "solana",
+    "contractAddress": "Xseo8tgCZfkHxWS9xbFYeKFyMSbWEvZGFV1Gh53GtCV",
+    "isin": "CH1436219542",
+    "issuer": "Backed Assets (JE) Limited",
+    "factsheetUrl": "https://backed.fi/",
+    "informationUrl": "https://backed.fi/",
+    "tradeUrl": "https://backed.fi/",
+    "underlyingAsset": {
+      "name": "Danaher Corporation",
+      "symbol": "DHR",
+      "isin": "US2358511028",
+      "issuer": "The issuer of the Underlying is Danaher Corporation, 2200 Pennsylvania Avenue NW, Suite 800W, Washington, DC 20037, USA. LEI: 549300JJ75JNZ01ZK538."
+    },
+    "tradingPlatforms": [
+      "Backed Finance"
+    ],
+    "investmentObjective": "Danaher xStock (DHRx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. DHRx tracks the price of Danaher Corporation (the underlying).",
+    "keyBenefits": "Danaher Corporation is a global science and technology innovator operating in biotechnology, life sciences, and diagnostics. It focuses on accelerating the power of science and technology to improve human health. The company provides a wide range of tools, services, and solutions to customers across these fields, with a particular emphasis on developing and commercializing therapies, creating tools for precise diagnoses, and supporting research in various aspects of life sciences.",
+    "fees": {
+      "managementFee": "The tracker charges no management fee at present. A fee of up to 0.25% per year may be introduced in the future",
+      "issuanceRedemptionFee": "Up to 0.50% of your investment's value when entering and exiting the investment"
+    },
+    "serviceProviders": {
+      "tokenizer": "Backed Finance AG",
+      "broker": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "custodian": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "securityAgent": "Security Agent Services AG"
+    }
+  },
+  {
+    "id": "dfdvx",
+    "name": "DFDVx",
+    "fullName": "DFDV xStock",
+    "symbol": "DFDV",
+    "description": "Danaher xStock (DHRx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. DHRx tracks the price of Danaher Corporation (the underlying).",
+    "logo": "/img/tokens/dfdvx.svg",
+    "category": "tokenized-stocks",
+    "chain": "solana",
+    "contractAddress": "Xs2yquAgsHByNzx68WJC55WHjHBvG9JsMB7CWjTLyPy",
+    "isin": "CH1436219542",
+    "issuer": "Backed Assets (JE) Limited",
+    "factsheetUrl": "https://backed.fi/",
+    "informationUrl": "https://backed.fi/",
+    "tradeUrl": "https://backed.fi/",
+    "underlyingAsset": {
+      "name": "Danaher Corporation",
+      "symbol": "DHR",
+      "isin": "US2358511028",
+      "issuer": "The issuer of the Underlying is Danaher Corporation, 2200 Pennsylvania Avenue NW, Suite 800W, Washington, DC 20037, USA. LEI: 549300JJ75JNZ01ZK538."
+    },
+    "tradingPlatforms": [
+      "Backed Finance"
+    ],
+    "investmentObjective": "Danaher xStock (DHRx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. DHRx tracks the price of Danaher Corporation (the underlying).",
+    "keyBenefits": "Danaher Corporation is a global science and technology innovator operating in biotechnology, life sciences, and diagnostics. It focuses on accelerating the power of science and technology to improve human health. The company provides a wide range of tools, services, and solutions to customers across these fields, with a particular emphasis on developing and commercializing therapies, creating tools for precise diagnoses, and supporting research in various aspects of life sciences.",
+    "fees": {
+      "managementFee": "The tracker charges no management fee at present. A fee of up to 0.25% per year may be introduced in the future",
+      "issuanceRedemptionFee": "Up to 0.50% of your investment's value when entering and exiting the investment"
+    },
+    "serviceProviders": {
+      "tokenizer": "Backed Finance AG",
+      "broker": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "custodian": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "securityAgent": "Security Agent Services AG"
+    }
+  },
+  {
+    "id": "llyx",
+    "name": "LLYx",
+    "fullName": "Eli Lilly xStock",
+    "symbol": "LLY",
+    "description": "Eli Lilly xStock (LLYx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. LLYx tracks the price of Eli Lilly and Company (the underlying).",
+    "logo": "/img/tokens/llyx.svg",
+    "category": "tokenized-stocks",
+    "chain": "solana",
+    "contractAddress": "Xsnuv4omNoHozR6EEW5mXkw8Nrny5rB3jVfLqi6gKMH",
+    "isin": "CH1436219328",
+    "issuer": "Backed Assets (JE) Limited",
+    "factsheetUrl": "https://backed.fi/",
+    "informationUrl": "https://backed.fi/",
+    "tradeUrl": "https://backed.fi/",
+    "underlyingAsset": {
+      "name": "Eli Lilly and Company",
+      "symbol": "LLY",
+      "isin": "US5324571083",
+      "issuer": "The issuer of the Underlying is Eli Lilly and Company, Lilly Corporate Center, Indianapolis, IN 46285, USA. LEI: FRDRIPF3EKNDJ2CQJL29."
+    },
+    "tradingPlatforms": [
+      "Backed Finance"
+    ],
+    "investmentObjective": "Eli Lilly xStock (LLYx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. LLYx tracks the price of Eli Lilly and Company (the underlying).",
+    "keyBenefits": "Eli Lilly and Company is a global pharmaceutical company based in Indianapolis, Indiana, that discovers, develops, manufactures, and markets human healthcare products. They are known for a wide range of prescription medications, including those for cardiometabolic health, oncology, immunology, and neuroscience.",
+    "fees": {
+      "managementFee": "The tracker charges no management fee at present. A fee of up to 0.25% per year may be introduced in the future",
+      "issuanceRedemptionFee": "Up to 0.50% of your investment's value when entering and exiting the investment"
+    },
+    "serviceProviders": {
+      "tokenizer": "Backed Finance AG",
+      "broker": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "custodian": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "securityAgent": "Security Agent Services AG"
+    }
+  },
+  {
+    "id": "xomx",
+    "name": "XOMx",
+    "fullName": "Exxon Mobil xStock",
+    "symbol": "XOM",
+    "description": "Exxon Mobil xStock (XOMx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. XOMx tracks the price of Exxon Mobil Corporation (the underlying).",
+    "logo": "/img/tokens/xomx.svg",
+    "category": "tokenized-stocks",
+    "chain": "solana",
+    "contractAddress": "XsaHND8sHyfMfsWPj6kSdd5VwvCayZvjYgKmmcNL5qh",
+    "isin": "CH1436219286",
+    "issuer": "Backed Assets (JE) Limited",
+    "factsheetUrl": "https://backed.fi/",
+    "informationUrl": "https://backed.fi/",
+    "tradeUrl": "https://backed.fi/",
+    "underlyingAsset": {
+      "name": "Exxon Mobil Corporation",
+      "symbol": "XOM",
+      "isin": "US30231G1022",
+      "issuer": "The issuer of the Underlying is Exxon Mobil Corporation, 5959 Las Colinas Boulevard, Irving, TX 75039, USA. LEI: J3WHBG0MTS7O8ZVMDC91."
+    },
+    "tradingPlatforms": [
+      "Backed Finance"
+    ],
+    "investmentObjective": "Exxon Mobil xStock (XOMx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. XOMx tracks the price of Exxon Mobil Corporation (the underlying).",
+    "keyBenefits": "ExxonMobil is a multinational oil and gas corporation that operates in over 100 countries. They are known for their integrated fuels, lubricants, and chemical businesses, as well as their focus on developing and applying next-generation technologies to address global energy needs",
+    "fees": {
+      "managementFee": "The tracker charges no management fee at present. A fee of up to 0.25% per year may be introduced in the future",
+      "issuanceRedemptionFee": "Up to 0.50% of your investment's value when entering and exiting the investment"
+    },
+    "serviceProviders": {
+      "tokenizer": "Backed Finance AG",
+      "broker": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "custodian": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "securityAgent": "Security Agent Services AG"
+    }
+  },
+  {
+    "id": "gmex",
+    "name": "GMEx",
+    "fullName": "GameStop Corp. xStock",
+    "symbol": "GME",
+    "description": "Gamestop xStock (GMEx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. GMEx tracks the price of GameStop Corp. (the underlying).",
+    "logo": "/img/tokens/gmex.svg",
+    "category": "tokenized-stocks",
+    "chain": "solana",
+    "contractAddress": "Xsf9mBktVB9BSU5kf4nHxPq5hCBJ2j2ui3ecFGxPRGc",
+    "isin": "CH1436219690",
+    "issuer": "Backed Assets (JE) Limited",
+    "factsheetUrl": "https://backed.fi/",
+    "informationUrl": "https://backed.fi/",
+    "tradeUrl": "https://backed.fi/",
+    "underlyingAsset": {
+      "name": "GameStop Corp.",
+      "symbol": "GME",
+      "isin": "US36467W1099",
+      "issuer": "The issuer of the Underlying is GameStop Corp., 625 West 57th Street, New York, NY 10019, USA. LEI: 549300505KLOET039L77."
+    },
+    "tradingPlatforms": [
+      "Backed Finance"
+    ],
+    "investmentObjective": "Gamestop xStock (GMEx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. GMEx tracks the price of GameStop Corp. (the underlying).",
+    "keyBenefits": "GameStop Corporation is a specialty retailer primarily focused on video games and related products. They sell new and pre-owned video game hardware, software, accessories, and collectibles through stores and e-commerce platforms in the US, Canada, Australia, and Europe. The company also offers services like repairs, sanitation, and redistribution of defective products, as well as retail services.",
+    "fees": {
+      "managementFee": "The tracker charges no management fee at present. A fee of up to 0.25% per year may be introduced in the future",
+      "issuanceRedemptionFee": "Up to 0.50% of your investment's value when entering and exiting the investment"
+    },
+    "serviceProviders": {
+      "tokenizer": "Backed Finance AG",
+      "broker": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "custodian": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "securityAgent": "Security Agent Services AG"
+    }
+  },
+  {
+    "id": "gldx",
+    "name": "GLDx",
+    "fullName": "Gold xStock",
+    "symbol": "GLD",
+    "description": "Gold xStock (GLDx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. GLDx tracks the price of SPDR Gold Shares (the underlying).",
+    "logo": "/img/tokens/gldx.svg",
+    "category": "tokenized-stocks",
+    "chain": "solana",
+    "contractAddress": "Xsv9hRk1z5ystj9MhnA7Lq4vjSsLwzL2nxrwmwtD3re",
+    "isin": "CH1436219740",
+    "issuer": "Backed Assets (JE) Limited",
+    "factsheetUrl": "https://backed.fi/",
+    "informationUrl": "https://backed.fi/",
+    "tradeUrl": "https://backed.fi/",
+    "underlyingAsset": {
+      "name": "SPDR Gold Shares",
+      "symbol": "GLD",
+      "isin": "US78463V1070",
+      "issuer": "The issuer of the Underlying is SPDR Gold Trust, c/o World Gold Trust Services, LLC, 685 Third Avenue, 27th Floor, New York, NY 10017, USA."
+    },
+    "tradingPlatforms": [
+      "Backed Finance"
+    ],
+    "investmentObjective": "Gold xStock (GLDx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. GLDx tracks the price of SPDR Gold Shares (the underlying).",
+    "keyBenefits": "SPDR Gold Shares (GLD) is an exchange-traded fund that aims to reflect the performance of the price of gold bullion. It provides investors with a cost-effective and liquid way to gain exposure to gold without needing to physically own the metal.",
+    "fees": {
+      "managementFee": "0.40% per year, reflects the actual ongoing costs charged by the manager of the underlying fund, and is based on costs incurred over the past year.",
+      "issuanceRedemptionFee": "Up to 0.50% of your investment's value when entering and exiting the investment"
+    },
+    "serviceProviders": {
+      "tokenizer": "Backed Finance AG",
+      "broker": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "custodian": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "securityAgent": "Security Agent Services AG"
+    }
+  },
+  {
+    "id": "gsx",
+    "name": "GSx",
+    "fullName": "Goldman Sachs xStock",
+    "symbol": "GS",
+    "description": "Goldman Sachs xStock (GSx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. GSx tracks the price of The Goldman Sachs Group, Inc. (the underlying).",
+    "logo": "/img/tokens/gsx.svg",
+    "category": "tokenized-stocks",
+    "chain": "solana",
+    "contractAddress": "XsgaUyp4jd1fNBCxgtTKkW64xnnhQcvgaxzsbAq5ZD1",
+    "isin": "CH1436219682",
+    "issuer": "Backed Assets (JE) Limited",
+    "factsheetUrl": "https://backed.fi/",
+    "informationUrl": "https://backed.fi/",
+    "tradeUrl": "https://backed.fi/",
+    "underlyingAsset": {
+      "name": "The Goldman Sachs Group, Inc.",
+      "symbol": "GS",
+      "isin": "US38141G1040",
+      "issuer": "The issuer of the Underlying is The Goldman Sachs Group, Inc., 200 West Street, New York, NY 10282, USA. LEI: 784F5XWPLTWKTBV3E584."
+    },
+    "tradingPlatforms": [
+      "Backed Finance"
+    ],
+    "investmentObjective": "Goldman Sachs xStock (GSx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. GSx tracks the price of The Goldman Sachs Group, Inc. (the underlying).",
+    "keyBenefits": "Goldman Sachs is a leading global investment bank and wealth management firm. It provides a wide range of financial services to a diverse client base, including corporations, financial institutions, governments, and individuals. The firm operates globally through its four main divisions: investment banking, global markets, asset management, and consumer and wealth management.",
+    "fees": {
+      "managementFee": "The tracker charges no management fee at present. A fee of up to 0.25% per year may be introduced in the future",
+      "issuanceRedemptionFee": "Up to 0.50% of your investment's value when entering and exiting the investment"
+    },
+    "serviceProviders": {
+      "tokenizer": "Backed Finance AG",
+      "broker": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "custodian": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "securityAgent": "Security Agent Services AG"
+    }
+  },
+  {
+    "id": "hdx",
+    "name": "HDx",
+    "fullName": "Home Depot xStock",
+    "symbol": "HD",
+    "description": "Home Depot xStock (HDx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. HDx tracks the price of The Home Depot, Inc. (the underlying).",
+    "logo": "/img/tokens/hdx.svg",
+    "category": "tokenized-stocks",
+    "chain": "solana",
+    "contractAddress": "XszjVtyhowGjSC5odCqBpW1CtXXwXjYokymrk7fGKD3",
+    "isin": "CH1436219351",
+    "issuer": "Backed Assets (JE) Limited",
+    "factsheetUrl": "https://backed.fi/",
+    "informationUrl": "https://backed.fi/",
+    "tradeUrl": "https://backed.fi/",
+    "underlyingAsset": {
+      "name": "The Procter & Gamble Company",
+      "symbol": "PG",
+      "isin": "US7427181091",
+      "issuer": "The issuer of the Underlying is The Procter & Gamble Company, 1 Procter & Gamble Plaza, Cincinnati, OH 45202, USA. LEI: 2572IBTT8CCZW6AU4141."
+    },
+    "tradingPlatforms": [
+      "Backed Finance"
+    ],
+    "investmentObjective": "Home Depot xStock (HDx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. HDx tracks the price of The Home Depot, Inc. (the underlying).",
+    "keyBenefits": "The Home Depot is a publicly traded home improvement retailer that operates over 2,300 stores across the United States, Canada, and Mexico. It's the largest DIY and home improvement retailer globally, offering a vast array of products and services, including tools, construction materials, appliances, and home services.",
+    "fees": {
+      "managementFee": "The tracker charges no management fee at present. A fee of up to 0.25% per year may be introduced in the future",
+      "issuanceRedemptionFee": "Up to 0.50% of your investment's value when entering and exiting the investment"
+    },
+    "serviceProviders": {
+      "tokenizer": "Backed Finance AG",
+      "broker": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "custodian": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "securityAgent": "Security Agent Services AG"
+    }
+  },
+  {
+    "id": "honx",
+    "name": "HONx",
+    "fullName": "Honeywell xStock",
+    "symbol": "HON",
+    "description": "Honeywell xStock (HONx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. HONx tracks the price of Honeywell International Inc. (the underlying).",
+    "logo": "/img/tokens/honx.svg",
+    "category": "tokenized-stocks",
+    "chain": "solana",
+    "contractAddress": "XsRbLZthfABAPAfumWNEJhPyiKDW6TvDVeAeW7oKqA2",
+    "isin": "CH1436219583",
+    "issuer": "Backed Assets (JE) Limited",
+    "factsheetUrl": "https://backed.fi/",
+    "informationUrl": "https://backed.fi/",
+    "tradeUrl": "https://backed.fi/",
+    "underlyingAsset": {
+      "name": "Honeywell International Inc.",
+      "symbol": "HON",
+      "isin": "US4385161066",
+      "issuer": "The issuer of the Underlying is Honeywell International Inc., 855 S. Mint Street, Charlotte, NC 28202, USA. LEI: 549300DQ5QDLKV4BXJ20."
+    },
+    "tradingPlatforms": [
+      "Backed Finance"
+    ],
+    "investmentObjective": "Honeywell xStock (HONx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. HONx tracks the price of Honeywell International Inc. (the underlying).",
+    "keyBenefits": "Honeywell International Inc. is an American technology and manufacturing company that operates in four core areas: Aerospace, Building Automation, Industrial Automation, and Energy and Sustainability Solutions. The company develops and manufactures technologies to address challenges related to safety, security, and energy, with a focus on quality, delivery, value, and technology.",
+    "fees": {
+      "managementFee": "The tracker charges no management fee at present. A fee of up to 0.25% per year may be introduced in the future",
+      "issuanceRedemptionFee": "Up to 0.50% of your investment's value when entering and exiting the investment"
+    },
+    "serviceProviders": {
+      "tokenizer": "Backed Finance AG",
+      "broker": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "custodian": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "securityAgent": "Security Agent Services AG"
+    }
+  },
+  {
+    "id": "intcx",
+    "name": "INTCx",
+    "fullName": "Intel xStock",
+    "symbol": "INTC",
+    "description": "Intel xStock (INTCx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. INTCx tracks the price of Intel Corporation (the underlying).",
+    "logo": "/img/tokens/intcx.svg",
+    "category": "tokenized-stocks",
+    "chain": "solana",
+    "contractAddress": "XshPgPdXFRWB8tP1j82rebb2Q9rPgGX37RuqzohmArM",
+    "isin": "CH1436219609",
+    "issuer": "Backed Assets (JE) Limited",
+    "factsheetUrl": "https://backed.fi/",
+    "informationUrl": "https://backed.fi/",
+    "tradeUrl": "https://backed.fi/",
+    "underlyingAsset": {
+      "name": "Intel Corporation",
+      "symbol": "INTC",
+      "isin": "US4581401001",
+      "issuer": "The issuer of the Underlying is Intel Corporation, 2200 Mission College Blvd, Santa Clara, CA 95054, USA. LEI: 549300JKU567Q7J0AZ50."
+    },
+    "tradingPlatforms": [
+      "Backed Finance"
+    ],
+    "investmentObjective": "Intel xStock (INTCx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. INTCx tracks the price of Intel Corporation (the underlying).",
+    "keyBenefits": "Intel Corporation is a multinational technology company primarily focused on designing, manufacturing, and selling computer components like CPUs and related products. They are a major player in the semiconductor industry. Intel designs and develops technologies for a wide range of applications, including personal computers, data centers, and other devices.",
+    "fees": {
+      "managementFee": "The tracker charges no management fee at present. A fee of up to 0.25% per year may be introduced in the future",
+      "issuanceRedemptionFee": "Up to 0.50% of your investment's value when entering and exiting the investment"
+    },
+    "serviceProviders": {
+      "tokenizer": "Backed Finance AG",
+      "broker": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "custodian": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "securityAgent": "Security Agent Services AG"
+    }
+  },
+  {
+    "id": "ibmx",
+    "name": "IBMx",
+    "fullName": "International Business Machines x xStock",
+    "symbol": "IBM",
+    "description": "International Business Machines xStock (IBMx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. IBMx tracks the price of International Business Machines Corporation (the underlying).",
+    "logo": "/img/tokens/ibmx.svg",
+    "category": "tokenized-stocks",
+    "chain": "solana",
+    "contractAddress": "XspwhyYPdWVM8XBHZnpS9hgyag9MKjLRyE3tVfmCbSr",
+    "isin": "CH1436219559",
+    "issuer": "Backed Assets (JE) Limited",
+    "factsheetUrl": "https://backed.fi/",
+    "informationUrl": "https://backed.fi/",
+    "tradeUrl": "https://backed.fi/",
+    "underlyingAsset": {
+      "name": "International Business Machines Corporation",
+      "symbol": "IBM",
+      "isin": "US4592001014",
+      "issuer": "The issuer of the Underlying is International Business Machines Corporation, 1 New Orchard Road, Armonk, NY 10504-1722, USA. LEI: 549300LVNQ3X4D7Q0Z67."
+    },
+    "tradingPlatforms": [
+      "Backed Finance"
+    ],
+    "investmentObjective": "International Business Machines xStock (IBMx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. IBMx tracks the price of International Business Machines Corporation (the underlying).",
+    "keyBenefits": "International Business Machines Corporation is an American multinational technology corporation headquartered in Armonk, New York. Founded in 1911 as the Computing-Tabulating-Recording Company, IBM became a leader in hardware, software, and services, offering a range of technologies and solutions across various industries.",
+    "fees": {
+      "managementFee": "The tracker charges no management fee at present. A fee of up to 0.25% per year may be introduced in the future",
+      "issuanceRedemptionFee": "Up to 0.50% of your investment's value when entering and exiting the investment"
+    },
+    "serviceProviders": {
+      "tokenizer": "Backed Finance AG",
+      "broker": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "custodian": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "securityAgent": "Security Agent Services AG"
+    }
+  },
+  {
+    "id": "jnjx",
+    "name": "JNJx",
+    "fullName": "Johnson & Johnson xStock",
+    "symbol": "JNJ",
+    "description": "Johnson & Johnson xStock (JNJx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. JNJx tracks the price of Johnson & Johnson (the underlying).",
+    "logo": "/img/tokens/jnjx.svg",
+    "category": "tokenized-stocks",
+    "chain": "solana",
+    "contractAddress": "XsGVi5eo1Dh2zUpic4qACcjuWGjNv8GCt3dm5XcX6Dn",
+    "isin": "CH1436219294",
+    "issuer": "Backed Assets (JE) Limited",
+    "factsheetUrl": "https://backed.fi/",
+    "informationUrl": "https://backed.fi/",
+    "tradeUrl": "https://backed.fi/",
+    "underlyingAsset": {
+      "name": "Johnson & Johnson",
+      "symbol": "JNJ",
+      "isin": "US4781601046",
+      "issuer": "The issuer of the Underlying is Johnson & Johnson, One Johnson & Johnson Plaza, New Brunswick, NJ 08933, USA. LEI: 549300G0CFPGEF6X2043."
+    },
+    "tradingPlatforms": [
+      "Backed Finance"
+    ],
+    "investmentObjective": "Johnson & Johnson xStock (JNJx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. JNJx tracks the price of Johnson & Johnson (the underlying).",
+    "keyBenefits": "Johnson & Johnson (J&J) is a global healthcare company focused on research, development, manufacturing, and sale of pharmaceuticals, medical devices, and consumer products. It operates through three segments: Consumer Health, Pharmaceutical, and Medical Devices. J&J has a diverse product portfolio spanning various therapeutic areas and market segments.",
+    "fees": {
+      "managementFee": "The tracker charges no management fee at present. A fee of up to 0.25% per year may be introduced in the future",
+      "issuanceRedemptionFee": "Up to 0.50% of your investment's value when entering and exiting the investment"
+    },
+    "serviceProviders": {
+      "tokenizer": "Backed Finance AG",
+      "broker": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "custodian": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "securityAgent": "Security Agent Services AG"
+    }
+  },
+  {
+    "id": "jpmx",
+    "name": "JPMx",
+    "fullName": "JPMorgan Chase xStock",
+    "symbol": "JPM",
+    "description": "JPMorgan Chase xStock (JPMx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. JPMx tracks the price of JPMorgan Chase & Co. (the underlying).",
+    "logo": "/img/tokens/jpmx.svg",
+    "category": "tokenized-stocks",
+    "chain": "solana",
+    "contractAddress": "XsMAqkcKsUewDrzVkait4e5u4y8REgtyS7jWgCpLV2C",
+    "isin": "CH1436219302",
+    "issuer": "Backed Assets (JE) Limited",
+    "factsheetUrl": "https://backed.fi/",
+    "informationUrl": "https://backed.fi/",
+    "tradeUrl": "https://backed.fi/",
+    "underlyingAsset": {
+      "name": "JPMorgan Chase & Co.",
+      "symbol": "JPM",
+      "isin": "US46625H1005",
+      "issuer": "The issuer of the Underlying is JPMorgan Chase & Co., 383 Madison Avenue, New York, NY 10179, USA. LEI: 8I5DZWZKVSZI1NUHU748."
+    },
+    "tradingPlatforms": [
+      "Backed Finance"
+    ],
+    "investmentObjective": "JPMorgan Chase xStock (JPMx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. JPMx tracks the price of JPMorgan Chase & Co. (the underlying).",
+    "keyBenefits": "JPMorgan Chase & Co. is a multinational financial services firm headquartered in New York City. It's a leading provider of financial services to individuals, businesses, and institutions worldwide. The company operates in various segments, including Consumer and Community Banking, Corporate and Investment Bank, Commercial Banking, and Asset and Wealth Management.",
+    "fees": {
+      "managementFee": "The tracker charges no management fee at present. A fee of up to 0.25% per year may be introduced in the future",
+      "issuanceRedemptionFee": "Up to 0.50% of your investment's value when entering and exiting the investment"
+    },
+    "serviceProviders": {
+      "tokenizer": "Backed Finance AG",
+      "broker": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "custodian": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "securityAgent": "Security Agent Services AG"
+    }
+  },
+  {
+    "id": "linx",
+    "name": "LINx",
+    "fullName": "Linde xStock",
+    "symbol": "LIN",
+    "description": "Linde xStock (LINx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. LINx tracks the price of Linde plc (the underlying).",
+    "logo": "/img/tokens/linx.svg",
+    "category": "tokenized-stocks",
+    "chain": "solana",
+    "contractAddress": "XsSr8anD1hkvNMu8XQiVcmiaTP7XGvYu7Q58LdmtE8Z",
+    "isin": "CH1436219468",
+    "issuer": "Backed Assets (JE) Limited",
+    "factsheetUrl": "https://backed.fi/",
+    "informationUrl": "https://backed.fi/",
+    "tradeUrl": "https://backed.fi/",
+    "underlyingAsset": {
+      "name": "Linde plc",
+      "symbol": "LIN",
+      "isin": "IE00BZ12WP82",
+      "issuer": "The issuer of the Underlying is Linde plc, Ten Earlsfort Terrace, Dublin 2, Ireland. LEI: 5299003QR1WT0EF88V51."
+    },
+    "tradingPlatforms": [
+      "Backed Finance"
+    ],
+    "investmentObjective": "Linde xStock (LINx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. LINx tracks the price of Linde plc (the underlying).",
+    "keyBenefits": "Linde is a global leader in industrial gases and engineering, offering a wide range of solutions, technologies, and services to various industries.",
+    "fees": {
+      "managementFee": "The tracker charges no management fee at present. A fee of up to 0.25% per year may be introduced in the future",
+      "issuanceRedemptionFee": "Up to 0.50% of your investment's value when entering and exiting the investment"
+    },
+    "serviceProviders": {
+      "tokenizer": "Backed Finance AG",
+      "broker": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "custodian": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "securityAgent": "Security Agent Services AG"
+    }
+  },
+  {
+    "id": "mrvlx",
+    "name": "MRVLx",
+    "fullName": "Marvell xStock",
+    "symbol": "MRVL",
+    "description": "Marvell xStock (MRVLx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. MRVLx tracks the price of Marvell Technology, Inc. (the underlying).",
+    "logo": "/img/tokens/mrvlx.svg",
+    "category": "tokenized-stocks",
+    "chain": "solana",
+    "contractAddress": "XsuxRGDzbLjnJ72v74b7p9VY6N66uYgTCyfwwRjVCJA",
+    "isin": "CH1436219658",
+    "issuer": "Backed Assets (JE) Limited",
+    "factsheetUrl": "https://backed.fi/",
+    "informationUrl": "https://backed.fi/",
+    "tradeUrl": "https://backed.fi/",
+    "underlyingAsset": {
+      "name": "Marvell Technology, Inc.",
+      "symbol": "MRVL",
+      "isin": "US5738741041",
+      "issuer": "The issuer of the Underlying is Marvell Technology, Inc., 5488 Marvell Lane, Santa Clara, CA 95054, USA. LEI: 549300M501IVJM50FG12."
+    },
+    "tradingPlatforms": [
+      "Backed Finance"
+    ],
+    "investmentObjective": "Marvell xStock (MRVLx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. MRVLx tracks the price of Marvell Technology, Inc. (the underlying).",
+    "keyBenefits": "Marvell Technology, Inc. is an American semiconductor company that designs and develops integrated circuits, primarily focused on data infrastructure. They are known for their silicon solutions that enable data movement, storage, processing, and security, impacting areas like data centers, automotive, enterprise, and carrier networks.",
+    "fees": {
+      "managementFee": "The tracker charges no management fee at present. A fee of up to 0.25% per year may be introduced in the future",
+      "issuanceRedemptionFee": "Up to 0.50% of your investment's value when entering and exiting the investment"
+    },
+    "serviceProviders": {
+      "tokenizer": "Backed Finance AG",
+      "broker": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "custodian": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "securityAgent": "Security Agent Services AG"
+    }
+  },
+  {
+    "id": "max",
+    "name": "MAx",
+    "fullName": "Mastercard xStock",
+    "symbol": "MA",
+    "description": "Mastercard xStock (MAx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. MAx tracks the price of Mastercard Inc. (the underlying).",
+    "logo": "/img/tokens/max.svg",
+    "category": "tokenized-stocks",
+    "chain": "solana",
+    "contractAddress": "XsApJFV9MAktqnAc6jqzsHVujxkGm9xcSUffaBoYLKC",
+    "isin": "CH1436219336",
+    "issuer": "Backed Assets (JE) Limited",
+    "factsheetUrl": "https://backed.fi/",
+    "informationUrl": "https://backed.fi/",
+    "tradeUrl": "https://backed.fi/",
+    "underlyingAsset": {
+      "name": "Mastercard Incorporated Class A",
+      "symbol": "MA",
+      "isin": "US57636Q1040",
+      "issuer": "The issuer of the Underlying is Mastercard Incorporated Class A, 2000 Purchase Street, Purchase, NY 10577, USA. LEI: AR5L2ODV9HN37376R084."
+    },
+    "tradingPlatforms": [
+      "Backed Finance"
+    ],
+    "investmentObjective": "Mastercard xStock (MAx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. MAx tracks the price of Mastercard Inc. (the underlying).",
+    "keyBenefits": "Mastercard Inc. is a global payments and technology company that facilitates electronic payments by connecting consumers, financial institutions, merchants, governments, and businesses worldwide. They do not issue cards, but instead develop and manage payment solutions and systems, processing billions of transactions annually.",
+    "fees": {
+      "managementFee": "The tracker charges no management fee at present. A fee of up to 0.25% per year may be introduced in the future",
+      "issuanceRedemptionFee": "Up to 0.50% of your investment's value when entering and exiting the investment"
+    },
+    "serviceProviders": {
+      "tokenizer": "Backed Finance AG",
+      "broker": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "custodian": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "securityAgent": "Security Agent Services AG"
+    }
+  },
+  {
+    "id": "mcdx",
+    "name": "MCDx",
+    "fullName": "McDonald's xStock",
+    "symbol": "MCD",
+    "description": "McDonald’s xStock (MCDx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. MCDx tracks the price of McDonald's Corporation (the underlying).",
+    "logo": "/img/tokens/mcdx.svg",
+    "category": "tokenized-stocks",
+    "chain": "solana",
+    "contractAddress": "XsqE9cRRpzxcGKDXj1BJ7Xmg4GRhZoyY1KpmGSxAWT2",
+    "isin": "CH1436219534",
+    "issuer": "Backed Assets (JE) Limited",
+    "factsheetUrl": "https://backed.fi/",
+    "informationUrl": "https://backed.fi/",
+    "tradeUrl": "https://backed.fi/",
+    "underlyingAsset": {
+      "name": "McDonald's Corporation",
+      "symbol": "MCD",
+      "isin": "US5801351017",
+      "issuer": "The issuer of the Underlying is McDonald’s Corporation, 110 N. Carpenter St, Chicago, IL 60607, USA. LEI: 6ZY54WVKHCXN8D5ZP132."
+    },
+    "tradingPlatforms": [
+      "Backed Finance"
+    ],
+    "investmentObjective": "McDonald’s xStock (MCDx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. MCDx tracks the price of McDonald's Corporation (the underlying).",
+    "keyBenefits": "McDonald's Corporation is a global foodservice retail chain operator that owns, operates, and franchises restaurants worldwide. They serve a locally relevant menu of food and beverages, with a primary focus on serving quality food and beverages. The company operates through a network of franchised and company-owned restaurants.",
+    "fees": {
+      "managementFee": "The tracker charges no management fee at present. A fee of up to 0.25% per year may be introduced in the future",
+      "issuanceRedemptionFee": "Up to 0.50% of your investment's value when entering and exiting the investment"
+    },
+    "serviceProviders": {
+      "tokenizer": "Backed Finance AG",
+      "broker": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "custodian": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "securityAgent": "Security Agent Services AG"
+    }
+  },
+  {
+    "id": "mdtx",
+    "name": "MDTx",
+    "fullName": "Medtronic xStock",
+    "symbol": "MDT",
+    "description": "Medtronic xStock (MDTx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. MDTx tracks the price of Medtronic plc (the underlying).",
+    "logo": "/img/tokens/mdtx.svg",
+    "category": "tokenized-stocks",
+    "chain": "solana",
+    "contractAddress": "XsDgw22qRLTv5Uwuzn6T63cW69exG41T6gwQhEK22u2",
+    "isin": "CH1436219575",
+    "issuer": "Backed Assets (JE) Limited",
+    "factsheetUrl": "https://backed.fi/",
+    "informationUrl": "https://backed.fi/",
+    "tradeUrl": "https://backed.fi/",
+    "underlyingAsset": {
+      "name": "Medtronic plc",
+      "symbol": "MDT",
+      "isin": "IE00BTN1Y115",
+      "issuer": "The issuer of the Underlying is Medtronic plc, Building 2, Parkmore Business Park West, Galway, Ireland. LEI: 549300MFEQZ6P0Y8EE89."
+    },
+    "tradingPlatforms": [
+      "Backed Finance"
+    ],
+    "investmentObjective": "Medtronic xStock (MDTx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. MDTx tracks the price of Medtronic plc (the underlying).",
+    "keyBenefits": "Medtronic plc is a global healthcare technology company that develops, manufactures, and sells device-based medical therapies and services. It operates through four main segments: Cardiovascular Portfolio, Medical Surgical Portfolio, Neuroscience Portfolio, and Diabetes.",
+    "fees": {
+      "managementFee": "The tracker charges no management fee at present. A fee of up to 0.25% per year may be introduced in the future",
+      "issuanceRedemptionFee": "Up to 0.50% of your investment's value when entering and exiting the investment"
+    },
+    "serviceProviders": {
+      "tokenizer": "Backed Finance AG",
+      "broker": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "custodian": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "securityAgent": "Security Agent Services AG"
+    }
+  },
+  {
+    "id": "mrkx",
+    "name": "MRKx",
+    "fullName": "Merck xStock",
+    "symbol": "MRK",
+    "description": "Merck xStock (MRKx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. MRKx tracks the price of Merck & Co., Inc. (the underlying).",
+    "logo": "/img/tokens/mrkx.svg",
+    "category": "tokenized-stocks",
+    "chain": "solana",
+    "contractAddress": "XsnQnU7AdbRZYe2akqqpibDdXjkieGFfSkbkjX1Sd1X",
+    "isin": "CH1436219385",
+    "issuer": "Backed Assets (JE) Limited",
+    "factsheetUrl": "https://backed.fi/",
+    "informationUrl": "https://backed.fi/",
+    "tradeUrl": "https://backed.fi/",
+    "underlyingAsset": {
+      "name": "Merck & Co., Inc.",
+      "symbol": "MRK",
+      "isin": "US58933Y1055",
+      "issuer": "The issuer of the Underlying is Merck & Co., Inc., 2000 Galloping Hill Road, Kenilworth, NJ 07033, USA. LEI: 4YV9Y5M8S0BRK1RP0397."
+    },
+    "tradingPlatforms": [
+      "Backed Finance"
+    ],
+    "investmentObjective": "Merck xStock (MRKx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. MRKx tracks the price of Merck & Co., Inc. (the underlying).",
+    "keyBenefits": "Merck, is a global biopharmaceutical company focused on developing and delivering innovative health solutions. It operates in the healthcare and life science industries, with a broad portfolio of prescription medicines, vaccines, biologic therapies, and animal health products.",
+    "fees": {
+      "managementFee": "The tracker charges no management fee at present. A fee of up to 0.25% per year may be introduced in the future",
+      "issuanceRedemptionFee": "Up to 0.50% of your investment's value when entering and exiting the investment"
+    },
+    "serviceProviders": {
+      "tokenizer": "Backed Finance AG",
+      "broker": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "custodian": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "securityAgent": "Security Agent Services AG"
+    }
+  },
+  {
+    "id": "metax",
+    "name": "METAx",
+    "fullName": "Meta xStock",
+    "symbol": "META",
+    "description": "Meta xStock (METAx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. METAx tracks the price of Meta Platforms, Inc (the underlying).",
+    "logo": "/img/tokens/metax.svg",
+    "category": "tokenized-stocks",
+    "chain": "solana",
+    "contractAddress": "Xsa62P5mvPszXL1krVUnU5ar38bBSVcWAB6fmPCo5Zu",
+    "isin": "CH1436219229",
+    "issuer": "Backed Assets (JE) Limited",
+    "factsheetUrl": "https://backed.fi/",
+    "informationUrl": "https://backed.fi/",
+    "tradeUrl": "https://backed.fi/",
+    "underlyingAsset": {
+      "name": "Meta Platforms, Inc.",
+      "symbol": "META",
+      "isin": "US30303M1027",
+      "issuer": "The issuer of the Underlying is Meta Platforms, Inc., 1 Hacker Way, Menlo Park, CA 94025, USA. LEI: BQ4BKCS1HXDV9HN80Z93."
+    },
+    "tradingPlatforms": [
+      "Backed Finance"
+    ],
+    "investmentObjective": "Meta xStock (METAx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. METAx tracks the price of Meta Platforms, Inc (the underlying).",
+    "keyBenefits": "Meta Platforms, Inc. is a social media and technology company that focuses on connecting people and developing the metaverse. It owns and operates several popular social media platforms like Facebook, Instagram, Threads, and WhatsApp, as well as developing VR and AR technologies through its Reality Labs",
+    "fees": {
+      "managementFee": "The tracker charges no management fee at present. A fee of up to 0.25% per year may be introduced in the future",
+      "issuanceRedemptionFee": "Up to 0.50% of your investment's value when entering and exiting the investment"
+    },
+    "serviceProviders": {
+      "tokenizer": "Backed Finance AG",
+      "broker": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "custodian": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "securityAgent": "Security Agent Services AG"
+    }
+  },
+  {
+    "id": "msftx",
+    "name": "MSFTx",
+    "fullName": "Microsoft xStock",
+    "symbol": "MSFT",
+    "description": "Microsoft xStock (MSFTx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. MSFTx tracks the price of Microsoft Corporation (the underlying).",
+    "logo": "/img/tokens/msftx.svg",
+    "category": "tokenized-stocks",
+    "chain": "solana",
+    "contractAddress": "XspzcW1PRtgf6Wj92HCiZdjzKCyFekVD8P5Ueh3dRMX",
+    "isin": "CH1436219203",
+    "issuer": "Backed Assets (JE) Limited",
+    "factsheetUrl": "https://backed.fi/",
+    "informationUrl": "https://backed.fi/",
+    "tradeUrl": "https://backed.fi/",
+    "underlyingAsset": {
+      "name": "Microsoft Corporation",
+      "symbol": "MSFT",
+      "isin": "US5949181045",
+      "issuer": "The issuer of the Underlying is Microsoft Corporation, One Microsoft Way, Redmond, WA 98052, USA. LEI: INR2EJN1ERAN0W5ZP974."
+    },
+    "tradingPlatforms": [
+      "Backed Finance"
+    ],
+    "investmentObjective": "Microsoft xStock (MSFTx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. MSFTx tracks the price of Microsoft Corporation (the underlying).",
+    "keyBenefits": "Microsoft is the world's largest vendor of computer software and a leading provider of cloud computing services, video games, computer and gaming hardware, search, and other online services.",
+    "fees": {
+      "managementFee": "The tracker charges no management fee at present. A fee of up to 0.25% per year may be introduced in the future",
+      "issuanceRedemptionFee": "Up to 0.50% of your investment's value when entering and exiting the investment"
+    },
+    "serviceProviders": {
+      "tokenizer": "Backed Finance AG",
+      "broker": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "custodian": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "securityAgent": "Security Agent Services AG"
+    }
+  },
+  {
+    "id": "mstrx",
+    "name": "MSTRx",
+    "fullName": "MicroStrategy xStock",
+    "symbol": "MSTR",
+    "description": "MicroStrategy xStock (MSTRx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. MSTRx tracks the price of MicroStrategy Inc. (the underlying).",
+    "logo": "/img/tokens/mstrx.svg",
+    "category": "tokenized-stocks",
+    "chain": "solana",
+    "contractAddress": "XsP7xzNPvEHS1m6qfanPUGjNmdnmsLKEoNAnHjdxxyZ",
+    "isin": "CH1436219633",
+    "issuer": "Backed Assets (JE) Limited",
+    "factsheetUrl": "https://backed.fi/",
+    "informationUrl": "https://backed.fi/",
+    "tradeUrl": "https://backed.fi/",
+    "underlyingAsset": {
+      "name": "MicroStrategy Incorporated",
+      "symbol": "MSTR",
+      "isin": "US5949724083",
+      "issuer": "The issuer of the Underlying is MicroStrategy Incorporated, 1000 Nicollet Mall, Suite 400, Minneapolis, MN 55403, USA. LEI: 549300WQTWEJUEHXQX21."
+    },
+    "tradingPlatforms": [
+      "Backed Finance"
+    ],
+    "investmentObjective": "MicroStrategy xStock (MSTRx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. MSTRx tracks the price of MicroStrategy Inc. (the underlying).",
+    "keyBenefits": "MicroStrategy is a company that provides enterprise analytics and mobility software, as well as business intelligence solutions. They also engage in Bitcoin development and are known for their Bitcoin treasury strategy.",
+    "fees": {
+      "managementFee": "The tracker charges no management fee at present. A fee of up to 0.25% per year may be introduced in the future",
+      "issuanceRedemptionFee": "Up to 0.50% of your investment's value when entering and exiting the investment"
+    },
+    "serviceProviders": {
+      "tokenizer": "Backed Finance AG",
+      "broker": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "custodian": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "securityAgent": "Security Agent Services AG"
+    }
+  },
+  {
+    "id": "qqqx",
+    "name": "QQQx",
+    "fullName": "Nasdaq xStock",
+    "symbol": "QQQ",
+    "description": "Nasdaq xStock (QQQx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. QQQx tracks the price of Invesco QQQ Trust (the underlying).",
+    "logo": "/img/tokens/qqqx.svg",
+    "category": "tokenized-stocks",
+    "chain": "solana",
+    "contractAddress": "Xs8S1uUs1zvS2p7iwtsG3b6fkhpvmwz4GYU3gWAmWHZ",
+    "isin": "CH1436219724",
+    "issuer": "Backed Assets (JE) Limited",
+    "factsheetUrl": "https://backed.fi/",
+    "informationUrl": "https://backed.fi/",
+    "tradeUrl": "https://backed.fi/",
+    "underlyingAsset": {
+      "name": "Invesco QQQ Trust",
+      "symbol": "QQQ",
+      "isin": "US46090E1038",
+      "issuer": "The issuer of the Underlying is Invesco QQQ TrustSM, Series 1, c/o Invesco Capital Management LLC, 3500 Lacey Road, Suite 700, Downers Grove, IL 60515, USA."
+    },
+    "tradingPlatforms": [
+      "Backed Finance"
+    ],
+    "investmentObjective": "Nasdaq xStock (QQQx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. QQQx tracks the price of Invesco QQQ Trust (the underlying).",
+    "keyBenefits": "Invesco QQQ Trust (QQQ) is an exchange-traded fund that aims to track the performance of the Nasdaq-100 Index, which includes 100 of the largest non-financial companies listed on the Nasdaq Stock Market. It offers concentrated exposure to major technology and growth-oriented companies.",
+    "fees": {
+      "managementFee": "0.20% per year, reflects the actual ongoing costs charged by the manager of the underlying fund, and is based on costs incurred over the past year.",
+      "issuanceRedemptionFee": "Up to 0.50% of your investment's value when entering and exiting the investment"
+    },
+    "serviceProviders": {
+      "tokenizer": "Backed Finance AG",
+      "broker": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "custodian": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "securityAgent": "Security Agent Services AG"
+    }
+  },
+  {
+    "id": "nflxx",
+    "name": "NFLXx",
+    "fullName": "Netflix xStock",
+    "symbol": "NFLX",
+    "description": "Netflix xStock (NFLXx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. NFLXx tracks the price of Netflix, Inc. (the underlying).",
+    "logo": "/img/tokens/nflxx.svg",
+    "category": "tokenized-stocks",
+    "chain": "solana",
+    "contractAddress": "XsEH7wWfJJu2ZT3UCFeVfALnVA6CP5ur7Ee11KmzVpL",
+    "isin": "CH1436219526",
+    "issuer": "Backed Assets (JE) Limited",
+    "factsheetUrl": "https://backed.fi/",
+    "informationUrl": "https://backed.fi/",
+    "tradeUrl": "https://backed.fi/",
+    "underlyingAsset": {
+      "name": "Netflix, Inc.",
+      "symbol": "NFLX",
+      "isin": "US64110L1061",
+      "issuer": "The issuer of the Underlying is Netflix, Inc., 121 Albright Way, Los Gatos, CA 95032, USA. LEI: 549300OFZPDCSL2KSP45."
+    },
+    "tradingPlatforms": [
+      "Backed Finance"
+    ],
+    "investmentObjective": "Netflix xStock (NFLXx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. NFLXx tracks the price of Netflix, Inc. (the underlying).",
+    "keyBenefits": "Netflix is a media company that provides entertainment services, including streaming movies, TV shows, and games, through a subscription-based model. It also produces its own original content and licenses content from other companies.",
+    "fees": {
+      "managementFee": "The tracker charges no management fee at present. A fee of up to 0.25% per year may be introduced in the future",
+      "issuanceRedemptionFee": "Up to 0.50% of your investment's value when entering and exiting the investment"
+    },
+    "serviceProviders": {
+      "tokenizer": "Backed Finance AG",
+      "broker": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "custodian": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "securityAgent": "Security Agent Services AG"
+    }
+  },
+  {
+    "id": "nvox",
+    "name": "NVOx",
+    "fullName": "Novo Nordisk xStock",
+    "symbol": "NVO",
+    "description": "Novo Nordisk xStock (NVOx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. NVOx tracks the price of Novo Nordisk A/S, (the underlying).",
+    "logo": "/img/tokens/nvox.svg",
+    "category": "tokenized-stocks",
+    "chain": "solana",
+    "contractAddress": "XsfAzPzYrYjd4Dpa9BU3cusBsvWfVB9gBcyGC87S57n",
+    "isin": "CH1436219443",
+    "issuer": "Backed Assets (JE) Limited",
+    "factsheetUrl": "https://backed.fi/",
+    "informationUrl": "https://backed.fi/",
+    "tradeUrl": "https://backed.fi/",
+    "underlyingAsset": {
+      "name": "Novo Nordisk A/S",
+      "symbol": "NVO",
+      "isin": "US6701002056",
+      "issuer": "The issuer of the Underlying is Novo Nordisk A/S, Novo Allé 1, 2880 Bagsværd, Denmark. LEI: 549300DAQ1CVT6CXN342."
+    },
+    "tradingPlatforms": [
+      "Backed Finance"
+    ],
+    "investmentObjective": "Novo Nordisk xStock (NVOx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. NVOx tracks the price of Novo Nordisk A/S, (the underlying).",
+    "keyBenefits": "Novo Nordisk is a leading global healthcare company, founded in 1923 and headquartered in Denmark. Its primary focus is on driving change to defeat serious chronic diseases, particularly those related to diabetes, but also expanding into obesity, rare diseases, and cardiovascular conditions. They achieve this through pioneering scientific breakthroughs, expanding access to their medicines, and working towards prevention and ultimate cures.",
+    "fees": {
+      "managementFee": "The tracker charges no management fee at present. A fee of up to 0.25% per year may be introduced in the future",
+      "issuanceRedemptionFee": "Up to 0.50% of your investment's value when entering and exiting the investment"
+    },
+    "serviceProviders": {
+      "tokenizer": "Backed Finance AG",
+      "broker": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "custodian": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "securityAgent": "Security Agent Services AG"
+    }
+  },
+  {
+    "id": "nvdax",
+    "name": "NVDAx",
+    "fullName": "NVIDIA xStock",
+    "symbol": "NVDA",
+    "description": "NVIDIA xStock (NVDAx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. NVDAx tracks the price of NVIDIA Corp (the underlying).",
+    "logo": "/img/tokens/nvdax.svg",
+    "category": "tokenized-stocks",
+    "chain": "solana",
+    "contractAddress": "Xsc9qvGR1efVDFGLrVsmkzv3qi45LTBjeUKSPmx9qEh",
+    "isin": "CH1436219195",
+    "issuer": "Backed Assets (JE) Limited",
+    "factsheetUrl": "https://backed.fi/",
+    "informationUrl": "https://backed.fi/",
+    "tradeUrl": "https://backed.fi/",
+    "underlyingAsset": {
+      "name": "NVIDIA Corporation",
+      "symbol": "NVDA",
+      "isin": "US67066G1040",
+      "issuer": "The issuer of the Underlying is NVIDIA Corporation, 251 Little Falls Drive, Wilmington, DE 19808, USA. LEI: 549300S4KLFTLO7GSQ80."
+    },
+    "tradingPlatforms": [
+      "Backed Finance"
+    ],
+    "investmentObjective": "NVIDIA xStock (NVDAx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. NVDAx tracks the price of NVIDIA Corp (the underlying).",
+    "keyBenefits": "Nvidia is building the AI-powered future - a more intelligent, automated, and efficient technological landscape driven by artificial intelligence. The company started in 1993 with the radical idea that graphics processing units (GPUs) could revolutionize computing. Today, Nvidia offers a trusted and powerful platform for accessing the broader AI ecosystem, empowering businesses and individuals to harness the transformative power of artificial intelligence.",
+    "fees": {
+      "managementFee": "The tracker charges no management fee at present. A fee of up to 0.25% per year may be introduced in the future",
+      "issuanceRedemptionFee": "Up to 0.50% of your investment's value when entering and exiting the investment"
+    },
+    "serviceProviders": {
+      "tokenizer": "Backed Finance AG",
+      "broker": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "custodian": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "securityAgent": "Security Agent Services AG"
+    }
+  },
+  {
+    "id": "orclx",
+    "name": "ORCLx",
+    "fullName": "Oracle xStock",
+    "symbol": "ORCL",
+    "description": "Oracle xStock (ORCLx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. ORCLx tracks the price of Oracle Corporation (the underlying).",
+    "logo": "/img/tokens/orclx.svg",
+    "category": "tokenized-stocks",
+    "chain": "solana",
+    "contractAddress": "XsjFwUPiLofddX5cWFHW35GCbXcSu1BCUGfxoQAQjeL",
+    "isin": "CH1436219450",
+    "issuer": "Backed Assets (JE) Limited",
+    "factsheetUrl": "https://backed.fi/",
+    "informationUrl": "https://backed.fi/",
+    "tradeUrl": "https://backed.fi/",
+    "underlyingAsset": {
+      "name": "Oracle Corporation",
+      "symbol": "ORCL",
+      "isin": "US68389X1054",
+      "issuer": "The issuer of the Underlying is Oracle Corporation, 500 Oracle Parkway, Redwood Shores, CA 94065, USA. LEI: 1Z4GXXU7ZHVWFCD8TV52."
+    },
+    "tradingPlatforms": [
+      "Backed Finance"
+    ],
+    "investmentObjective": "Oracle xStock (ORCLx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. ORCLx tracks the price of Oracle Corporation (the underlying).",
+    "keyBenefits": "Oracle Corporation is a large, publicly-held multinational company headquartered in Austin, Texas, offering enterprise applications and cloud infrastructure. It is known for its database software, Oracle Database, and has expanded into cloud-based services, including ERP, CRM, and HCM applications.",
+    "fees": {
+      "managementFee": "The tracker charges no management fee at present. A fee of up to 0.25% per year may be introduced in the future",
+      "issuanceRedemptionFee": "Up to 0.50% of your investment's value when entering and exiting the investment"
+    },
+    "serviceProviders": {
+      "tokenizer": "Backed Finance AG",
+      "broker": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "custodian": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "securityAgent": "Security Agent Services AG"
+    }
+  },
+  {
+    "id": "pltrx",
+    "name": "PLTRx",
+    "fullName": "Palantir xStock",
+    "symbol": "PLTR",
+    "description": "Palantir xStock (PLTRx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. PLTRx tracks the price of Palantir Technologies Inc. (the underlying).",
+    "logo": "/img/tokens/pltrx.svg",
+    "category": "tokenized-stocks",
+    "chain": "solana",
+    "contractAddress": "XsoBhf2ufR8fTyNSjqfU71DYGaE6Z3SUGAidpzriAA4",
+    "isin": "CH1436219625",
+    "issuer": "Backed Assets (JE) Limited",
+    "factsheetUrl": "https://backed.fi/",
+    "informationUrl": "https://backed.fi/",
+    "tradeUrl": "https://backed.fi/",
+    "underlyingAsset": {
+      "name": "Palantir Technologies Inc.",
+      "symbol": "PLTR",
+      "isin": "US69608A1088",
+      "issuer": "The issuer of the Underlying is Palantir Technologies Inc., 1555 Blake Street, Denver, CO 80202, USA. LEI: 549300UVN46B3BBDHO85."
+    },
+    "tradingPlatforms": [
+      "Backed Finance"
+    ],
+    "investmentObjective": "Palantir xStock (PLTRx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. PLTRx tracks the price of Palantir Technologies Inc. (the underlying).",
+    "keyBenefits": "Palantir is a software company that specializes in data analytics and decision-making platforms. They offer platforms like Palantir Foundry and Gotham, used by both commercial and government clients, to help organizations manage, analyze, and make data-driven decisions. The company is known for its work in areas like national security, defense, and healthcare.",
+    "fees": {
+      "managementFee": "The tracker charges no management fee at present. A fee of up to 0.25% per year may be introduced in the future",
+      "issuanceRedemptionFee": "Up to 0.50% of your investment's value when entering and exiting the investment"
+    },
+    "serviceProviders": {
+      "tokenizer": "Backed Finance AG",
+      "broker": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "custodian": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "securityAgent": "Security Agent Services AG"
+    }
+  },
+  {
+    "id": "pepx",
+    "name": "PEPx",
+    "fullName": "PepsiCo xStock",
+    "symbol": "PEP",
+    "description": "Pepsico xStock (PEPx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. PEPx tracks the price of PepsiCo, Inc. (the underlying).",
+    "logo": "/img/tokens/pepx.svg",
+    "category": "tokenized-stocks",
+    "chain": "solana",
+    "contractAddress": "Xsv99frTRUeornyvCfvhnDesQDWuvns1M852Pez91vF",
+    "isin": "CH1436219401",
+    "issuer": "Backed Assets (JE) Limited",
+    "factsheetUrl": "https://backed.fi/",
+    "informationUrl": "https://backed.fi/",
+    "tradeUrl": "https://backed.fi/",
+    "underlyingAsset": {
+      "name": "PepsiCo, Inc.",
+      "symbol": "PEP",
+      "isin": "US7134481081",
+      "issuer": "The issuer of the Underlying is PepsiCo, Inc., 700 Anderson Hill Road, Purchase, NY 10577, USA. LEI: FJSUNZKFNQ5YPJ5OT455."
+    },
+    "tradingPlatforms": [
+      "Backed Finance"
+    ],
+    "investmentObjective": "Pepsico xStock (PEPx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. PEPx tracks the price of PepsiCo, Inc. (the underlying).",
+    "keyBenefits": "PepsiCo is a multinational food and beverage corporation. PepsiCo offers a diverse portfolio of over 500 brands, including popular items like Pepsi, Lay's, Doritos, Gatorade, and Quaker Oats. The company operates in over 200 countries, serving a billion customers daily.",
+    "fees": {
+      "managementFee": "The tracker charges no management fee at present. A fee of up to 0.25% per year may be introduced in the future",
+      "issuanceRedemptionFee": "Up to 0.50% of your investment's value when entering and exiting the investment"
+    },
+    "serviceProviders": {
+      "tokenizer": "Backed Finance AG",
+      "broker": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "custodian": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "securityAgent": "Security Agent Services AG"
+    }
+  },
+  {
+    "id": "pfex",
+    "name": "PFEx",
+    "fullName": "Pfizer xStock",
+    "symbol": "PFE",
+    "description": "Pfizer xStock (PFEx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. PFEx tracks the price of Pfizer Inc. (the underlying).",
+    "logo": "/img/tokens/pfex.svg",
+    "category": "tokenized-stocks",
+    "chain": "solana",
+    "contractAddress": "XsAtbqkAP1HJxy7hFDeq7ok6yM43DQ9mQ1Rh861X8rw",
+    "isin": "CH1436219377",
+    "issuer": "Backed Assets (JE) Limited",
+    "factsheetUrl": "https://backed.fi/",
+    "informationUrl": "https://backed.fi/",
+    "tradeUrl": "https://backed.fi/",
+    "underlyingAsset": {
+      "name": "Pfizer Inc.",
+      "symbol": "PFE",
+      "isin": "US7170811035",
+      "issuer": "The issuer of the Underlying is Pfizer Inc., 235 East 42nd Street, New York, NY 10017, USA. LEI: 765LHXWGK1KXCLTFYQ30."
+    },
+    "tradingPlatforms": [
+      "Backed Finance"
+    ],
+    "investmentObjective": "Pfizer xStock (PFEx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. PFEx tracks the price of Pfizer Inc. (the underlying).",
+    "keyBenefits": "Pfizer Inc. is a global biopharmaceutical company focused on discovering, developing, and delivering innovative medicines and vaccines to improve health and well-being. They have a global portfolio of products that address various therapeutic areas, including cancer, cardiovascular disease, and infectious diseases.",
+    "fees": {
+      "managementFee": "The tracker charges no management fee at present. A fee of up to 0.25% per year may be introduced in the future",
+      "issuanceRedemptionFee": "Up to 0.50% of your investment's value when entering and exiting the investment"
+    },
+    "serviceProviders": {
+      "tokenizer": "Backed Finance AG",
+      "broker": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "custodian": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "securityAgent": "Security Agent Services AG"
+    }
+  },
+  {
+    "id": "pmx",
+    "name": "PMx",
+    "fullName": "Philip Morris xStock",
+    "symbol": "PM",
+    "description": "Phillip Morris xStock (PMx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. PMx tracks the price of Philip Morris International Inc. (the underlying).",
+    "logo": "/img/tokens/pmx.svg",
+    "category": "tokenized-stocks",
+    "chain": "solana",
+    "contractAddress": "Xsba6tUnSjDae2VcopDB6FGGDaxRrewFCDa5hKn5vT3",
+    "isin": "CH1436219591",
+    "issuer": "Backed Assets (JE) Limited",
+    "factsheetUrl": "https://backed.fi/",
+    "informationUrl": "https://backed.fi/",
+    "tradeUrl": "https://backed.fi/",
+    "underlyingAsset": {
+      "name": "Philip Morris International Inc.",
+      "symbol": "PM",
+      "isin": "US7181721090",
+      "issuer": "The issuer of the Underlying is Philip Morris International Inc., 677 Washington Blvd., Ste. 1100, Stamford, CT 06901, USA. LEI: 549300R0WJZWIQZQPW60."
+    },
+    "tradingPlatforms": [
+      "Backed Finance"
+    ],
+    "investmentObjective": "Phillip Morris xStock (PMx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. PMx tracks the price of Philip Morris International Inc. (the underlying).",
+    "keyBenefits": "Phillip Morris is an American multinational tobacco company, with products sold in over 180 countries. The most recognized and best selling product of the company is Marlboro; its other major cigarette brands include L&M and Chesterfield.",
+    "fees": {
+      "managementFee": "The tracker charges no management fee at present. A fee of up to 0.25% per year may be introduced in the future",
+      "issuanceRedemptionFee": "Up to 0.50% of your investment's value when entering and exiting the investment"
+    },
+    "serviceProviders": {
+      "tokenizer": "Backed Finance AG",
+      "broker": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "custodian": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "securityAgent": "Security Agent Services AG"
+    }
+  },
+  {
+    "id": "pgx",
+    "name": "PGx",
+    "fullName": "Procter & Gamble xStock",
+    "symbol": "PG",
+    "description": "Procter & Gamble xStock (PGx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. PGx tracks the price of The Procter & Gamble Company (the underlying).",
+    "logo": "/img/tokens/pgx.svg",
+    "category": "tokenized-stocks",
+    "chain": "solana",
+    "contractAddress": "XsYdjDjNUygZ7yGKfQaB6TxLh2gC6RRjzLtLAGJrhzV",
+    "isin": "CH1436219344",
+    "issuer": "Backed Assets (JE) Limited",
+    "factsheetUrl": "https://backed.fi/",
+    "informationUrl": "https://backed.fi/",
+    "tradeUrl": "https://backed.fi/",
+    "underlyingAsset": {
+      "name": "The Procter & Gamble Company",
+      "symbol": "PG",
+      "isin": "US7427181091",
+      "issuer": "The issuer of the Underlying is The Procter & Gamble Company, 1 Procter & Gamble Plaza, Cincinnati, OH 45202, USA. LEI: 2572IBTT8CCZW6AU4141."
+    },
+    "tradingPlatforms": [
+      "Backed Finance"
+    ],
+    "investmentObjective": "Procter & Gamble xStock (PGx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. PGx tracks the price of The Procter & Gamble Company (the underlying).",
+    "keyBenefits": "Procter & Gamble is a global consumer goods company, founded over 180 years ago. It's known for its vast portfolio of trusted brands and its commitment to innovation and ethical business practices. P&G operates in various segments, including beauty, grooming, health care, fabric & home care, and baby, feminine & family care.",
+    "fees": {
+      "managementFee": "The tracker charges no management fee at present. A fee of up to 0.25% per year may be introduced in the future",
+      "issuanceRedemptionFee": "Up to 0.50% of your investment's value when entering and exiting the investment"
+    },
+    "serviceProviders": {
+      "tokenizer": "Backed Finance AG",
+      "broker": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "custodian": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "securityAgent": "Security Agent Services AG"
+    }
+  },
+  {
+    "id": "hoodx",
+    "name": "HOODx",
+    "fullName": "Robinhood xStock",
+    "symbol": "HOOD",
+    "description": "Robinhood xStock (HOODx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. HOODx tracks the price of Robinhood Markets, Inc. (the underlying).",
+    "logo": "/img/tokens/hoodx.svg",
+    "category": "tokenized-stocks",
+    "chain": "solana",
+    "contractAddress": "XsvNBAYkrDRNhA7wPHQfX3ZUXZyZLdnCQDfHZ56bzpg",
+    "isin": "CH1436219666",
+    "issuer": "Backed Assets (JE) Limited",
+    "factsheetUrl": "https://backed.fi/",
+    "informationUrl": "https://backed.fi/",
+    "tradeUrl": "https://backed.fi/",
+    "underlyingAsset": {
+      "name": "Robinhood Markets, Inc.",
+      "symbol": "HOOD",
+      "isin": "US7707001027",
+      "issuer": "The issuer of the Underlying is Robinhood Markets, Inc., 85 Willow Road, Menlo Park, CA 94025, USA. LEI: 213800FS5AO3YWIE6F63."
+    },
+    "tradingPlatforms": [
+      "Backed Finance"
+    ],
+    "investmentObjective": "Robinhood xStock (HOODx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. HOODx tracks the price of Robinhood Markets, Inc. (the underlying).",
+    "keyBenefits": "Robinhood is a publicly traded financial technology company specializing in online brokerage and investment solutions. The company offers a platform for users to buy and sell stocks, options, ETFs, and cryptocurrencies with zero trading commissions.",
+    "fees": {
+      "managementFee": "The tracker charges no management fee at present. A fee of up to 0.25% per year may be introduced in the future",
+      "issuanceRedemptionFee": "Up to 0.50% of your investment's value when entering and exiting the investment"
+    },
+    "serviceProviders": {
+      "tokenizer": "Backed Finance AG",
+      "broker": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "custodian": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "securityAgent": "Security Agent Services AG"
+    }
+  },
+  {
+    "id": "crmx",
+    "name": "CRMx",
+    "fullName": "Salesforce xStock",
+    "symbol": "CRM",
+    "description": "Salesforce xStock (CRMx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. CRMx tracks the price of Salesforce, Inc. (the underlying).",
+    "logo": "/img/tokens/crmx.svg",
+    "category": "tokenized-stocks",
+    "chain": "solana",
+    "contractAddress": "XsczbcQ3zfcgAEt9qHQES8pxKAVG5rujPSHQEXi4kaN",
+    "isin": "CH1436219476",
+    "issuer": "Backed Assets (JE) Limited",
+    "factsheetUrl": "https://backed.fi/",
+    "informationUrl": "https://backed.fi/",
+    "tradeUrl": "https://backed.fi/",
+    "underlyingAsset": {
+      "name": "Salesforce, Inc.",
+      "symbol": "CRM",
+      "isin": "US79466L3024",
+      "issuer": "The issuer of the Underlying is Salesforce, Inc., 415 Mission Street, San Francisco, CA 94105, USA. LEI: RCGZFPDMRW58VJ54VR07."
+    },
+    "tradingPlatforms": [
+      "Backed Finance"
+    ],
+    "investmentObjective": "Salesforce xStock (CRMx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. CRMx tracks the price of Salesforce, Inc. (the underlying).",
+    "keyBenefits": "Salesforce is a technology company that pioneered cloud-based customer relationship management (CRM) and now offers a broad suite of AI-powered platforms for various business functions, including sales, service, marketing, and commerce.",
+    "fees": {
+      "managementFee": "The tracker charges no management fee at present. A fee of up to 0.25% per year may be introduced in the future",
+      "issuanceRedemptionFee": "Up to 0.50% of your investment's value when entering and exiting the investment"
+    },
+    "serviceProviders": {
+      "tokenizer": "Backed Finance AG",
+      "broker": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "custodian": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "securityAgent": "Security Agent Services AG"
+    }
+  },
+  {
+    "id": "spyx",
+    "name": "SPYx",
+    "fullName": "SP500 xStock",
+    "symbol": "SPY",
+    "description": "SP500 xStock (SPYx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. SPYx tracks the price of SPDR S&P 500 ETF Trust (the underlying).",
+    "logo": "/img/tokens/spyx.svg",
+    "category": "tokenized-stocks",
+    "chain": "solana",
+    "contractAddress": "XsoCS1TfEyfFhfvj8EtZ528L3CaKBDBRqRapnBbDF2W",
+    "isin": "CH1436219716",
+    "issuer": "Backed Assets (JE) Limited",
+    "factsheetUrl": "https://backed.fi/",
+    "informationUrl": "https://backed.fi/",
+    "tradeUrl": "https://backed.fi/",
+    "underlyingAsset": {
+      "name": "SPDR S&P 500 ETF Trust",
+      "symbol": "SPY",
+      "isin": "US78462F1030",
+      "issuer": "The issuer of the Underlying is SPDR S&P 500 ETF TRUST, c/o State Street Global Advisors, One Iron Street, Boston MA 02210, USA."
+    },
+    "tradingPlatforms": [
+      "Backed Finance"
+    ],
+    "investmentObjective": "SP500 xStock (SPYx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. SPYx tracks the price of SPDR S&P 500 ETF Trust (the underlying).",
+    "keyBenefits": "SPDR S&P 500 ETF Trust (SPY) is an exchange-traded fund that seeks to track the performance of the S&P 500 Index, representing 500 of the largest publicly traded companies in the U.S. It offers broad exposure to the U.S. equity market and is one of the most widely traded ETFs globally.",
+    "fees": {
+      "managementFee": "0.0945% per year, reflects the actual ongoing costs charged by the manager of the underlying fund, and is based on costs incurred over the past year.",
+      "issuanceRedemptionFee": "Up to 0.50% of your investment's value when entering and exiting the investment"
+    },
+    "serviceProviders": {
+      "tokenizer": "Backed Finance AG",
+      "broker": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "custodian": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "securityAgent": "Security Agent Services AG"
+    }
+  },
+  {
+    "id": "tslax",
+    "name": "TSLAx",
+    "fullName": "Tesla xStock",
+    "symbol": "TSLA",
+    "description": "Tesla xStock (TSLAx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. TSLAx tracks the price of Tesla, Inc. (the underlying).",
+    "logo": "/img/tokens/tslax.svg",
+    "category": "tokenized-stocks",
+    "chain": "solana",
+    "contractAddress": "XsDoVfqeBukxuZHWhdvWHBhgEHjGNst4MLodqsJHzoB",
+    "isin": "CH1436219252",
+    "issuer": "Backed Assets (JE) Limited",
+    "factsheetUrl": "https://backed.fi/",
+    "informationUrl": "https://backed.fi/",
+    "tradeUrl": "https://backed.fi/",
+    "underlyingAsset": {
+      "name": "Tesla, Inc.",
+      "symbol": "TSLA",
+      "isin": "US88160R1014",
+      "issuer": "The issuer of the Underlying is Tesla, Inc., 1209 Orange Street, Wilmington, New Castle, Delaware 19801, USA. LEI: 54930043XZGB27CTOV49."
+    },
+    "tradingPlatforms": [
+      "Backed Finance"
+    ],
+    "investmentObjective": "Tesla xStock (TSLAx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. TSLAx tracks the price of Tesla, Inc. (the underlying).",
+    "keyBenefits": "Tesla, Inc. is an American company focused on designing, developing, manufacturing, and selling electric vehicles, as well as energy generation and storage systems.",
+    "fees": {
+      "managementFee": "The tracker charges no management fee at present. A fee of up to 0.25% per year may be introduced in the future",
+      "issuanceRedemptionFee": "Up to 0.50% of your investment's value when entering and exiting the investment"
+    },
+    "serviceProviders": {
+      "tokenizer": "Backed Finance AG",
+      "broker": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "custodian": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "securityAgent": "Security Agent Services AG"
+    }
+  },
+  {
+    "id": "tmox",
+    "name": "TMOx",
+    "fullName": "Thermo Fisher xStock",
+    "symbol": "TMO",
+    "description": "Thermo Fisher xStock (TMOx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. TMOx tracks the price of Thermo Fisher Scientific Inc. (the underlying).",
+    "logo": "/img/tokens/tmox.svg",
+    "category": "tokenized-stocks",
+    "chain": "solana",
+    "contractAddress": "Xs8drBWy3Sd5QY3aifG9kt9KFs2K3PGZmx7jWrsrk57",
+    "isin": "CH1436219492",
+    "issuer": "Backed Assets (JE) Limited",
+    "factsheetUrl": "https://backed.fi/",
+    "informationUrl": "https://backed.fi/",
+    "tradeUrl": "https://backed.fi/",
+    "underlyingAsset": {
+      "name": "Thermo Fisher Scientific Inc.",
+      "symbol": "TMO",
+      "isin": "US8835561023",
+      "issuer": "The issuer of the Underlying is Thermo Fisher Scientific Inc., 168 Third Avenue, Waltham, MA 02451, USA. LEI: HCHV7422L5HDJZCRFL38."
+    },
+    "tradingPlatforms": [
+      "Backed Finance"
+    ],
+    "investmentObjective": "Thermo Fisher xStock (TMOx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. TMOx tracks the price of Thermo Fisher Scientific Inc. (the underlying).",
+    "keyBenefits": "Thermo Fisher is a global leader in serving science, with a mission to enable customers to make the world healthier, cleaner, and safer. They provide a wide range of products and services, including scientific instruments, lab equipment, reagents, consumables, software, and pharmaceutical services.",
+    "fees": {
+      "managementFee": "The tracker charges no management fee at present. A fee of up to 0.25% per year may be introduced in the future",
+      "issuanceRedemptionFee": "Up to 0.50% of your investment's value when entering and exiting the investment"
+    },
+    "serviceProviders": {
+      "tokenizer": "Backed Finance AG",
+      "broker": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "custodian": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "securityAgent": "Security Agent Services AG"
+    }
+  },
+  {
+    "id": "tqqqx",
+    "name": "TQQQx",
+    "fullName": "TQQQ xStock",
+    "symbol": "TQQQ",
+    "description": "TQQQ xStock (TQQQx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. TQQQx tracks the price of ProShares UltraPro QQQ (the underlying).",
+    "logo": "/img/tokens/tqqqx.svg",
+    "category": "tokenized-stocks",
+    "chain": "solana",
+    "contractAddress": "XsjQP3iMAaQ3kQScQKthQpx9ALRbjKAjQtHg6TFomoc",
+    "isin": "CH1436219757",
+    "issuer": "Backed Assets (JE) Limited",
+    "factsheetUrl": "https://backed.fi/",
+    "informationUrl": "https://backed.fi/",
+    "tradeUrl": "https://backed.fi/",
+    "underlyingAsset": {
+      "name": "ProShares UltraPro QQQ",
+      "symbol": "TQQQ",
+      "isin": "US74347X8314",
+      "issuer": "The issuer of the Underlying is ProShares Trust, 7272 Wisconsin Avenue, Suite 1000, Bethesda, MD 20814, USA."
+    },
+    "tradingPlatforms": [
+      "Backed Finance"
+    ],
+    "investmentObjective": "TQQQ xStock (TQQQx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. TQQQx tracks the price of ProShares UltraPro QQQ (the underlying).",
+    "keyBenefits": "ProShares UltraPro QQQ (TQQQ) is a leveraged exchange-traded fund designed to deliver three times the daily performance of the Nasdaq-100 Index. It targets short-term traders and is intended for use over brief holding periods due to its daily reset and high volatility.",
+    "fees": {
+      "managementFee": "0.97% per year, reflects the actual ongoing costs charged by the manager of the underlying fund, and is based on costs incurred over the past year.",
+      "issuanceRedemptionFee": "Up to 0.50% of your investment's value when entering and exiting the investment"
+    },
+    "serviceProviders": {
+      "tokenizer": "Backed Finance AG",
+      "broker": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "custodian": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "securityAgent": "Security Agent Services AG"
+    }
+  },
+  {
+    "id": "unhx",
+    "name": "UNHx",
+    "fullName": "UnitedHealth xStock",
+    "symbol": "UNH",
+    "description": "UnitedHealth xStock (UNHx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. UNHx tracks the price of UnitedHealth Group Incorporated (the underlying).",
+    "logo": "/img/tokens/unhx.svg",
+    "category": "tokenized-stocks",
+    "chain": "solana",
+    "contractAddress": "XszvaiXGPwvk2nwb3o9C1CX4K6zH8sez11E6uyup6fe",
+    "isin": "CH1436219278",
+    "issuer": "Backed Assets (JE) Limited",
+    "factsheetUrl": "https://backed.fi/",
+    "informationUrl": "https://backed.fi/",
+    "tradeUrl": "https://backed.fi/",
+    "underlyingAsset": {
+      "name": "UnitedHealth Group Incorporated",
+      "symbol": "UNH",
+      "isin": "US91324P1021",
+      "issuer": "The issuer of the Underlying is UnitedHealth Group Incorporated, 9900 Bren Road East, Minnetonka, MN 55343, USA. LEI: 549300GHBMY8T5GXDE41."
+    },
+    "tradingPlatforms": [
+      "Backed Finance"
+    ],
+    "investmentObjective": "UnitedHealth xStock (UNHx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. UNHx tracks the price of UnitedHealth Group Incorporated (the underlying).",
+    "keyBenefits": "UnitedHealth Group is a global healthcare and well-being company that operates through two main divisions: UnitedHealthcare and Optum. UnitedHealthcare focuses on providing health insurance plans and benefits, while Optum leverages technology and data to improve healthcare delivery, access, and outcomes.",
+    "fees": {
+      "managementFee": "The tracker charges no management fee at present. A fee of up to 0.25% per year may be introduced in the future",
+      "issuanceRedemptionFee": "Up to 0.50% of your investment's value when entering and exiting the investment"
+    },
+    "serviceProviders": {
+      "tokenizer": "Backed Finance AG",
+      "broker": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "custodian": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "securityAgent": "Security Agent Services AG"
+    }
+  },
+  {
+    "id": "vtix",
+    "name": "VTIx",
+    "fullName": "Vanguard xStock",
+    "symbol": "VTI",
+    "description": "Vanguard xStock (VTIx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. VTIx tracks the price of Vanguard Total Stock Market Index Fund ETF (the underlying).",
+    "logo": "/img/tokens/vtix.svg",
+    "category": "tokenized-stocks",
+    "chain": "solana",
+    "contractAddress": "XsssYEQjzxBCFgvYFFNuhJFBeHNdLWYeUSP8F45cDr9",
+    "isin": "CH1436219732",
+    "issuer": "Backed Assets (JE) Limited",
+    "factsheetUrl": "https://backed.fi/",
+    "informationUrl": "https://backed.fi/",
+    "tradeUrl": "https://backed.fi/",
+    "underlyingAsset": {
+      "name": "Vanguard Total Stock Market ETF",
+      "symbol": "VTI",
+      "isin": "US9229087690",
+      "issuer": "The issuer of the Underlying is Vanguard Total Stock Market Index Fund, c/o Vanguard Index Funds, 100 Vanguard Blvd., Malvern, PA 19355, USA."
+    },
+    "tradingPlatforms": [
+      "Backed Finance"
+    ],
+    "investmentObjective": "Vanguard xStock (VTIx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. VTIx tracks the price of Vanguard Total Stock Market Index Fund ETF (the underlying).",
+    "keyBenefits": "Vanguard Total Stock Market Index Fund ETF (VTI) is an exchange-traded fund that seeks to track the performance of the CRSP U.S. Total Market Index, covering nearly all publicly traded U.S. companies. It offers broad exposure to large-, mid-, small-, and micro-cap stocks across all sectors.",
+    "fees": {
+      "managementFee": "0.03% per year, reflects the actual ongoing costs charged by the manager of the underlying fund, and is based on costs incurred over the past year.",
+      "issuanceRedemptionFee": "Up to 0.50% of your investment's value when entering and exiting the investment"
+    },
+    "serviceProviders": {
+      "tokenizer": "Backed Finance AG",
+      "broker": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "custodian": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "securityAgent": "Security Agent Services AG"
+    }
+  },
+  {
+    "id": "vx",
+    "name": "Vx",
+    "fullName": "Visa xStock",
+    "symbol": "V",
+    "description": "Visa xStock (Vx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. Vx tracks the price of Visa Inc. Class A (the underlying).",
+    "logo": "/img/tokens/vx.svg",
+    "category": "tokenized-stocks",
+    "chain": "solana",
+    "contractAddress": "XsqgsbXwWogGJsNcVZ3TyVouy2MbTkfCFhCGGGcQZ2p",
+    "isin": "CH1436219310",
+    "issuer": "Backed Assets (JE) Limited",
+    "factsheetUrl": "https://backed.fi/",
+    "informationUrl": "https://backed.fi/",
+    "tradeUrl": "https://backed.fi/",
+    "underlyingAsset": {
+      "name": "Visa Inc. Class A",
+      "symbol": "V",
+      "isin": "US92826C8394",
+      "issuer": "The issuer of the Underlying is Visa Inc. Class A, 900 Metro Center Blvd, Foster City, CA 94404, USA. LEI: 549300JZ4OKEHW3DPJ59."
+    },
+    "tradingPlatforms": [
+      "Backed Finance"
+    ],
+    "investmentObjective": "Visa xStock (Vx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. Vx tracks the price of Visa Inc. Class A (the underlying).",
+    "keyBenefits": "Visa Inc. is a global digital payments technology company that facilitates transactions between consumers, merchants, and financial institutions in over 200 countries. They provide a network for digital payments, including credit, debit, and prepaid cards, as well as various other payment technologies.",
+    "fees": {
+      "managementFee": "The tracker charges no management fee at present. A fee of up to 0.25% per year may be introduced in the future",
+      "issuanceRedemptionFee": "Up to 0.50% of your investment's value when entering and exiting the investment"
+    },
+    "serviceProviders": {
+      "tokenizer": "Backed Finance AG",
+      "broker": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "custodian": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "securityAgent": "Security Agent Services AG"
+    }
+  },
+  {
+    "id": "wmtx",
+    "name": "WMTx",
+    "fullName": "Walmart xStock",
+    "symbol": "WMT",
+    "description": "Walmart xStock (WMTx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. WMTx tracks the price of Walmart Inc. (the underlying).",
+    "logo": "/img/tokens/wmtx.svg",
+    "category": "tokenized-stocks",
+    "chain": "solana",
+    "contractAddress": "Xs151QeqTCiuKtinzfRATnUESM2xTU6V9Wy8Vy538ci",
+    "isin": "CH1436219427",
+    "issuer": "Backed Assets (JE) Limited",
+    "factsheetUrl": "https://backed.fi/",
+    "informationUrl": "https://backed.fi/",
+    "tradeUrl": "https://backed.fi/",
+    "underlyingAsset": {
+      "name": "Walmart Inc.",
+      "symbol": "WMT",
+      "isin": "US9311421039",
+      "issuer": "The issuer of the Underlying is Walmart Inc., 702 S.W. 8th Street, Bentonville, AR 72716, USA. LEI: Y87794H0US1R65VBXU25."
+    },
+    "tradingPlatforms": [
+      "Backed Finance"
+    ],
+    "investmentObjective": "Walmart xStock (WMTx) is a tracker certificate issued as Solana SPL and ERC-20 tokens. WMTx tracks the price of Walmart Inc. (the underlying).",
+    "keyBenefits": "Walmart Inc. is a multinational retail corporation operating a global network of discount department stores, supercenters, and online platforms. It is one of the largest retailers in the world, known for its everyday low prices and broad product assortment.",
+    "fees": {
+      "managementFee": "The tracker charges no management fee at present. A fee of up to 0.25% per year may be introduced in the future",
+      "issuanceRedemptionFee": "Up to 0.50% of your investment's value when entering and exiting the investment"
+    },
+    "serviceProviders": {
+      "tokenizer": "Backed Finance AG",
+      "broker": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "custodian": "Alpaca Securities LLC, InCore Bank AG, Maerki Baumann & Co. AG",
+      "securityAgent": "Security Agent Services AG"
+    }
+  }
+]

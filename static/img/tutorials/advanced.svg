@@ -1,0 +1,152 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#gradient5)"/>
+  
+  <!-- Advanced Trading Dashboard -->
+  <g transform="translate(50, 50)">
+    <!-- Main Screen -->
+    <rect x="0" y="0" width="300" height="180" fill="#1a1a1a" stroke="#5f6368" stroke-width="2" rx="8"/>
+    
+    <!-- Screen Header -->
+    <rect x="10" y="10" width="280" height="25" fill="#2d2d2d" rx="4"/>
+    <text x="20" y="25" fill="#4285f4" font-size="10" font-weight="bold">ADVANCED TRADING TERMINAL</text>
+    
+    <!-- Chart Area -->
+    <rect x="10" y="45" width="180" height="120" fill="#0d1421" stroke="#4285f4" stroke-width="1" rx="4"/>
+    
+    <!-- Candlestick Chart -->
+    <g transform="translate(20, 55)">
+      <!-- Candlesticks -->
+      <rect x="10" y="40" width="8" height="30" fill="#ea4335"/>
+      <line x1="14" y1="35" x2="14" y2="75" stroke="#ea4335" stroke-width="2"/>
+      
+      <rect x="25" y="20" width="8" height="40" fill="#34a853"/>
+      <line x1="29" y1="15" x2="29" y2="65" stroke="#34a853" stroke-width="2"/>
+      
+      <rect x="40" y="30" width="8" height="25" fill="#34a853"/>
+      <line x1="44" y1="25" x2="44" y2="60" stroke="#34a853" stroke-width="2"/>
+      
+      <rect x="55" y="45" width="8" height="20" fill="#ea4335"/>
+      <line x1="59" y1="40" x2="59" y2="70" stroke="#ea4335" stroke-width="2"/>
+      
+      <rect x="70" y="25" width="8" height="35" fill="#34a853"/>
+      <line x1="74" y1="20" x2="74" y2="65" stroke="#34a853" stroke-width="2"/>
+      
+      <rect x="85" y="35" width="8" height="25" fill="#34a853"/>
+      <line x1="89" y1="30" x2="89" y2="65" stroke="#34a853" stroke-width="2"/>
+      
+      <rect x="100" y="15" width="8" height="45" fill="#34a853"/>
+      <line x1="104" y1="10" x2="104" y2="65" stroke="#34a853" stroke-width="2"/>
+      
+      <rect x="115" y="20" width="8" height="30" fill="#ea4335"/>
+      <line x1="119" y1="15" x2="119" y2="55" stroke="#ea4335" stroke-width="2"/>
+      
+      <rect x="130" y="25" width="8" height="35" fill="#34a853"/>
+      <line x1="134" y1="20" x2="134" y2="65" stroke="#34a853" stroke-width="2"/>
+      
+      <rect x="145" y="10" width="8" height="50" fill="#34a853"/>
+      <line x1="149" y1="5" x2="149" y2="65" stroke="#34a853" stroke-width="2"/>
+    </g>
+    
+    <!-- Trend Line -->
+    <polyline points="30,120 50,100 70,105 90,85 110,90 130,70 150,75 170,55" 
+              stroke="#fbbc04" stroke-width="2" fill="none" opacity="0.8"/>
+    
+    <!-- Order Book -->
+    <rect x="200" y="45" width="90" height="120" fill="#0d1421" stroke="#34a853" stroke-width="1" rx="4"/>
+    <text x="210" y="60" fill="#34a853" font-size="8" font-weight="bold">ORDER BOOK</text>
+    
+    <!-- Buy Orders -->
+    <rect x="205" y="65" width="35" height="3" fill="#34a853" opacity="0.8"/>
+    <rect x="205" y="70" width="30" height="3" fill="#34a853" opacity="0.7"/>
+    <rect x="205" y="75" width="40" height="3" fill="#34a853" opacity="0.6"/>
+    <rect x="205" y="80" width="25" height="3" fill="#34a853" opacity="0.5"/>
+    
+    <!-- Sell Orders -->
+    <rect x="250" y="65" width="35" height="3" fill="#ea4335" opacity="0.8"/>
+    <rect x="250" y="70" width="30" height="3" fill="#ea4335" opacity="0.7"/>
+    <rect x="250" y="75" width="40" height="3" fill="#ea4335" opacity="0.6"/>
+    <rect x="250" y="80" width="25" height="3" fill="#ea4335" opacity="0.5"/>
+    
+    <!-- Price Display -->
+    <text x="210" y="100" fill="#fbbc04" font-size="12" font-weight="bold">$152.75</text>
+    <text x="210" y="115" fill="#34a853" font-size="8">+3.2% (+$4.85)</text>
+    
+    <!-- Volume Bars -->
+    <rect x="205" y="125" width="4" height="15" fill="#4285f4" opacity="0.7"/>
+    <rect x="212" y="120" width="4" height="20" fill="#4285f4" opacity="0.7"/>
+    <rect x="219" y="130" width="4" height="10" fill="#4285f4" opacity="0.7"/>
+    <rect x="226" y="115" width="4" height="25" fill="#4285f4" opacity="0.7"/>
+    <rect x="233" y="125" width="4" height="15" fill="#4285f4" opacity="0.7"/>
+    <rect x="240" y="110" width="4" height="30" fill="#4285f4" opacity="0.7"/>
+    <rect x="247" y="120" width="4" height="20" fill="#4285f4" opacity="0.7"/>
+    <rect x="254" y="125" width="4" height="15" fill="#4285f4" opacity="0.7"/>
+    <rect x="261" y="115" width="4" height="25" fill="#4285f4" opacity="0.7"/>
+    <rect x="268" y="130" width="4" height="10" fill="#4285f4" opacity="0.7"/>
+    <rect x="275" y="120" width="4" height="20" fill="#4285f4" opacity="0.7"/>
+    <rect x="282" y="125" width="4" height="15" fill="#4285f4" opacity="0.7"/>
+  </g>
+  
+  <!-- Strategy Icons -->
+  <g transform="translate(80, 240)">
+    <!-- Arbitrage -->
+    <circle cx="30" cy="15" r="12" fill="#4285f4"/>
+    <path d="M 25 10 L 30 15 L 35 10 M 25 20 L 30 15 L 35 20" stroke="white" stroke-width="2" fill="none"/>
+    <text x="30" y="35" text-anchor="middle" fill="#5f6368" font-size="8" font-weight="bold">ARBITRAGE</text>
+  </g>
+  
+  <g transform="translate(160, 240)">
+    <!-- Liquidity Mining -->
+    <circle cx="30" cy="15" r="12" fill="#34a853"/>
+    <rect x="25" y="10" width="10" height="10" fill="white" rx="1"/>
+    <circle cx="30" cy="15" r="3" fill="#34a853"/>
+    <text x="30" y="35" text-anchor="middle" fill="#5f6368" font-size="8" font-weight="bold">LIQUIDITY</text>
+  </g>
+  
+  <g transform="translate(240, 240)">
+    <!-- Options -->
+    <circle cx="30" cy="15" r="12" fill="#fbbc04"/>
+    <path d="M 25 15 Q 30 10 35 15 Q 30 20 25 15" fill="white"/>
+    <text x="30" y="35" text-anchor="middle" fill="#5f6368" font-size="8" font-weight="bold">OPTIONS</text>
+  </g>
+  
+  <!-- Risk Management -->
+  <g transform="translate(320, 240)">
+    <circle cx="30" cy="15" r="12" fill="#ea4335"/>
+    <path d="M 25 12 L 28 15 L 35 8" stroke="white" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <path d="M 25 18 L 35 18" stroke="white" stroke-width="2" stroke-linecap="round"/>
+    <text x="30" y="35" text-anchor="middle" fill="#5f6368" font-size="8" font-weight="bold">RISK MGMT</text>
+  </g>
+  
+  <!-- Performance Metrics -->
+  <g transform="translate(320, 80)">
+    <rect x="0" y="0" width="60" height="80" fill="#ffffff" stroke="#e1e5e9" stroke-width="2" rx="4"/>
+    <text x="30" y="15" text-anchor="middle" fill="#5f6368" font-size="8" font-weight="bold">PERFORMANCE</text>
+    
+    <text x="10" y="30" fill="#34a853" font-size="10" font-weight="bold">ROI</text>
+    <text x="45" y="30" text-anchor="end" fill="#34a853" font-size="10" font-weight="bold">+24.5%</text>
+    
+    <text x="10" y="45" fill="#4285f4" font-size="10" font-weight="bold">Sharpe</text>
+    <text x="45" y="45" text-anchor="end" fill="#4285f4" font-size="10" font-weight="bold">1.85</text>
+    
+    <text x="10" y="60" fill="#fbbc04" font-size="10" font-weight="bold">Vol</text>
+    <text x="45" y="60" text-anchor="end" fill="#fbbc04" font-size="10" font-weight="bold">12.3%</text>
+    
+    <text x="10" y="75" fill="#ea4335" font-size="10" font-weight="bold">MaxDD</text>
+    <text x="45" y="75" text-anchor="end" fill="#ea4335" font-size="10" font-weight="bold">-5.2%</text>
+  </g>
+  
+  <!-- Decorative Elements -->
+  <circle cx="30" cy="30" r="3" fill="#fbbc04" opacity="0.6"/>
+  <circle cx="370" cy="30" r="4" fill="#ea4335" opacity="0.5"/>
+  <circle cx="30" cy="200" r="2" fill="#34a853" opacity="0.7"/>
+  <circle cx="370" cy="200" r="3" fill="#4285f4" opacity="0.6"/>
+  
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="gradient5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8f9fa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fff3e0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>

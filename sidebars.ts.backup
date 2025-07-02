@@ -1,0 +1,40 @@
+import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
+
+// This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
+
+const sidebars: SidebarsConfig = {
+  // 手动定义侧边栏结构
+  tutorialSidebar: [
+    {
+      type: 'category',
+      label: '代币化股票产品',
+      items: [
+        'products/overview',
+        'products/aapl',
+        'products/tsla',
+      ],
+    },
+    {
+      type: 'category',
+      label: '平台对比',
+      items: [
+        'platforms/compare',
+      ],
+    },
+    {
+      type: 'category',
+      label: '交易教程',
+      items: [
+        'tutorials/intro',
+        'tutorials/basics',
+        'tutorials/cex',
+        'tutorials/dex',
+        'tutorials/advanced',
+      ],
+    },
+    'faq',
+    'compliance',
+  ],
+};
+
+export default sidebars;

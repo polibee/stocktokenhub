@@ -1,0 +1,210 @@
+facebook:
+  label: Facebook
+  permalink: /facebook
+  description: Facebook tag description
+
+hello:
+  label: Hello
+  permalink: /hello
+  description: Hello tag description
+
+docusaurus:
+  label: Docusaurus
+  permalink: /docusaurus
+  description: Docusaurus tag description
+
+hola:
+  label: Hola
+  permalink: /hola
+  description: Hola tag description
+
+CEX:
+  label: CEX
+  permalink: /cex
+  description: Centralized Exchange
+
+中心化交易所:
+  label: 中心化交易所
+  permalink: /centralized-exchange
+  description: Centralized Exchange in Chinese
+
+Kraken:
+  label: Kraken
+  permalink: /kraken
+  description: Kraken Exchange
+
+代币化股票交易:
+  label: 代币化股票交易
+  permalink: /tokenized-stock-trading
+  description: Tokenized Stock Trading
+
+教程:
+  label: 教程
+  permalink: /tutorial
+  description: Tutorial
+
+DEX:
+  label: DEX
+  permalink: /dex
+  description: Decentralized Exchange
+
+去中心化交易所:
+  label: 去中心化交易所
+  permalink: /decentralized-exchange
+  description: Decentralized Exchange in Chinese
+
+Uniswap:
+  label: Uniswap
+  permalink: /uniswap
+  description: Uniswap DEX
+
+Jupiter:
+  label: Jupiter
+  permalink: /jupiter
+  description: Jupiter DEX
+
+DeFi:
+  label: DeFi
+  permalink: /defi
+  description: Decentralized Finance
+
+基础知识:
+  label: 基础知识
+  permalink: /basics
+  description: Basic Knowledge
+
+代币化股票:
+  label: 代币化股票
+  permalink: /tokenized-stocks
+  description: Tokenized Stocks
+
+区块链:
+  label: 区块链
+  permalink: /blockchain
+  description: Blockchain
+
+入门教程:
+  label: 入门教程
+  permalink: /beginner-tutorial
+  description: Beginner Tutorial
+
+高级策略:
+  label: 高级策略
+  permalink: /advanced-strategies
+  description: Advanced Strategies
+
+套利:
+  label: 套利
+  permalink: /arbitrage
+  description: Arbitrage
+
+流动性挖矿:
+  label: 流动性挖矿
+  permalink: /liquidity-mining
+  description: Liquidity Mining
+
+期权:
+  label: 期权
+  permalink: /options
+  description: Options
+
+杠杆:
+  label: 杠杆
+  permalink: /leverage
+  description: Leverage
+
+入门指南:
+  label: 入门指南
+  permalink: /getting-started
+  description: Getting Started Guide
+
+交易:
+  label: 交易
+  permalink: /trading
+  description: Trading
+
+# English Tags
+Advanced Strategies:
+  label: Advanced Strategies
+  permalink: /advanced-strategies-en
+  description: Advanced Trading Strategies
+
+Arbitrage:
+  label: Arbitrage
+  permalink: /arbitrage-en
+  description: Arbitrage Trading
+
+Liquidity Mining:
+  label: Liquidity Mining
+  permalink: /liquidity-mining-en
+  description: Liquidity Mining Strategies
+
+Options:
+  label: Options
+  permalink: /options-en
+  description: Options Trading
+
+Leverage:
+  label: Leverage
+  permalink: /leverage-en
+  description: Leverage Trading
+
+Tutorial:
+  label: Tutorial
+  permalink: /tutorial-en
+  description: Tutorial Guide
+
+Basics:
+  label: Basics
+  permalink: /basics-en
+  description: Basic Knowledge
+
+Tokenized Stocks:
+  label: Tokenized Stocks
+  permalink: /tokenized-stocks-en
+  description: Tokenized Stock Trading
+
+Blockchain:
+  label: Blockchain
+  permalink: /blockchain-en
+  description: Blockchain Technology
+
+Getting Started:
+  label: Getting Started
+  permalink: /getting-started-en
+  description: Getting Started Guide
+
+Trading:
+  label: Trading
+  permalink: /trading-en
+  description: Trading Strategies
+
+basics:
+  label: Basics
+  permalink: /basics-tag
+  description: Basic concepts and fundamentals
+
+tokenized stocks:
+  label: Tokenized Stocks
+  permalink: /tokenized-stocks-tag
+  description: Tokenized stock trading
+
+blockchain:
+  label: Blockchain
+  permalink: /blockchain-tag
+  description: Blockchain technology
+
+beginner tutorial:
+  label: Beginner Tutorial
+  permalink: /beginner-tutorial-tag
+  description: Tutorials for beginners
+
+beginner guide:
+  label: Beginner Guide
+  permalink: /beginner-guide-tag
+  description: Guide for beginners
+
+beginner:
+  label: Beginner
+  permalink: /beginner-tag
+  description: Content for beginners

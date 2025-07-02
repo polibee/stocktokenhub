@@ -7,7 +7,7 @@ import GlobalShare from '../../components/GlobalShare';
 
 type Props = WrapperProps<typeof LayoutType>;
 
-export default function LayoutWrapper(props: Props): JSX.Element {
+export default function LayoutWrapper(props: Props): React.JSX.Element {
   return (
     <>
       <Layout {...props} />

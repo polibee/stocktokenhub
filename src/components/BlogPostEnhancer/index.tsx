@@ -33,11 +33,7 @@ const BlogPostEnhancer: React.FC<BlogPostEnhancerProps> = ({ children }) => {
   return (
     <>
       <div className="blog-post-enhancer">
-        <GlobalShare 
-          url={pageInfo.url}
-          title={pageInfo.title}
-          description={pageInfo.description}
-        />
+        <GlobalShare />
       </div>
       {children}
     </>

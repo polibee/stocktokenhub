@@ -1,46 +1,46 @@
 {
-  "timestamp": "2025-07-02T12:58:12.448Z",
+  "timestamp": "2025-07-02T13:01:48.089Z",
   "siteUrl": "https://polibee.github.io/stocktokenhub",
   "results": [
     {
       "url": "https://polibee.github.io/stocktokenhub/",
       "status": 0,
-      "responseTime": 894,
+      "responseTime": 2333,
       "success": false,
       "error": "read ECONNRESET"
     },
     {
       "url": "https://polibee.github.io/stocktokenhub/blog/",
       "status": 0,
-      "responseTime": 1032,
+      "responseTime": 495,
       "success": false,
       "error": "read ECONNRESET"
     },
     {
       "url": "https://polibee.github.io/stocktokenhub/docs/",
       "status": 0,
-      "responseTime": 505,
+      "responseTime": 1575,
       "success": false,
       "error": "read ECONNRESET"
     },
     {
       "url": "https://polibee.github.io/stocktokenhub/tutorials/",
       "status": 0,
-      "responseTime": 515,
+      "responseTime": 1599,
       "success": false,
       "error": "read ECONNRESET"
     },
     {
       "url": "https://polibee.github.io/stocktokenhub/sitemap.xml",
       "status": 0,
-      "responseTime": 1043,
+      "responseTime": 1599,
       "success": false,
       "error": "read ECONNRESET"
     },
     {
       "url": "https://polibee.github.io/stocktokenhub/robots.txt",
       "status": 0,
-      "responseTime": 544,
+      "responseTime": 1574,
       "success": false,
       "error": "read ECONNRESET"
     }

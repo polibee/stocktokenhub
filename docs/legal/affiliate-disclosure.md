@@ -218,9 +218,9 @@ Our criteria for selecting partners:
 
 If you have any questions or concerns about our affiliate relationships, please contact us:
 
-- **Email**: affiliate@tokenizedstockshub.com
+- **Email**: AdamDavisme@outlook.com
 
-- **General Inquiries**: info@tokenizedstockshub.com
+- **General Inquiries**: AdamDavisme@outlook.com
 
 ## Disclaimer
 

@@ -117,9 +117,8 @@ We may update this privacy policy from time to time. Significant changes will be
 
 If you have any questions or concerns about this privacy policy, please contact us through the following methods:
 
-- **Email**: privacy@tokenizedstockshub.com
+- **Email**: AdamDavisme@outlook.com
 
-- **Address**: [Company Address]
 
 ---
 

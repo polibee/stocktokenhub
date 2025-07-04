@@ -192,9 +192,8 @@ To the maximum extent permitted by law, we are not liable for the following loss
 
 If you have any questions about this disclaimer, please contact us through the following methods:
 
-- **Email**: legal@tokenizedstockshub.com
-- **Address**: [Company Address]
-- **Phone**: [Contact Phone]
+- **Email**: AdamDavisme@outlook.com
+
 
 ---
 

@@ -53,6 +53,51 @@ const platforms = [
     securityFeatures: ['Cold storage', '2FA', 'Insurance fund', 'SOC 2 certification']
   },
   {
+    id: 'gate',
+    name: 'Gate.io',
+    description: 'xStocks - 24/7 Trading & Futures',
+    logo: '/img/exchanges/full-gate-io-logo.svg',
+    website: 'https://www.gateweb.xyz/share/bvbnafk',
+    type: 'Centralized Exchange (CEX)',
+    founded: '2013',
+    headquarters: 'Cayman Islands',
+    regulation: 'Multi-jurisdictional regulation',
+    kyc: 'Required',
+    tradingHours: '24/7',
+    minInvestment: 'No limit',
+    supportedAssets: '8+ xStocks tokens (COINX, NVDAX, CRCLX, AAPLX, METAX, HOODX, TSLAX, GOOGLX)',
+    fees: {
+      trading: '0.2% (Spot Trading)',
+      deposit: 'Free',
+      withdrawal: 'Based on network fees',
+      spread: 'Competitive spreads'
+    },
+    features: {
+      leverage: 'Up to 10:1 (Futures)',
+      orderTypes: ['Market order', 'Limit order', 'Stop loss', 'Take profit'],
+      api: 'Supported',
+      mobile: 'Excellent mobile app',
+      insurance: 'Insurance fund'
+    },
+    pros: [
+      '24/7 xStocks trading',
+      'Futures and spot trading',
+      'Alpha trading support',
+      'High trading volume',
+      '3600+ digital assets support',
+      '100% reserve commitment'
+    ],
+    cons: [
+      'KYC verification required',
+      'Limited xStocks selection',
+      'Complex interface for beginners',
+      'Regional restrictions in some areas'
+    ],
+    bestFor: ['Active traders', 'Futures traders', 'Professional investors'],
+    riskLevel: 'Medium',
+    securityFeatures: ['Cold storage', '2FA', 'Insurance fund', 'Multi-signature']
+  },
+  {
     id: 'bybit',
     name: 'Bybit',
     description: 'xStocks - Tokenized Stock Trading',
@@ -164,20 +209,33 @@ const platformsData = platforms.map(platform => ({
     tradingHours: platform.tradingHours,
     minInvestment: platform.minInvestment,
     leverage: platform.features?.leverage || 'None',
-    custody: platform.id === 'kraken' ? 'Platform custody + Self-custody option' : platform.id === 'jupiter' ? 'Self-custody' : 'Platform custody',
+    custody: platform.id === 'kraken' ? 'Platform custody + Self-custody option' : 
+            platform.id === 'jupiter' ? 'Self-custody' : 'Platform custody',
     fiatSupport: platform.id === 'jupiter' ? 'Not supported' : 'Supported',
     insurance: platform.features?.insurance || 'None'
   },
   assets: {
     count: platform.supportedAssets,
-    types: platform.id === 'kraken' ? ['55 stocks', '5 ETFs'] : platform.id === 'bybit' ? ['Tech stocks', 'Crypto-related stocks'] : ['Tokenized stocks', 'DeFi tokens', 'Meme coins'],
-    examples: platform.id === 'kraken' ? ['AAPLx', 'TSLAx', 'MSFTx', 'GOOGLx', 'AMZNx', 'NVDAx'] : platform.id === 'bybit' ? ['COINX', 'NVDAX', 'CRCLX', 'AAPLX', 'HOODX', 'METAX'] : ['Best prices through aggregation']
+    types: platform.id === 'kraken' ? ['55 stocks', '5 ETFs'] : 
+           platform.id === 'gate' ? ['xStocks tokens', 'Alpha trading'] :
+           platform.id === 'bybit' ? ['Tech stocks', 'Crypto-related stocks'] : 
+           ['Tokenized stocks', 'DeFi tokens', 'Meme coins'],
+    examples: platform.id === 'kraken' ? ['AAPLx', 'TSLAx', 'MSFTx', 'GOOGLx', 'AMZNx', 'NVDAx'] : 
+             platform.id === 'gate' ? ['COINX', 'NVDAX', 'CRCLX', 'AAPLX', 'METAX', 'HOODX'] :
+             platform.id === 'bybit' ? ['COINX', 'NVDAX', 'CRCLX', 'AAPLX', 'HOODX', 'METAX'] : 
+             ['Best prices through aggregation']
   },
   advantages: platform.pros,
   disadvantages: platform.cons,
   regions: {
-      supported: platform.id === 'kraken' ? ['Parts of Asia'] : platform.id === 'bybit' ? ['Most regions globally'] : ['Global (no regional restrictions)'],
-      restricted: platform.id === 'kraken' ? ['United States', 'Canada', 'United Kingdom', 'European Union', 'Australia'] : platform.id === 'bybit' ? ['United States', 'Some restricted regions'] : ['No restrictions']
+      supported: platform.id === 'kraken' ? ['Parts of Asia'] : 
+                platform.id === 'gate' ? ['Most regions globally'] :
+                platform.id === 'bybit' ? ['Most regions globally'] : 
+                ['Global (no regional restrictions)'],
+      restricted: platform.id === 'kraken' ? ['United States', 'Canada', 'United Kingdom', 'European Union', 'Australia'] : 
+                 platform.id === 'gate' ? ['United States', 'Some restricted regions'] :
+                 platform.id === 'bybit' ? ['United States', 'Some restricted regions'] : 
+                 ['No restrictions']
     },
   howToTrade: platform.id === 'kraken' ? [
     'Register Kraken account and complete KYC',
@@ -185,6 +243,12 @@ const platformsData = platforms.map(platform => ({
     'Search for xStock tokens in spot market',
     'Place orders, supports market and limit orders',
     'Optionally withdraw to your own wallet'
+  ] : platform.id === 'gate' ? [
+    'Register Gate.io account and complete KYC',
+    'Deposit USDT to spot account',
+    'Go to xStocks trading zone',
+    'Choose spot trading or futures trading',
+    'Place orders with leverage up to 10x (futures)'
   ] : platform.id === 'bybit' ? [
     'Register Bybit account and complete KYC Level 1',
     'Deposit USDT to spot account',
@@ -201,15 +265,15 @@ const platformsData = platforms.map(platform => ({
 }));
 
 const comparisonTable = [
-  { label: 'Platform Type', kraken: 'CEX', bybit: 'CEX', jupiter: 'DEX Aggregator' },
-  { label: 'Trading Fees', kraken: 'Free (USDG/USD)', bybit: '0.2%', jupiter: '~0.25%' },
-  { label: 'KYC Required', kraken: 'Required', bybit: 'Required', jupiter: 'Not required' },
-  { label: 'Trading Hours', kraken: '24/5', bybit: '24/7', jupiter: '24/7' },
-  { label: 'Minimum Investment', kraken: '$1', bybit: 'No limit', jupiter: 'No limit' },
-  { label: 'Fiat Support', kraken: '✅', bybit: '✅', jupiter: '❌' },
-  { label: 'Self-custody', kraken: '✅', bybit: '❌', jupiter: '✅' },
-  { label: 'Leverage Trading', kraken: '❌', bybit: '❌', jupiter: '✅' },
-  { label: 'Regional Restrictions', kraken: 'More', bybit: 'Fewer', jupiter: 'None' }
+  { label: 'Platform Type', kraken: 'CEX', gate: 'CEX', bybit: 'CEX', jupiter: 'DEX Aggregator' },
+  { label: 'Trading Fees', kraken: 'Free (USDG/USD)', gate: '0.2%', bybit: '0.2%', jupiter: '~0.25%' },
+  { label: 'KYC Required', kraken: 'Required', gate: 'Required', bybit: 'Required', jupiter: 'Not required' },
+  { label: 'Trading Hours', kraken: '24/5', gate: '24/7', bybit: '24/7', jupiter: '24/7' },
+  { label: 'Minimum Investment', kraken: '$1', gate: 'No limit', bybit: 'No limit', jupiter: 'No limit' },
+  { label: 'Fiat Support', kraken: '✅', gate: '✅', bybit: '✅', jupiter: '❌' },
+  { label: 'Self-custody', kraken: '✅', gate: '❌', bybit: '❌', jupiter: '✅' },
+  { label: 'Leverage Trading', kraken: '❌', gate: '✅', bybit: '❌', jupiter: '✅' },
+  { label: 'Regional Restrictions', kraken: 'More', gate: 'Fewer', bybit: 'Fewer', jupiter: 'None' }
 ];
 
 export default function PlatformsCompare() {
@@ -256,6 +320,7 @@ export default function PlatformsCompare() {
                         <span className={styles.comparisonLabel}>{row.label}</span>
                         <span className={styles.comparisonValue}>
                           {platform.id === 'kraken' ? row.kraken : 
+                           platform.id === 'gate' ? row.gate :
                            platform.id === 'bybit' ? row.bybit : row.jupiter}
                         </span>
                       </div>
@@ -658,35 +723,71 @@ export default function PlatformsCompare() {
                 </div>
               </div>
 
-              {/* Bitget */}
+              {/* Backpack */}
               <div className="col col--6 margin-bottom--lg">
                 <div className="card">
                   <div className="card__header">
                     <div className="avatar">
                       <img
                         className="avatar__photo"
-                        src="/img/exchanges/bitget-token-new-bgb-logo.svg"
-                        alt="Bitget"
+                        src="/img/exchanges/backpack-logo.svg"
+                        alt="Backpack"
                       />
                       <div className="avatar__intro">
-                        <div className="avatar__name">Bitget</div>
-                        <small className="avatar__subtitle">Global Leading Copy Trading Platform</small>
+                        <div className="avatar__name">Backpack</div>
+                        <small className="avatar__subtitle">CEX + Self-Custody Exchange</small>
                       </div>
                     </div>
                   </div>
                   <div className="card__body">
-                    <p>Ranked 8th most trusted exchange globally by Forbes, with 100M+ users, renowned for copy trading features, supporting 800+ cryptocurrency trading.</p>
+                    <p>VARA-regulated exchange with self-custody features, supporting Solana ecosystem assets with fast spot and derivatives trading capabilities.</p>
                     <ul>
-                      <li>✅ Forbes top 8 most trusted globally</li>
-                      <li>✅ Leading copy trading features</li>
-                      <li>✅ 800+ cryptocurrency support</li>
-                      <li>✅ $300M protection fund</li>
+                      <li>✅ CEX + self-custody wallet integration</li>
+                      <li>✅ VARA (Dubai) regulatory authorization</li>
+                      <li>✅ $118M asset reserves</li>
+                      <li>✅ Solana ecosystem support</li>
                     </ul>
                   </div>
                   <div className="card__footer">
                     <Link
                       className="button button--primary button--block"
-                      href="https://share.glassgs.com/u/5HPFVMZN"
+                      href="https://backpack.exchange/join/83faf9aa-e6a4-47ec-8f24-fe64708b3cb6"
+                      target="_blank">
+                      Register Now →
+                    </Link>
+                  </div>
+                </div>
+              </div>
+
+              {/* EdgeX */}
+              <div className="col col--6 margin-bottom--lg">
+                <div className="card">
+                  <div className="card__header">
+                    <div className="avatar">
+                      <img
+                        className="avatar__photo"
+                        src="/img/exchanges/edgex-logo.svg"
+                        alt="EdgeX"
+                      />
+                      <div className="avatar__intro">
+                        <div className="avatar__name">EdgeX</div>
+                        <small className="avatar__subtitle">High-Performance Decentralized Derivatives DEX</small>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="card__body">
+                    <p>2023 launched by Amber Group, high-performance decentralized perpetual DEX with 20,000 TPS, supporting up to 100x leverage trading.</p>
+                    <ul>
+                      <li>✅ 20,000 TPS high-performance trading</li>
+                      <li>✅ Up to 100x leverage support</li>
+                      <li>✅ StarkWare zero-knowledge proof technology</li>
+                      <li>✅ $350-480M daily trading volume</li>
+                    </ul>
+                  </div>
+                  <div className="card__footer">
+                    <Link
+                      className="button button--primary button--block"
+                      href="https://pro.edgex.exchange/referral/landing/590595640"
                       target="_blank">
                       Register Now →
                     </Link>

@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import Layout from '@theme/Layout';
@@ -8,6 +8,7 @@ import { formatDistance } from 'date-fns';
 import { zhCN } from 'date-fns/locale';
 
 import styles from './tutorials.module.css';
+import tutorialsData from '../data/tutorials.json';
 
 // 分类数据
 const categories = [
@@ -41,6 +42,15 @@ const difficultyColors = {
   'Advanced': 'danger'
 };
 
+// 排序选项
+const sortOptions = [
+  { id: 'date-desc', name: 'Latest First', icon: '🕒' },
+  { id: 'date-asc', name: 'Oldest First', icon: '⏰' },
+  { id: 'title-asc', name: 'Title A-Z', icon: '🔤' },
+  { id: 'readtime-asc', name: 'Quick Read', icon: '⚡' },
+  { id: 'readtime-desc', name: 'Long Read', icon: '📚' }
+];
+
 function HeroSection() {
   return (
     <header className={styles.hero}>
@@ -58,12 +68,14 @@ function HeroSection() {
   );
 }
 
-function CategoryFilter({ activeCategory, onCategoryChange, searchTerm, onSearchChange, categoriesWithCount }: {
+function CategoryFilter({ activeCategory, onCategoryChange, searchTerm, onSearchChange, categoriesWithCount, sortBy, onSortChange }: {
   activeCategory: string;
   onCategoryChange: (category: string) => void;
   searchTerm: string;
   onSearchChange: (term: string) => void;
   categoriesWithCount: Array<{id: string, name: string, icon: string, count: number}>;
+  sortBy: string;
+  onSortChange: (sort: string) => void;
 }) {
   return (
     <section className={styles.categoryFilter}>
@@ -92,22 +104,40 @@ function CategoryFilter({ activeCategory, onCategoryChange, searchTerm, onSearch
           </div>
         </div>
         
-        {/* 分类过滤器 */}
-        <div className={styles.filterButtons}>
-          {categoriesWithCount.map((category) => (
-            <button
-              key={category.id}
-              className={clsx(
-                styles.filterButton,
-                activeCategory === category.id && styles.filterButtonActive
-              )}
-              onClick={() => onCategoryChange(category.id)}
+        {/* 分类过滤器和排序 */}
+        <div className={styles.filtersContainer}>
+          <div className={styles.filterButtons}>
+            {categoriesWithCount.map((category) => (
+              <button
+                key={category.id}
+                className={clsx(
+                  styles.filterButton,
+                  activeCategory === category.id && styles.filterButtonActive
+                )}
+                onClick={() => onCategoryChange(category.id)}
+              >
+                <span className={styles.categoryIcon}>{category.icon}</span>
+                <span className={styles.categoryName}>{category.name}</span>
+                <span className={styles.categoryCount}>({category.count})</span>
+              </button>
+            ))}
+          </div>
+          
+          {/* 排序选择器 */}
+          <div className={styles.sortContainer}>
+            <label className={styles.sortLabel}>Sort by:</label>
+            <select 
+              value={sortBy} 
+              onChange={(e) => onSortChange(e.target.value)}
+              className={styles.sortSelect}
             >
-              <span className={styles.categoryIcon}>{category.icon}</span>
-              <span className={styles.categoryName}>{category.name}</span>
-              <span className={styles.categoryCount}>({category.count})</span>
-            </button>
-          ))}
+              {sortOptions.map((option) => (
+                <option key={option.id} value={option.id}>
+                  {option.icon} {option.name}
+                </option>
+              ))}
+            </select>
+          </div>
         </div>
       </div>
     </section>
@@ -216,106 +246,63 @@ function TutorialsGrid({ tutorials }: { tutorials: any[] }) {
 
 
 
-const staticTutorialsData = [
-  {
-    id: 'tutorial-intro',
-    title: 'Getting Started with Tokenized Stocks',
-    description: 'Learn the basics of tokenized stocks and how to get started with trading on Solana.',
-    category: 'basics',
-    difficulty: 'beginner',
-    readTime: 5,
-    date: new Date('2024-01-15'),
-    thumbnail: '/img/tutorials/intro.svg',
-    url: '/blog/tutorial-intro',
-    tags: ['basics', 'getting-started']
-  },
-  {
-    id: 'tutorial-basics',
-    title: 'Understanding Stock Tokenization',
-    description: 'Deep dive into how traditional stocks are tokenized on the blockchain.',
-    category: 'basics',
-    difficulty: 'beginner',
-    readTime: 8,
-    date: new Date('2024-01-10'),
-    thumbnail: '/img/tutorials/basics.svg',
-    url: '/blog/tutorial-basics',
-    tags: ['basics', 'tokenization']
-  },
-  {
-    id: 'tutorial-dex',
-    title: 'Trading on Decentralized Exchanges',
-    description: 'Learn how to trade tokenized stocks on DEXs like Jupiter.',
-    category: 'trading',
-    difficulty: 'intermediate',
-    readTime: 12,
-    date: new Date('2024-01-08'),
-    thumbnail: '/img/tutorials/dex.svg',
-    url: '/blog/tutorial-dex',
-    tags: ['trading', 'dex']
-  },
-  {
-    id: 'tutorial-cex',
-    title: 'Centralized vs Decentralized Trading',
-    description: 'Compare trading on centralized and decentralized platforms.',
-    category: 'trading',
-    difficulty: 'intermediate',
-    readTime: 10,
-    date: new Date('2024-01-05'),
-    thumbnail: '/img/tutorials/cex.svg',
-    url: '/blog/tutorial-cex',
-    tags: ['trading', 'comparison']
-  },
-  {
-    id: 'tutorial-advanced',
-    title: 'Advanced Trading Strategies',
-    description: 'Explore advanced strategies for tokenized stock trading.',
-    category: 'advanced',
-    difficulty: 'advanced',
-    readTime: 15,
-    date: new Date('2024-01-03'),
-    thumbnail: '/img/tutorials/advanced.svg',
-    url: '/blog/tutorial-advanced',
-    tags: ['advanced', 'strategies']
+// 排序函数
+function sortTutorials(tutorials: any[], sortBy: string) {
+  const sorted = [...tutorials];
+  
+  switch (sortBy) {
+    case 'date-desc':
+      return sorted.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+    case 'date-asc':
+      return sorted.sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
+    case 'title-asc':
+      return sorted.sort((a, b) => a.title.localeCompare(b.title));
+    case 'readtime-asc':
+      return sorted.sort((a, b) => a.readTime - b.readTime);
+    case 'readtime-desc':
+      return sorted.sort((a, b) => b.readTime - a.readTime);
+    default:
+      return sorted;
   }
-];
-
-// 注意：这些数据应该与 /blog/ 文件夹中的实际MDX文件保持同步
-// 当添加新的博客文章时，请同时更新这个数组
+}
 
 export default function TutorialsPage(): ReactNode {
   const [selectedCategory, setSelectedCategory] = useState('all');
   const [searchTerm, setSearchTerm] = useState('');
+  const [sortBy, setSortBy] = useState('date-desc');
 
-  // 使用静态教程数据
-  const tutorialsData = useMemo(() => {
-    return staticTutorialsData.map(tutorial => {
-        return {
-           id: tutorial.id,
-           title: tutorial.title,
-           description: tutorial.description || '',
-           category: tutorial.category,
-          readTime: `${tutorial.readTime} min`,
-           lastUpdated: tutorial.date.toLocaleDateString('zh-CN'),
-          thumbnail: tutorial.thumbnail || '/img/tutorials/default.svg',
-           url: tutorial.url,
-          difficulty: difficultyMap[tutorial.category] || 'Elementary',
-           tags: tutorial.tags,
-          date: tutorial.date
-        };
-      })
-      .sort((a, b) => b.date.getTime() - a.date.getTime());
+  // 使用动态教程数据
+  const processedTutorials = useMemo(() => {
+    return tutorialsData.tutorials.map(tutorial => ({
+      id: tutorial.id,
+      title: tutorial.title,
+      description: tutorial.description || '',
+      category: tutorial.category,
+      readTime: tutorial.readTime,
+      lastUpdated: new Date(tutorial.date).toLocaleDateString('zh-CN'),
+      thumbnail: tutorial.thumbnail || '/img/tutorials/default.svg',
+      url: tutorial.url,
+      difficulty: tutorial.difficulty,
+      tags: tutorial.tags,
+      date: new Date(tutorial.date)
+    }));
   }, []);
+
+  // 应用排序
+  const sortedTutorials = useMemo(() => {
+    return sortTutorials(processedTutorials, sortBy);
+  }, [processedTutorials, sortBy]);
 
   // 更新分类数据以包含计数
   const categoriesWithCount = useMemo(() => {
     return categories.map(cat => ({
       ...cat,
-      count: cat.id === 'all' ? tutorialsData.length : tutorialsData.filter(t => t.category === cat.id).length
+      count: cat.id === 'all' ? sortedTutorials.length : sortedTutorials.filter(t => t.category === cat.id).length
     }));
-  }, [tutorialsData]);
+  }, [sortedTutorials]);
 
   // 过滤教程
-  const filteredTutorials = tutorialsData.filter(tutorial => {
+  const filteredTutorials = sortedTutorials.filter(tutorial => {
     const matchesCategory = selectedCategory === 'all' || tutorial.category === selectedCategory;
     const matchesSearch = tutorial.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
                          tutorial.description.toLowerCase().includes(searchTerm.toLowerCase()) ||
@@ -334,6 +321,8 @@ export default function TutorialsPage(): ReactNode {
         searchTerm={searchTerm}
         onSearchChange={setSearchTerm}
         categoriesWithCount={categoriesWithCount}
+        sortBy={sortBy}
+        onSortChange={setSortBy}
       />
       <main>
         <section className="container margin-vert--lg">

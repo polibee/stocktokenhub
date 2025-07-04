@@ -43,9 +43,7 @@ const platforms = [
     advantages: [
       'Regulated real stock tokenization',
       '24/5 trading hours',
-      'Minimum $1 investment threshold',
-      'Multiple fiat currency support',
-      'High liquidity and depth'
+      'Minimum $1 investment threshold'
     ],
     logo: '/img/exchanges/kraken-svgrepo-com.svg',
     url: 'https://kraken.pxf.io/c/1356313/1589189/10583',
@@ -62,15 +60,30 @@ const platforms = [
     advantages: [
       '24/7 round-the-clock trading',
       'Low trading fees',
-      'Spot and innovation zone support',
-      'Professional trading tools',
-      'Mobile optimized'
+      'Spot and innovation zone support'
     ],
     logo: '/img/exchanges/bybit-svgrepo-com.svg',
     url: 'https://www.bybitglobal.com/invite?ref=LG8DXGG',
     tradingHours: '24/7',
     minInvestment: 'No limit',
     assets: 'Tokenized stocks',
+    regions: 'Most regions globally'
+  },
+  {
+    name: 'Gate.io',
+    description: 'xStocks - 24/7 Trading & Futures',
+    fee: '0.2% (Spot Trading)',
+    kyc: 'Required',
+    advantages: [
+      '24/7 xStocks trading',
+      'Futures & spot trading',
+      'Alpha trading support'
+    ],
+    logo: '/img/exchanges/full-gate-io-logo.svg',
+    url: 'https://www.gateweb.xyz/share/bvbnafk',
+    tradingHours: '24/7',
+    minInvestment: 'No limit',
+    assets: '8+ xStocks tokens',
     regions: 'Most regions globally'
   },
   {
@@ -81,9 +94,7 @@ const platforms = [
     advantages: [
       'Decentralized trading',
       'Best price routing',
-      'No KYC required',
-      'Extremely low fees',
-      'Low gas fees'
+      'No KYC required'
     ],
     logo: '/img/exchanges/jupiter-ag-jup-logo.svg',
     url: 'https://jup.ag',
@@ -251,7 +262,7 @@ function TokenizedStocksSection() {
 
 function PlatformCard({platform}) {
   return (
-    <div className={clsx('col col--4', styles.platformCard)}>
+    <div className={clsx('col col--3', styles.platformCard)}>
       <div className="card">
         <div className="card__header text--center">
           <div className={styles.platformLogo}>
@@ -282,7 +293,7 @@ function PlatformCard({platform}) {
           <div className={styles.advantages}>
             <strong>Advantages:</strong>
             <ul>
-              {platform.advantages.slice(0, 3).map((advantage, idx) => (
+              {platform.advantages.map((advantage, idx) => (
                 <li key={idx}>{advantage}</li>
               ))}
             </ul>

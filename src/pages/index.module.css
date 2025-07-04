@@ -495,9 +495,21 @@
 
 .comparisonGrid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
   margin-top: 2rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .comparisonGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .comparisonGrid {
+    grid-template-columns: 1fr;
+  }
 }
 
 .comparisonCard {

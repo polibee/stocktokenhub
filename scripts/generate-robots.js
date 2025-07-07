@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 // Configuration
-const SITE_URL = 'https://stocktokenhub.github.io';
+const SITE_URL = 'https://stocktokenhub.com';
 const BUILD_DIR = path.join(__dirname, '../build');
 const ROBOTS_PATH = path.join(BUILD_DIR, 'robots.txt');
 

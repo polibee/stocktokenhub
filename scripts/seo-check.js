@@ -4,7 +4,7 @@ const https = require('https');
 const { JSDOM } = require('jsdom');
 
 // Configuration
-const SITE_URL = 'https://stocktokenhub.github.io';
+const SITE_URL = 'https://stocktokenhub.com';
 const BUILD_DIR = path.join(__dirname, '../build');
 
 /**

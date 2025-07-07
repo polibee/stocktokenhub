@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
 // Configuration
-const SITE_URL = 'https://stocktokenhub.github.io';
+const SITE_URL = 'https://stocktokenhub.com';
 const SITEMAP_URL = `${SITE_URL}/sitemap.xml`;
 
 // Search engine submission URLs

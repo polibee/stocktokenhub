@@ -54,7 +54,7 @@ function scanDirectory(dir, baseDir = dir) {
     if (stat.isDirectory()) {
       // 递归扫描子目录
       files.push(...scanDirectory(fullPath, baseDir));
-    } else if (item.endsWith('.md') && item !== 'README.md') {
+    } else if ((item.endsWith('.md') || item.endsWith('.mdx')) && item !== 'README.md') {
       // 获取相对路径作为分类
       const relativePath = path.relative(baseDir, fullPath);
       const category = path.dirname(relativePath).replace(/\\/g, '/');
@@ -81,7 +81,7 @@ function processMarkdownFile(fileInfo) {
     const fileStat = fs.statSync(fileInfo.filePath);
     
     // 提取基本信息
-    const slug = frontmatter.slug || path.basename(fileInfo.fileName, '.md');
+    const slug = frontmatter.slug || path.basename(fileInfo.fileName, path.extname(fileInfo.fileName));
     const title = frontmatter.title || slug;
     const description = frontmatter.description || frontmatter.excerpt || '';
     const tags = frontmatter.tags || [];

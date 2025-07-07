@@ -120,7 +120,7 @@ Real World Assets (RWA) tokenization is expected to experience significant growt
 
 **Frequently Asked Questions**
 
-For common questions about tokenized stocks, visit our [FAQ section](/faq).
+For common questions about tokenized stocks, visit our [FAQ section](/docs/faq).
 
 **Reference Links:**
 - [Jupiter Aggregator](https://jup.ag) - Decentralized exchange aggregator

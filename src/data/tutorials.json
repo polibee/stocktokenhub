@@ -1,113 +1,30 @@
 {
   "tutorials": [
     {
-      "id": "advanced/tutorial-advanced",
-      "title": "Advanced Trading Strategies",
-      "description": "Advanced strategies and techniques for tokenized stock trading, including arbitrage, liquidity mining, options trading, and other professional skills.",
-      "category": "advanced",
-      "difficulty": "高级",
-      "readTime": 72,
-      "date": "2025-07-02T05:02:04.401Z",
-      "thumbnail": "/img/tutorials/advanced.svg",
-      "url": "/blog/tutorial-advanced",
-      "tags": [
-        "Advanced Strategies",
-        "Arbitrage",
-        "Liquidity Mining",
-        "Options",
-        "Leverage",
-        "DeFi"
-      ],
-      "slug": "tutorial-advanced",
-      "filePath": "advanced/tutorial-advanced.mdx"
-    },
-    {
-      "id": "trading/tutorial-dex",
-      "title": "Decentralized Exchange Tutorial",
-      "description": "Complete guide to trading tokenized stocks on decentralized exchanges, covering Uniswap, Jupiter and other major DEX platforms",
-      "category": "trading",
-      "difficulty": "中级",
-      "readTime": 45,
-      "date": "2025-07-02T05:00:45.714Z",
-      "thumbnail": "/img/tutorials/cex.svg",
-      "url": "/blog/tutorial-dex",
-      "tags": [
-        "tutorial",
-        "DEX",
-        "DeFi",
-        "trading",
-        "advanced"
-      ],
-      "slug": "tutorial-dex",
-      "filePath": "trading/tutorial-dex.mdx"
-    },
-    {
-      "id": "trading/tutorial-cex",
-      "title": "Centralized Exchange Trading Tutorial",
+      "id": "trading/where-to-buy-tokenized-stocks",
+      "title": "Where to buy tokenized stocks",
       "description": "Learn how to trade tokenized stocks on centralized exchanges",
       "category": "trading",
       "difficulty": "中级",
-      "readTime": 34,
-      "date": "2025-07-02T04:59:44.815Z",
+      "readTime": 27,
+      "date": "2025-07-07T03:24:40.988Z",
       "thumbnail": "/img/tutorials/cex.svg",
-      "url": "/blog/tutorial-cex",
+      "url": "/blog/where-to-buy-tokenized-stocks",
       "tags": [
         "tutorial",
         "CEX",
         "trading",
         "beginner"
       ],
-      "slug": "tutorial-cex",
-      "filePath": "trading/tutorial-cex.mdx"
-    },
-    {
-      "id": "basics/tutorial-basics",
-      "title": "Tokenized Stock Basics",
-      "description": "Introduction to tokenized stock trading basics, understand the fundamental concepts of tokenized stocks, and master the basics of blockchain and DeFi.",
-      "category": "basics",
-      "difficulty": "入门",
-      "readTime": 33,
-      "date": "2025-07-02T04:58:55.456Z",
-      "thumbnail": "/img/tutorials/basics.svg",
-      "url": "/blog/tutorial-basics",
-      "tags": [
-        "basics",
-        "tokenized stocks",
-        "blockchain",
-        "DeFi",
-        "beginner tutorial"
-      ],
-      "slug": "tutorial-basics",
-      "filePath": "basics/tutorial-basics.mdx"
-    },
-    {
-      "id": "tutorial/tutorial-intro",
-      "title": "Tokenized Stock Trading Tutorial Introduction",
-      "description": "Learn tokenized stock trading from scratch. Whether you're a complete beginner or an experienced trader, there's suitable learning content for you here.",
-      "category": "tutorial",
-      "difficulty": "初级",
-      "readTime": 18,
-      "date": "2025-07-02T04:58:12.483Z",
-      "thumbnail": "/img/tutorials/intro.svg",
-      "url": "/blog/tutorial-intro",
-      "tags": [
-        "tutorial",
-        "tokenized stocks",
-        "beginner guide",
-        "trading"
-      ],
-      "slug": "tutorial-intro",
-      "filePath": "tutorial/tutorial-intro.mdx"
+      "slug": "where-to-buy-tokenized-stocks",
+      "filePath": "trading/where-to-buy-tokenized-stocks.md"
     }
   ],
   "stats": {
-    "total": 5,
+    "total": 1,
     "byCategory": {
-      "advanced": 1,
-      "trading": 2,
-      "basics": 1,
-      "tutorial": 1
+      "trading": 1
     },
-    "lastUpdated": "2025-07-04T10:16:59.351Z"
+    "lastUpdated": "2025-07-07T04:22:11.971Z"
   }
 }

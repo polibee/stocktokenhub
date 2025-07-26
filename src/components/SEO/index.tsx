@@ -92,7 +92,7 @@ const SEO: React.FC<SEOProps> = ({
       
       {/* Twitter Card Meta Tags */}
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:site" content="@tokenizedstocks" />
+      <meta name="twitter:site" content="@Coinowodrop" />
       <meta name="twitter:title" content={pageTitle} />
       <meta name="twitter:description" content={pageDescription} />
       <meta name="twitter:image" content={pageImage} />

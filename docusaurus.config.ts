@@ -37,7 +37,7 @@ const config: Config = {
       {property: 'og:type', content: 'website'},
       {property: 'og:site_name', content: 'Tokenized Stocks Hub'},
       {name: 'twitter:card', content: 'summary_large_image'},
-      {name: 'twitter:site', content: '@tokenizedstocks'},
+      {name: 'twitter:site', content: '@Coinowodrop'},
     ],
     // Google AdSense Auto Ads Configuration
     googleAdsense: {
@@ -111,7 +111,7 @@ const config: Config = {
       {property: 'og:image:height', content: '630'},
       {name: 'twitter:image', content: '/img/docusaurus-social-card.jpg'},
       {name: 'twitter:card', content: 'summary_large_image'},
-      {name: 'twitter:site', content: '@tokenizedstocks'},
+      {name: 'twitter:site', content: '@Coinowodrop'},
     ],
     // Add Google AdSense script to head
     headTags: [

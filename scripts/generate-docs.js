@@ -273,7 +273,7 @@ ${etfProducts.map(product => `### [${product.name}](${product.symbol.toLowerCase
 - 📚 [常见问题解答](/docs/faq)
 - 🎓 [交易教程](/docs/tutorials/intro)
 - ⚖️ [合规信息](/docs/compliance)
-- 💬 [社区支持](https://t.me/stocktokenhub)
+- 💬 [社区支持](https://t.me/+C8ooNbjmPgtjNTA1)
 
 ---
 

@@ -12,7 +12,7 @@ import productsData from '../../data/products.json';
 // 生成Jupiter交易链接
 function generateJupiterUrl(stock: any): string {
   const jupiterAccount = 'HQaGy9AtmnFhvkhp3QWFZYa9KjPFrn4p2hwoNWQnMcgA';
-  const solMint = 'So11111111111111111111111111111111111111112';
+  const usdcMint = 'EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v'; // USDC on Solana
   
   // 使用产品数据中的合约地址
   const tokenMint = stock.contractAddress;
@@ -22,7 +22,7 @@ function generateJupiterUrl(stock: any): string {
     return `https://jup.ag/?referrer=${jupiterAccount}`;
   }
   
-  return `https://jup.ag/swap/${solMint}-${tokenMint}?referrer=${jupiterAccount}`;
+  return `https://jup.ag/swap/${usdcMint}-${tokenMint}?referrer=${jupiterAccount}`;
 }
 
 function TokenCard({stock}) {

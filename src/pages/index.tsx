@@ -20,7 +20,7 @@ const tokenStocks = productsData; // Only show first 12 products
 // Generate Jupiter trading link
 function generateJupiterUrl(stock: any): string {
   const jupiterAccount = 'HQaGy9AtmnFhvkhp3QWFZYa9KjPFrn4p2hwoNWQnMcgA';
-  const solMint = 'So11111111111111111111111111111111111111112';
+  const usdcMint = 'EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v'; // USDC on Solana
   
   // Use contract address from product data
   const tokenMint = stock.contractAddress;
@@ -30,7 +30,7 @@ function generateJupiterUrl(stock: any): string {
     return `https://jup.ag/?referrer=${jupiterAccount}`;
   }
   
-  return `https://jup.ag/swap/${solMint}-${tokenMint}?referrer=${jupiterAccount}`;
+  return `https://jup.ag/swap/${usdcMint}-${tokenMint}?referrer=${jupiterAccount}`;
 }
 
 // Platform comparison data
@@ -434,19 +434,19 @@ function CommunitySection() {
           <div className={styles.communityButtons}>
             <Link
               className="button button--primary button--lg margin--sm"
-              href="https://t.me/tokenizedstocks"
+              href="https://t.me/+C8ooNbjmPgtjNTA1"
               target="_blank">
               📱 Telegram
             </Link>
             <Link
               className="button button--outline button--primary button--lg margin--sm"
-              href="https://x.com/tokenizedstocks"
+              href="https://x.com/Coinowodrop"
               target="_blank">
               🐦 X (Twitter)
             </Link>
             <Link
               className="button button--outline button--primary button--lg margin--sm"
-              href="https://github.com/stocktokenhub/stocktokenhub"
+              href="#"
               target="_blank">
               💻 GitHub
             </Link>

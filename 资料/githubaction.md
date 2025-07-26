@@ -1,4 +1,7 @@
 
+> stocktokenhub@0.0.0 typecheck
+> tsc
+
 Error: scripts/generate-docs.js(231,1): error TS1005: '}' expected.
 Error: scripts/generate-docs.js(233,1): error TS1127: Invalid character.
 Error: scripts/generate-docs.js(233,2): error TS1127: Invalid character.
@@ -111,28 +114,6 @@ Error: scripts/generate-docs.js(275,4): error TS1127: Invalid character.
 Error: scripts/generate-docs.js(276,3): error TS1127: Invalid character.
 Error: scripts/generate-docs.js(276,18): error TS1005: ',' expected.
 Error: scripts/generate-docs.js(278,3): error TS1109: Expression expected.
-Error: scripts/generate-docs.js(282,1): error TS1127: Invalid character.
-Error: scripts/generate-docs.js(283,10): error TS1005: '}' expected.
-Error: scripts/generate-docs.js(287,1): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
-Error: scripts/generate-docs.js(290,9): error TS1005: '}' expected.
-Error: scripts/generate-docs.js(295,1): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
-Error: scripts/generate-docs.js(298,15): error TS1005: '}' expected.
-Error: scripts/generate-docs.js(301,1): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
-Error: scripts/generate-docs.js(304,10): error TS1005: '}' expected.
-Error: scripts/generate-docs.js(308,1): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
-Error: scripts/generate-docs.js(311,8): error TS1005: '}' expected.
-Error: scripts/generate-docs.js(314,1): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
-Error: scripts/generate-docs.js(317,10): error TS1005: '}' expected.
-Error: scripts/generate-docs.js(320,1): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
-Error: scripts/generate-docs.js(323,10): error TS1005: '}' expected.
-Error: scripts/generate-docs.js(328,1): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
-Error: scripts/generate-docs.js(331,13): error TS1005: '}' expected.
-Error: scripts/generate-docs.js(333,1): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
-Error: scripts/generate-docs.js(336,13): error TS1005: '}' expected.
-Error: scripts/generate-docs.js(339,1): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
-Error: scripts/generate-docs.js(342,12): error TS1005: '}' expected.
-Error: scripts/generate-docs.js(344,1): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
-Error: scripts/generate-docs.js(346,1): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
 Error: scripts/generate-docs.js(349,8): error TS1005: ',' expected.
 Error: scripts/generate-docs.js(349,11): error TS1005: ',' expected.
 Error: scripts/generate-docs.js(349,16): error TS1005: ':' expected.

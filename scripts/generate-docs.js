@@ -278,7 +278,6 @@ ${etfProducts.map(product => `### [${product.name}](${product.symbol.toLowerCase
 ---
 
 <style>
-{
 `.product-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -343,7 +342,6 @@ ${etfProducts.map(product => `### [${product.name}](${product.symbol.toLowerCase
   text-decoration: none;
 }
 `
-}
 </style>
 
 *数据更新时间: ${new Date().toISOString().split('T')[0]}*

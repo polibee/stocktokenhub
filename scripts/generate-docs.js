@@ -198,7 +198,7 @@ ${stockProducts.map(product => `### [${product.name}](${product.symbol.toLowerCa
   </div>
   <p>${product.description}</p>
   <div className="product-actions">
-    <a href="https://jup.ag/swap/USDC-${product.symbol}" target="_blank" className="btn-primary">在 Jupiter 交易</a>
+    <a href="https://jup.ag/swap?inputMint=EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v&outputMint=${product.contractAddress}&referrer=HQaGy9AtmnFhvkhp3QWFZYa9KjPFrn4p2hwoNWQnMcgA" target="_blank" className="btn-primary">在 Jupiter 交易</a>
     <a href="/docs/products/${product.symbol.toLowerCase().replace(/[^a-z0-9]/g, '-')}" className="btn-secondary">查看详情</a>
   </div>
 </div>
@@ -222,11 +222,11 @@ ${etfProducts.map(product => `### [${product.name}](${product.symbol.toLowerCase
   </div>
   <p>${product.description}</p>
   <div className="product-actions">
-    <a href="https://jup.ag/swap/USDC-${product.symbol}" target="_blank" className="btn-primary">在 Jupiter 交易</a>
+    <a href="https://jup.ag/swap?inputMint=EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v&outputMint=${product.contractAddress}&referrer=HQaGy9AtmnFhvkhp3QWFZYa9KjPFrn4p2hwoNWQnMcgA" target="_blank" className="btn-primary">在 Jupiter 交易</a>
     <a href="/docs/products/${product.symbol.toLowerCase().replace(/[^a-z0-9]/g, '-')}" className="btn-secondary">查看详情</a>
   </div>
 </div>
-`).join('\n')}
+`).join('\n')
 
 </div>
 

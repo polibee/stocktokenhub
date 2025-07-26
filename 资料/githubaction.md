@@ -1,44 +1,156 @@
 
-> stocktokenhub@0.0.0 build
-> docusaurus build
-
-[INFO] [en] Creating an optimized production build...
-[info] [webpackbar] Compiling Client
-[info] [webpackbar] Compiling Server
-[success] [webpackbar] Server: Compiled successfully in 31.48s
-[success] [webpackbar] Client: Compiled successfully in 43.41s
-
-Error:  Error: Unable to build website for locale en.
-    at tryToBuildLocale (/home/runner/work/stocktokenhub/stocktokenhub/node_modules/@docusaurus/core/lib/commands/build/build.js:78:15)
-    at async /home/runner/work/stocktokenhub/stocktokenhub/node_modules/@docusaurus/core/lib/commands/build/build.js:34:9
-    ... 4 lines matching cause stack trace ...
-    at async file:///home/runner/work/stocktokenhub/stocktokenhub/node_modules/@docusaurus/core/bin/docusaurus.mjs:44:3 {
-  [cause]: Error: Docusaurus found broken links!
-  
-  Please check the pages of your site in the list below, and make sure you don't reference any path that does not exist.
-  Note: it's possible to ignore broken links with the 'onBrokenLinks' Docusaurus configuration, and let the build pass.
-  
-  Exhaustive list of all broken links found:
-  - Broken link on source page path = /blog/where-to-buy-tokenized-stocks:
-     -> linking to /faq
-  
-      at throwError (/home/runner/work/stocktokenhub/stocktokenhub/node_modules/@docusaurus/logger/lib/logger.js:80:11)
-      at reportBrokenLinks (/home/runner/work/stocktokenhub/stocktokenhub/node_modules/@docusaurus/core/lib/server/brokenLinks.js:250:47)
-      at handleBrokenLinks (/home/runner/work/stocktokenhub/stocktokenhub/node_modules/@docusaurus/core/lib/server/brokenLinks.js:282:5)
-      at executeBrokenLinksCheck (/home/runner/work/stocktokenhub/stocktokenhub/node_modules/@docusaurus/core/lib/commands/build/buildLocale.js:118:47)
-      at /home/runner/work/stocktokenhub/stocktokenhub/node_modules/@docusaurus/core/lib/commands/build/buildLocale.js:93:67
-      at Object.async (/home/runner/work/stocktokenhub/stocktokenhub/node_modules/@docusaurus/logger/lib/perfLogger.js:42:47)
-      at buildLocale (/home/runner/work/stocktokenhub/stocktokenhub/node_modules/@docusaurus/core/lib/commands/build/buildLocale.js:93:31)
-      at async runBuildLocaleTask (/home/runner/work/stocktokenhub/stocktokenhub/node_modules/@docusaurus/core/lib/commands/build/build.js:93:5)
-      at async /home/runner/work/stocktokenhub/stocktokenhub/node_modules/@docusaurus/core/lib/commands/build/build.js:74:13
-      at async tryToBuildLocale (/home/runner/work/stocktokenhub/stocktokenhub/node_modules/@docusaurus/core/lib/commands/build/build.js:70:9)
-      at async /home/runner/work/stocktokenhub/stocktokenhub/node_modules/@docusaurus/core/lib/commands/build/build.js:34:9
-      at async mapAsyncSequential (/home/runner/work/stocktokenhub/stocktokenhub/node_modules/@docusaurus/utils/lib/jsUtils.js:21:24)
-      at async Command.build (/home/runner/work/stocktokenhub/stocktokenhub/node_modules/@docusaurus/core/lib/commands/build/build.js:33:5)
-      at async Promise.all (index 0)
-      at async runCLI (/home/runner/work/stocktokenhub/stocktokenhub/node_modules/@docusaurus/core/lib/commands/cli.js:56:5)
-      at async file:///home/runner/work/stocktokenhub/stocktokenhub/node_modules/@docusaurus/core/bin/docusaurus.mjs:44:3
-}
-[INFO] Docusaurus version: 3.8.1
-Node version: v18.20.8
-Error: Process completed with exit code 1.
+Error: scripts/generate-docs.js(231,1): error TS1005: '}' expected.
+Error: scripts/generate-docs.js(233,1): error TS1127: Invalid character.
+Error: scripts/generate-docs.js(233,2): error TS1127: Invalid character.
+Error: scripts/generate-docs.js(233,4): error TS1127: Invalid character.
+Error: scripts/generate-docs.js(235,1): error TS1127: Invalid character.
+Error: scripts/generate-docs.js(235,2): error TS1127: Invalid character.
+Error: scripts/generate-docs.js(235,3): error TS1127: Invalid character.
+Error: scripts/generate-docs.js(235,5): error TS1005: ';' expected.
+Error: scripts/generate-docs.js(235,8): error TS1005: ';' expected.
+Error: scripts/generate-docs.js(236,12): error TS1127: Invalid character.
+Error: scripts/generate-docs.js(237,36): error TS1005: ',' expected.
+Error: scripts/generate-docs.js(240,1): error TS1127: Invalid character.
+Error: scripts/generate-docs.js(240,2): error TS1127: Invalid character.
+Error: scripts/generate-docs.js(240,3): error TS1127: Invalid character.
+Error: scripts/generate-docs.js(240,5): error TS1005: ';' expected.
+Error: scripts/generate-docs.js(240,8): error TS1005: ';' expected.
+Error: scripts/generate-docs.js(242,8): error TS1005: ',' expected.
+Error: scripts/generate-docs.js(242,11): error TS1005: ',' expected.
+Error: scripts/generate-docs.js(244,1): error TS1127: Invalid character.
+Error: scripts/generate-docs.js(244,2): error TS1127: Invalid character.
+Error: scripts/generate-docs.js(244,3): error TS1127: Invalid character.
+Error: scripts/generate-docs.js(244,5): error TS1005: ';' expected.
+Error: scripts/generate-docs.js(244,8): error TS1005: ';' expected.
+Error: scripts/generate-docs.js(245,8): error TS1005: ',' expected.
+Error: scripts/generate-docs.js(246,8): error TS1005: ',' expected.
+Error: scripts/generate-docs.js(249,1): error TS1127: Invalid character.
+Error: scripts/generate-docs.js(249,2): error TS1127: Invalid character.
+Error: scripts/generate-docs.js(249,4): error TS1127: Invalid character.
+Error: scripts/generate-docs.js(252,1): error TS1109: Expression expected.
+Error: scripts/generate-docs.js(252,4): error TS1109: Expression expected.
+Error: scripts/generate-docs.js(252,6): error TS1109: Expression expected.
+Error: scripts/generate-docs.js(252,8): error TS1109: Expression expected.
+Error: scripts/generate-docs.js(252,11): error TS1109: Expression expected.
+Error: scripts/generate-docs.js(252,13): error TS1109: Expression expected.
+Error: scripts/generate-docs.js(252,15): error TS1109: Expression expected.
+Error: scripts/generate-docs.js(252,17): error TS1109: Expression expected.
+Error: scripts/generate-docs.js(252,19): error TS1109: Expression expected.
+Error: scripts/generate-docs.js(252,21): error TS1109: Expression expected.
+Error: scripts/generate-docs.js(252,23): error TS1109: Expression expected.
+Error: scripts/generate-docs.js(252,25): error TS1109: Expression expected.
+Error: scripts/generate-docs.js(252,27): error TS1109: Expression expected.
+Error: scripts/generate-docs.js(252,28): error TS1109: Expression expected.
+Error: scripts/generate-docs.js(252,31): error TS1109: Expression expected.
+Error: scripts/generate-docs.js(252,33): error TS1109: Expression expected.
+Error: scripts/generate-docs.js(252,35): error TS1109: Expression expected.
+Error: scripts/generate-docs.js(252,37): error TS1109: Expression expected.
+Error: scripts/generate-docs.js(252,39): error TS1109: Expression expected.
+Error: scripts/generate-docs.js(252,41): error TS1109: Expression expected.
+Error: scripts/generate-docs.js(252,43): error TS1109: Expression expected.
+Error: scripts/generate-docs.js(252,45): error TS1109: Expression expected.
+Error: scripts/generate-docs.js(252,47): error TS1109: Expression expected.
+Error: scripts/generate-docs.js(252,49): error TS1109: Expression expected.
+Error: scripts/generate-docs.js(252,50): error TS1109: Expression expected.
+Error: scripts/generate-docs.js(253,1): error TS1109: Expression expected.
+Error: scripts/generate-docs.js(253,3): error TS1109: Expression expected.
+Error: scripts/generate-docs.js(253,13): error TS1109: Expression expected.
+Error: scripts/generate-docs.js(253,15): error TS1127: Invalid character.
+Error: scripts/generate-docs.js(253,22): error TS1127: Invalid character.
+Error: scripts/generate-docs.js(254,1): error TS1109: Expression expected.
+Error: scripts/generate-docs.js(254,3): error TS1109: Expression expected.
+Error: scripts/generate-docs.js(254,11): error TS1109: Expression expected.
+Error: scripts/generate-docs.js(254,27): error TS1109: Expression expected.
+Error: scripts/generate-docs.js(254,42): error TS1109: Expression expected.
+Error: scripts/generate-docs.js(255,1): error TS1109: Expression expected.
+Error: scripts/generate-docs.js(255,3): error TS1109: Expression expected.
+Error: scripts/generate-docs.js(255,11): error TS1109: Expression expected.
+Error: scripts/generate-docs.js(255,13): error TS1127: Invalid character.
+Error: scripts/generate-docs.js(255,20): error TS1127: Invalid character.
+Error: scripts/generate-docs.js(256,1): error TS1109: Expression expected.
+Error: scripts/generate-docs.js(256,3): error TS1109: Expression expected.
+Error: scripts/generate-docs.js(256,12): error TS1109: Expression expected.
+Error: scripts/generate-docs.js(256,14): error TS1127: Invalid character.
+Error: scripts/generate-docs.js(256,22): error TS1127: Invalid character.
+Error: scripts/generate-docs.js(257,1): error TS1109: Expression expected.
+Error: scripts/generate-docs.js(257,3): error TS1109: Expression expected.
+Error: scripts/generate-docs.js(257,12): error TS1109: Expression expected.
+Error: scripts/generate-docs.js(257,14): error TS1127: Invalid character.
+Error: scripts/generate-docs.js(257,23): error TS1127: Invalid character.
+Error: scripts/generate-docs.js(258,1): error TS1109: Expression expected.
+Error: scripts/generate-docs.js(258,3): error TS1109: Expression expected.
+Error: scripts/generate-docs.js(258,12): error TS1109: Expression expected.
+Error: scripts/generate-docs.js(258,14): error TS1127: Invalid character.
+Error: scripts/generate-docs.js(258,23): error TS1127: Invalid character.
+Error: scripts/generate-docs.js(260,1): error TS1127: Invalid character.
+Error: scripts/generate-docs.js(260,2): error TS1127: Invalid character.
+Error: scripts/generate-docs.js(260,4): error TS1127: Invalid character.
+Error: scripts/generate-docs.js(260,5): error TS1127: Invalid character.
+Error: scripts/generate-docs.js(262,2): error TS1109: Expression expected.
+Error: scripts/generate-docs.js(262,3): error TS1109: Expression expected.
+Error: scripts/generate-docs.js(262,4): error TS1434: Unexpected keyword or identifier.
+Error: scripts/generate-docs.js(264,3): error TS1109: Expression expected.
+Error: scripts/generate-docs.js(264,12): error TS1109: Expression expected.
+Error: scripts/generate-docs.js(265,3): error TS1109: Expression expected.
+Error: scripts/generate-docs.js(265,11): error TS1109: Expression expected.
+Error: scripts/generate-docs.js(266,3): error TS1109: Expression expected.
+Error: scripts/generate-docs.js(266,11): error TS1109: Expression expected.
+Error: scripts/generate-docs.js(266,18): error TS1127: Invalid character.
+Error: scripts/generate-docs.js(267,3): error TS1109: Expression expected.
+Error: scripts/generate-docs.js(267,11): error TS1109: Expression expected.
+Error: scripts/generate-docs.js(269,2): error TS1109: Expression expected.
+Error: scripts/generate-docs.js(269,3): error TS1109: Expression expected.
+Error: scripts/generate-docs.js(271,1): error TS1127: Invalid character.
+Error: scripts/generate-docs.js(271,2): error TS1127: Invalid character.
+Error: scripts/generate-docs.js(271,4): error TS1127: Invalid character.
+Error: scripts/generate-docs.js(271,11): error TS1127: Invalid character.
+Error: scripts/generate-docs.js(273,3): error TS1127: Invalid character.
+Error: scripts/generate-docs.js(274,3): error TS1127: Invalid character.
+Error: scripts/generate-docs.js(275,3): error TS1127: Invalid character.
+Error: scripts/generate-docs.js(275,4): error TS1127: Invalid character.
+Error: scripts/generate-docs.js(276,3): error TS1127: Invalid character.
+Error: scripts/generate-docs.js(276,18): error TS1005: ',' expected.
+Error: scripts/generate-docs.js(278,3): error TS1109: Expression expected.
+Error: scripts/generate-docs.js(282,1): error TS1127: Invalid character.
+Error: scripts/generate-docs.js(283,10): error TS1005: '}' expected.
+Error: scripts/generate-docs.js(287,1): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+Error: scripts/generate-docs.js(290,9): error TS1005: '}' expected.
+Error: scripts/generate-docs.js(295,1): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+Error: scripts/generate-docs.js(298,15): error TS1005: '}' expected.
+Error: scripts/generate-docs.js(301,1): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+Error: scripts/generate-docs.js(304,10): error TS1005: '}' expected.
+Error: scripts/generate-docs.js(308,1): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+Error: scripts/generate-docs.js(311,8): error TS1005: '}' expected.
+Error: scripts/generate-docs.js(314,1): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+Error: scripts/generate-docs.js(317,10): error TS1005: '}' expected.
+Error: scripts/generate-docs.js(320,1): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+Error: scripts/generate-docs.js(323,10): error TS1005: '}' expected.
+Error: scripts/generate-docs.js(328,1): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+Error: scripts/generate-docs.js(331,13): error TS1005: '}' expected.
+Error: scripts/generate-docs.js(333,1): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+Error: scripts/generate-docs.js(336,13): error TS1005: '}' expected.
+Error: scripts/generate-docs.js(339,1): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+Error: scripts/generate-docs.js(342,12): error TS1005: '}' expected.
+Error: scripts/generate-docs.js(344,1): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+Error: scripts/generate-docs.js(346,1): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+Error: scripts/generate-docs.js(349,8): error TS1005: ',' expected.
+Error: scripts/generate-docs.js(349,11): error TS1005: ',' expected.
+Error: scripts/generate-docs.js(349,16): error TS1005: ':' expected.
+Error: scripts/generate-docs.js(350,1): error TS1109: Expression expected.
+Error: scripts/generate-docs.js(350,6): error TS1005: ',' expected.
+Error: scripts/generate-docs.js(350,16): error TS1005: ',' expected.
+Error: scripts/generate-docs.js(350,30): error TS1005: ',' expected.
+Error: scripts/generate-docs.js(368,56): error TS1005: ',' expected.
+Error: scripts/generate-docs.js(368,57): error TS1005: ',' expected.
+Error: scripts/generate-docs.js(369,20): error TS1005: ',' expected.
+Error: scripts/generate-docs.js(369,26): error TS1005: ',' expected.
+Error: scripts/generate-docs.js(369,29): error TS1005: ',' expected.
+Error: scripts/generate-docs.js(377,18): error TS1127: Invalid character.
+Error: scripts/generate-docs.js(377,20): error TS1127: Invalid character.
+Error: scripts/generate-docs.js(377,27): error TS1005: ',' expected.
+Error: scripts/generate-docs.js(377,28): error TS1005: ',' expected.
+Error: scripts/generate-docs.js(377,41): error TS1005: ',' expected.
+Error: scripts/generate-docs.js(377,50): error TS1005: ',' expected.
+Error: scripts/generate-docs.js(377,60): error TS1005: ',' expected.
+Error: scripts/generate-docs.js(389,78): error TS1160: Unterminated template literal.
+Error: Process completed with exit code 2.

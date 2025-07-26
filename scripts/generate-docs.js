@@ -279,7 +279,7 @@ ${etfProducts.map(product => `### [${product.name}](${product.symbol.toLowerCase
 
 <style>
 {
-\`.product-grid {
+`.product-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1.5rem;
@@ -342,7 +342,7 @@ ${etfProducts.map(product => `### [${product.name}](${product.symbol.toLowerCase
   transform: translateY(-1px);
   text-decoration: none;
 }
-\`
+`
 }
 </style>
 

@@ -30,8 +30,8 @@ function generateJupiterUrl(stock: any): string {
     return `https://jup.ag/?referrer=${jupiterAccount}`;
   }
   
-  // Use query parameters format for Jupiter swap
-  return `https://jup.ag/swap?inputMint=${usdcMint}&outputMint=${tokenMint}&referrer=${jupiterAccount}`;
+  // Use sell/buy parameters format for Jupiter swap (USDC to stock token)
+  return `https://jup.ag/swap?sell=${usdcMint}&buy=${tokenMint}&referrer=${jupiterAccount}`;
 }
 
 // Platform comparison data

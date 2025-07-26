@@ -22,8 +22,8 @@ function generateJupiterUrl(stock: any): string {
     return `https://jup.ag/?referrer=${jupiterAccount}`;
   }
   
-  // 使用查询参数格式的Jupiter交换链接
-  return `https://jup.ag/swap?inputMint=${usdcMint}&outputMint=${tokenMint}&referrer=${jupiterAccount}`;
+  // 使用sell/buy参数格式的Jupiter交换链接 (USDC to stock token)
+  return `https://jup.ag/swap?sell=${usdcMint}&buy=${tokenMint}&referrer=${jupiterAccount}`;
 }
 
 function TokenCard({stock}) {

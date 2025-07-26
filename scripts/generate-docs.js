@@ -201,8 +201,7 @@ ${stockProducts.map(product => `### [${product.name}](${product.symbol.toLowerCa
     <a href="https://jup.ag/swap?sell=EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v&buy=${product.contractAddress}&referrer=HQaGy9AtmnFhvkhp3QWFZYa9KjPFrn4p2hwoNWQnMcgA" target="_blank" className="btn-primary">在 Jupiter 交易</a>
     <a href="/docs/products/${product.symbol.toLowerCase().replace(/[^a-z0-9]/g, '-')}" className="btn-secondary">查看详情</a>
   </div>
-</div>
-`).join('\n')}
+</div>`).join('\n\n')}
 
 </div>
 
@@ -225,8 +224,7 @@ ${etfProducts.map(product => `### [${product.name}](${product.symbol.toLowerCase
     <a href="https://jup.ag/swap?sell=EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v&buy=${product.contractAddress}&referrer=HQaGy9AtmnFhvkhp3QWFZYa9KjPFrn4p2hwoNWQnMcgA" target="_blank" className="btn-primary">在 Jupiter 交易</a>
     <a href="/docs/products/${product.symbol.toLowerCase().replace(/[^a-z0-9]/g, '-')}" className="btn-secondary">查看详情</a>
   </div>
-</div>
-`).join('\n')
+</div>`).join('\n\n')}
 
 </div>
 
@@ -278,7 +276,8 @@ ${etfProducts.map(product => `### [${product.name}](${product.symbol.toLowerCase
 ---
 
 <style>
-`.product-grid {
+{
+\`.product-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1.5rem;
@@ -341,7 +340,8 @@ ${etfProducts.map(product => `### [${product.name}](${product.symbol.toLowerCase
   transform: translateY(-1px);
   text-decoration: none;
 }
-`
+\`
+}
 </style>
 
 *数据更新时间: ${new Date().toISOString().split('T')[0]}*

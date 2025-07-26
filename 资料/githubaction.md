@@ -1,7 +1,4 @@
 
-> stocktokenhub@0.0.0 typecheck
-> tsc
-
 Error: scripts/generate-docs.js(231,1): error TS1005: '}' expected.
 Error: scripts/generate-docs.js(233,1): error TS1127: Invalid character.
 Error: scripts/generate-docs.js(233,2): error TS1127: Invalid character.
@@ -114,24 +111,44 @@ Error: scripts/generate-docs.js(275,4): error TS1127: Invalid character.
 Error: scripts/generate-docs.js(276,3): error TS1127: Invalid character.
 Error: scripts/generate-docs.js(276,18): error TS1005: ',' expected.
 Error: scripts/generate-docs.js(278,3): error TS1109: Expression expected.
-Error: scripts/generate-docs.js(349,8): error TS1005: ',' expected.
-Error: scripts/generate-docs.js(349,11): error TS1005: ',' expected.
-Error: scripts/generate-docs.js(349,16): error TS1005: ':' expected.
-Error: scripts/generate-docs.js(350,1): error TS1109: Expression expected.
-Error: scripts/generate-docs.js(350,6): error TS1005: ',' expected.
-Error: scripts/generate-docs.js(350,16): error TS1005: ',' expected.
-Error: scripts/generate-docs.js(350,30): error TS1005: ',' expected.
-Error: scripts/generate-docs.js(368,56): error TS1005: ',' expected.
-Error: scripts/generate-docs.js(368,57): error TS1005: ',' expected.
-Error: scripts/generate-docs.js(369,20): error TS1005: ',' expected.
-Error: scripts/generate-docs.js(369,26): error TS1005: ',' expected.
-Error: scripts/generate-docs.js(369,29): error TS1005: ',' expected.
-Error: scripts/generate-docs.js(377,18): error TS1127: Invalid character.
-Error: scripts/generate-docs.js(377,20): error TS1127: Invalid character.
-Error: scripts/generate-docs.js(377,27): error TS1005: ',' expected.
-Error: scripts/generate-docs.js(377,28): error TS1005: ',' expected.
-Error: scripts/generate-docs.js(377,41): error TS1005: ',' expected.
-Error: scripts/generate-docs.js(377,50): error TS1005: ',' expected.
-Error: scripts/generate-docs.js(377,60): error TS1005: ',' expected.
-Error: scripts/generate-docs.js(389,78): error TS1160: Unterminated template literal.
+Error: scripts/generate-docs.js(282,10): error TS1005: '}' expected.
+Error: scripts/generate-docs.js(286,1): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+Error: scripts/generate-docs.js(289,9): error TS1005: '}' expected.
+Error: scripts/generate-docs.js(294,1): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+Error: scripts/generate-docs.js(297,15): error TS1005: '}' expected.
+Error: scripts/generate-docs.js(300,1): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+Error: scripts/generate-docs.js(303,10): error TS1005: '}' expected.
+Error: scripts/generate-docs.js(307,1): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+Error: scripts/generate-docs.js(310,8): error TS1005: '}' expected.
+Error: scripts/generate-docs.js(313,1): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+Error: scripts/generate-docs.js(316,10): error TS1005: '}' expected.
+Error: scripts/generate-docs.js(319,1): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+Error: scripts/generate-docs.js(322,10): error TS1005: '}' expected.
+Error: scripts/generate-docs.js(327,1): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+Error: scripts/generate-docs.js(330,13): error TS1005: '}' expected.
+Error: scripts/generate-docs.js(332,1): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+Error: scripts/generate-docs.js(335,13): error TS1005: '}' expected.
+Error: scripts/generate-docs.js(338,1): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+Error: scripts/generate-docs.js(341,12): error TS1005: '}' expected.
+Error: scripts/generate-docs.js(343,1): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+Error: scripts/generate-docs.js(347,8): error TS1005: ',' expected.
+Error: scripts/generate-docs.js(347,11): error TS1005: ',' expected.
+Error: scripts/generate-docs.js(347,16): error TS1005: ':' expected.
+Error: scripts/generate-docs.js(348,1): error TS1109: Expression expected.
+Error: scripts/generate-docs.js(348,6): error TS1005: ',' expected.
+Error: scripts/generate-docs.js(348,16): error TS1005: ',' expected.
+Error: scripts/generate-docs.js(348,30): error TS1005: ',' expected.
+Error: scripts/generate-docs.js(366,56): error TS1005: ',' expected.
+Error: scripts/generate-docs.js(366,57): error TS1005: ',' expected.
+Error: scripts/generate-docs.js(367,20): error TS1005: ',' expected.
+Error: scripts/generate-docs.js(367,26): error TS1005: ',' expected.
+Error: scripts/generate-docs.js(367,29): error TS1005: ',' expected.
+Error: scripts/generate-docs.js(375,18): error TS1127: Invalid character.
+Error: scripts/generate-docs.js(375,20): error TS1127: Invalid character.
+Error: scripts/generate-docs.js(375,27): error TS1005: ',' expected.
+Error: scripts/generate-docs.js(375,28): error TS1005: ',' expected.
+Error: scripts/generate-docs.js(375,41): error TS1005: ',' expected.
+Error: scripts/generate-docs.js(375,50): error TS1005: ',' expected.
+Error: scripts/generate-docs.js(375,60): error TS1005: ',' expected.
+Error: scripts/generate-docs.js(387,78): error TS1160: Unterminated template literal.
 Error: Process completed with exit code 2.
